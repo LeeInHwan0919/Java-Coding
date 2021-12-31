@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.dom.PSVIAttrNSImpl"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.lir.aarch64.AArch64ArithmeticOp.ExtendedAddShiftOp"/>
+    <fullyQualifiedTypeName name="com.min.edu.MyClass"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="com.min.edu.ExternalClass"/>
+    <fullyQualifiedTypeName name="com.min.edu.StaticIncludeClass"/>
+</qualifiedTypeNameHistroy>
