@@ -1,7 +1,7 @@
 package com.min.edu;
 
 public class StaticMain {
-	//TODO 001
+	//TODO 001 sex
 	
 	public static void main(String[] args) {
 		//TODO 005 외부에서 static과 non-static 호출방법
