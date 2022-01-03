@@ -7,4 +7,6 @@
     <fullyQualifiedTypeName name="com.min.edu.ExternalClass"/>
     <fullyQualifiedTypeName name="com.min.edu.StaticIncludeClass"/>
     <fullyQualifiedTypeName name="com.min.edu.StaticMemberField"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.min.edu.TypeProcess"/>
 </qualifiedTypeNameHistroy>
