@@ -6,4 +6,5 @@
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="com.min.edu.ExternalClass"/>
     <fullyQualifiedTypeName name="com.min.edu.StaticIncludeClass"/>
+    <fullyQualifiedTypeName name="com.min.edu.StaticMemberField"/>
 </qualifiedTypeNameHistroy>
