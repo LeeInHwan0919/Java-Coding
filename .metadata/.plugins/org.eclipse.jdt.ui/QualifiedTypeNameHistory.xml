@@ -9,4 +9,13 @@
     <fullyQualifiedTypeName name="com.min.edu.StaticMemberField"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.min.edu.TypeProcess"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.min.edu.Student"/>
+    <fullyQualifiedTypeName name="com.min.edu.StudentPrint"/>
+    <fullyQualifiedTypeName name="com.min.coffee.machine.Coffee"/>
+    <fullyQualifiedTypeName name="com.min.coffee.print.CoffeePrint"/>
+    <fullyQualifiedTypeName name="com.min.coffee.machine.CoffeeMachine"/>
+    <fullyQualifiedTypeName name="com.min.edu.Dto"/>
+    <fullyQualifiedTypeName name="com.min.edu.Triangle"/>
+    <fullyQualifiedTypeName name="com.min.edu.RealStar"/>
 </qualifiedTypeNameHistroy>
