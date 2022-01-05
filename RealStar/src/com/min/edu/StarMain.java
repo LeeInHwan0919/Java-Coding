@@ -8,8 +8,8 @@ public class StarMain {
 		RealStar r = new RealStar();
 		r.head(n);
 		r.middleTop(n);
-		r.middleBottom(n);
-		r.foot(n);
+		//r.middleBottom(n);
+		//r.foot(n);
 		
 	}
 
