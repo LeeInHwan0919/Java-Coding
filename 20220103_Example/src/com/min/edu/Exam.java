@@ -2,7 +2,6 @@ package com.min.edu;
 
 public class Exam {
 	
-	char one = '1';
 	public void charmumTointNum1() {// char 숫자를 int숫자로 변경해주십쇼
 		//char는 3개의 리터럴 값을 가지고 있다
 		//char는 int 값은 Unicode표의 index값이다.
