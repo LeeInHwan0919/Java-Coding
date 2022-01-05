@@ -9,4 +9,9 @@
     <fullyQualifiedTypeName name="com.min.edu.StaticMemberField"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.min.edu.TypeProcess"/>
+    <fullyQualifiedTypeName name="com.min.edu.info"/>
+    <fullyQualifiedTypeName name="com.min.edu.ChangePrimtive"/>
+    <fullyQualifiedTypeName name="com.min.edu.ExamMain"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="com.min.edu.MakeGetNumericValue"/>
 </qualifiedTypeNameHistroy>
