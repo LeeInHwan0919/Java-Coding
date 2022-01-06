@@ -3,7 +3,7 @@
   associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="com.min.edu.CalendarMain" project="20220106_Calendat_Method" 
     file="/20220106_Calendat_Method/src/com/min/edu/CalendarMain.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="113" x="123" y="201"/>    
+    <position height="-1" width="-1" x="685" y="222"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,14 +12,23 @@
   </class>  
   <class id="2" language="java" name="com.min.edu.Calendar" project="20220106_Calendat_Method" 
     file="/20220106_Calendat_Method/src/com/min/edu/Calendar.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="629" y="161"/>    
+    <position height="-1" width="-1" x="225" y="261"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <dependency id="3">    
+  <class id="3" language="java" name="com.min.edu.CalendarAPI" project="20220106_Calendat_Method" 
+    file="/20220106_Calendat_Method/src/com/min/edu/CalendarAPI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="986" y="205"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="4">    
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="2"/>  
   </dependency>  
