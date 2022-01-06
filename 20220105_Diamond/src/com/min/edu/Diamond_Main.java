@@ -13,12 +13,12 @@ public class Diamond_Main {
 		//dd.printAll(n);
 		
 		
-		//Diamond_if.dia_if(n);
+		Diamond_if.dia_if(n);
 		
-		Diamond_MathAPI ma = new Diamond_MathAPI();
-		ma.dia_math_api(n);
+		//Diamond_MathAPI ma = new Diamond_MathAPI();
+		//ma.dia_math_api(n);
 		
-		//Diamond_Seperate.solomon();
+		Diamond_Seperate.solomon();
 		
 	}
 
