@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="com.min.edu.GeneralClass"/>
     <fullyQualifiedTypeName name="com.min.edu.ParentsClass"/>
+=======
+    <fullyQualifiedTypeName name="com.goo.dee.GoodeeUtil"/>
+    <fullyQualifiedTypeName name="com.min.test.Calendar_Use_Switch"/>
+    <fullyQualifiedTypeName name="java.time.Period"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.min.edu.Calendar"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="com.min.edu.CalendarAPI"/>
+    <fullyQualifiedTypeName name="com.min.edu.UserDefineClass"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+>>>>>>> c832ec7707c8d224522f8e358bf3179e94ea4d68
 </qualifiedTypeNameHistroy>
