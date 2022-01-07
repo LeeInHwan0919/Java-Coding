@@ -30,7 +30,15 @@ public class CoffeeMain {
 		// 3) Test 실행
 		CoffeeMachine machine = new CoffeeMachine();
 		machine.coffeeProcess(1100);
-		
+		/*
+		 * 돈을 넣어주세요... 돈을 입력받도록 출력 (money)//scanner
+돈을 입력하면 입력한 돈의 금액이 출력 (얼마들어갔습니다.,)
+커피객체(커피이름, 커피가격)들을 (배열사용해서) 선택을 합니다.//잔 개수를 입력받습니다.
+커피객체(잔개수)가 출력됨으로써 잔돈을 출력하게 만듭니다.
+if case?? 판단문을 이용하여 커피를 더 구매할것인지, 잔돈을 반환할것인지 메소드
+재료로직
+
+		 */
 	}
 
 }
