@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.goo.dee.GoodeeUtil"/>
-    <fullyQualifiedTypeName name="com.min.test.Calendar_Use_Switch"/>
-    <fullyQualifiedTypeName name="java.time.Period"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="com.min.edu.Calendar"/>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="com.min.edu.CalendarAPI"/>
-    <fullyQualifiedTypeName name="com.min.edu.UserDefineClass"/>
+    <fullyQualifiedTypeName name="com.min.edu.Yaksu"/>
+    <fullyQualifiedTypeName name="com.min.edu.Friendly"/>
+    <fullyQualifiedTypeName name="com.min.edu.ArrayMain"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.min.edu.Shallow_Deep"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="com.min.edu.Something"/>
+    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.min.game.user.Picher"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

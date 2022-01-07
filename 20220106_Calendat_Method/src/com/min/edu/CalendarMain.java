@@ -14,13 +14,13 @@ public class CalendarMain {
 
 //		int lastDay = cal.getDayOfMonth(4, 2);
 //		System.out.println(lastDay);
-//		for (int i = 1; i <= 12; i++) {
-//			cal.print_calendat(2022, 1);
-//			System.out.println("\n\n");
-//		}
+		for (int i = 1; i <= 12; i++) {
+			cal.print_calendat(2022, i);
+			System.out.println("\n\n");
+		}
 		
-		CalendarAPI calAPI = new CalendarAPI();
-		calAPI.print_calendat(2022, 3);
+		//CalendarAPI calAPI = new CalendarAPI();
+		//calAPI.print_calendat(2022, 3);
 		
 	}
 }

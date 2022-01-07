@@ -96,4 +96,29 @@ public class Calendar {
 		return beforeDays;
 	}
 
+	public void print_calendat(int year, int month) {
+		System.out.printf("\t\t%d년도\t%d월\n", year, month);
+		System.out.print("일\t월\t화\t수\t목\t금\t토\n");
+		
+		int dayOfWeek = (calDays(year, month, 1) + 1 - 1) % 7;//이게문제야
+		int dayOfMonth = this.getDayOfMonth(year, month);
+		int beforeOfMonth = beforeDays(year, month);
+
+		for (int i = beforeOfMonth - dayOfWeek + 1; i <= beforeOfMonth; i++) {//전 달의 마지막일자 출력
+			System.out.printf("%d\t", i);
+		}
+
+		for (int i = 1; i <= dayOfMonth; i++) {// 날짜
+			System.out.printf("%d\t", i);
+			if ((dayOfWeek + i) % 7 == 0) {
+				System.out.println();
+			}
+		}
+
+		// ---------------------------------------//
+		int afterDays = 7 - (dayOfMonth + dayOfWeek) % 7;
+		for (int i = 1; i <= afterDays; i++) {
+			System.out.printf("%d\t", i);
+		}
+	}
 }
