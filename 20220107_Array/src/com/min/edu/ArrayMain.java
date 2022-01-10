@@ -9,7 +9,7 @@ public class ArrayMain {
 		sd.shallow();
 		
 		sd.deep();
-
+		
 //		int[] arr = new int[3]; // [0, 0, 0]
 //		int[] arr = {3, 2, 1};
 		int[] arr = new int[] { 1, 2, 3 };
@@ -46,5 +46,4 @@ public class ArrayMain {
 			System.out.println(o);
 		}
 	}
-
 }

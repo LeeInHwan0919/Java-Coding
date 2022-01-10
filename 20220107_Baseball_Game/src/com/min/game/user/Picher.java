@@ -12,9 +12,9 @@ public class Picher {
 
 	private int[] box;
 
-	public Picher() {
-		this(3);
-	}
+//	public Picher() {
+//		this(3);
+//	}
 
 	public Picher(int b) {
 		box = new int[b];
@@ -65,9 +65,25 @@ public class Picher {
 	// 부모의 toString 을 자식이 재정의 하여 사용한다.
 	// 부모의 기능을 사용하지 못하고 자식의 재정의된 메소드로 실행 된다.
 	@Override // just 표기
-	public String toString() {
-		System.out.println(super.toString());// 자식이 부모에게 요청, 내것을 호출할 때는 this
-		return "Picher [box=" + Arrays.toString(box) + "]";
+	public String toString() { // 반환타입이 있는 메소드
+//		System.out.println(super.toString());// 자식이 부모에게 요청, 내것을 호출할 때는 this
+//		return "Picher [box=" + Arrays.toString(box) + "]";
+
+		String s = "[";
+		int n = box.length; // 배열(length), 문자열(length()), JCF(size())
+		for (int i = 0; i < n - 1; i++) {
+			s += String.format("%s", box[i]);
+		}
+		s += String.format("%s]", box[n - 1]);
+		return s;
+	}
+
+	public void print() {
+		System.out.printf("[");
+		for (int i = 0; i < box.length - 1; i++) {
+			System.out.printf("%s,", box[i]);
+		}
+		System.out.printf("%s]", box[box.length - 1]);
 	}
 
 }// class

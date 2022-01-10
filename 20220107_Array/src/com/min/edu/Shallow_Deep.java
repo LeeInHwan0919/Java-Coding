@@ -54,4 +54,8 @@ public class Shallow_Deep {
 		cToS = cToS.substring(3);
 		System.out.println(cToS);
 	}
+	
+	public static void test1 () {
+		
+	}
 }
