@@ -14,7 +14,6 @@
     <fullyQualifiedTypeName name="com.min.edu.CoffeeSelect"/>
     <fullyQualifiedTypeName name="com.min.edu.Coffee_Print"/>
     <fullyQualifiedTypeName name="com.min.edu.Coffee"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
     <fullyQualifiedTypeName name="com.goo.dee.GoodeeUtil"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
@@ -22,12 +21,23 @@
     <fullyQualifiedTypeName name="com.min.game.user.Hitter"/>
     <fullyQualifiedTypeName name="com.min.game.play.Umpire"/>
     <fullyQualifiedTypeName name="com.min.game.comm.BaseballConst"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.min.game.BaseballGame"/>
     <fullyQualifiedTypeName name="com.min.game.BaseballMain"/>
     <fullyQualifiedTypeName name="com.min.game.play.BaseballGame"/>
     <fullyQualifiedTypeName name="com.min.edu.main.O_Main"/>
     <fullyQualifiedTypeName name="com.min.edu.Child"/>
     <fullyQualifiedTypeName name="com.min.edu.Parent"/>
+    <fullyQualifiedTypeName name="com.min.edu.GameImpl"/>
+    <fullyQualifiedTypeName name="com.min.edu2.IParents"/>
+    <fullyQualifiedTypeName name="com.min.edu2.APParents"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.min.edu.Triangle"/>
+    <fullyQualifiedTypeName name="com.min.edu.Circle"/>
+    <fullyQualifiedTypeName name="com.min.edu.Square"/>
+    <fullyQualifiedTypeName name="com.min.edu.AreaImpl"/>
+    <fullyQualifiedTypeName name="com.min.edu.ChoiceArea"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.min.game.user.GamerImpl"/>
 </qualifiedTypeNameHistroy>
