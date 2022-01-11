@@ -6,27 +6,11 @@ import java.util.regex.Pattern;
 
 import com.goo.dee.GoodeeUtil;
 
-public class Hitter {
-
-	private int[] box;
-
-//	public Hitter() {
-//		this(3);
-//	}
+public class Hitter extends GamerImpl {
 
 	public Hitter(int n) {
-		box = new int[n];
-		Arrays.fill(box, -1);
+		super(n);
 	}
-
-	public int[] getBox() {
-		return box;
-	}
-
-	// 테스트를 위한 값을 입력 하기 위해서 사용
-//	public void setBox(int[] box) {
-//		this.box = box;
-//	}
 
 	public int[] makeNum() {
 		int[] tmp = new int[box.length];
@@ -77,37 +61,15 @@ public class Hitter {
 	public void make() {
 		int n = box.length;
 		System.arraycopy(makeNum(), 0, box, 0, n);
-		while(true) {
-			if(isSame()) {
+		while (true) {
+			if (isSame()) {
 				System.out.println("중복이 되었습니다. 중복 없이 입력해 주세요");
 				System.arraycopy(makeNum(), 0, box, 0, n);
-			}else {
+			} else {
 				break;
 			}
 		}
-		
-	}
 
-	@Override // just 표기
-	public String toString() { // 반환타입이 있는 메소드
-//		System.out.println(super.toString());// 자식이 부모에게 요청, 내것을 호출할 때는 this
-//		return "Picher [box=" + Arrays.toString(box) + "]";
-
-		String s = "[";
-		int n = box.length; // 배열(length), 문자열(length()), JCF(size())
-		for (int i = 0; i < n - 1; i++) {
-			s += String.format("%s", box[i]);
-		}
-		s += String.format("%s]", box[n - 1]);
-		return s;
-	}
-	
-	public void print() {
-		System.out.printf("[");
-		for (int i = 0; i < box.length - 1; i++) {
-			System.out.printf("%s,", box[i]);
-		}
-		System.out.printf("%s]", box[box.length - 1]);
 	}
 
 }
