@@ -17,4 +17,6 @@ public interface IGame {
 		System.out.println("interface 메소드 : " + a);
 	}
 
+	public void printConf();
+
 }

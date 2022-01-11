@@ -30,4 +30,5 @@
     <fullyQualifiedTypeName name="com.min.edu.main.O_Main"/>
     <fullyQualifiedTypeName name="com.min.edu.Child"/>
     <fullyQualifiedTypeName name="com.min.edu.Parent"/>
+    <fullyQualifiedTypeName name="com.min.edu.GameImpl"/>
 </qualifiedTypeNameHistroy>

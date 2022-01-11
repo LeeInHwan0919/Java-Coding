@@ -1,6 +1,6 @@
 package com.min.edu;
 
-public  interface GameImpl implements IGame {
+public class GameImp {
 
 	@Override
 	public String makeA() {
