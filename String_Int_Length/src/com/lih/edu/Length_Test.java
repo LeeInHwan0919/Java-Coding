@@ -3,7 +3,7 @@ package com.lih.edu;
 public class Length_Test {
 
 	public static void mathCasting() {
-		int num = 12345;
+		int num = -10;
 		int length = (int) (Math.log10(num) + 1); // 로직설명
 		System.out.println("수학적 함수를 사용하여 정수의 길이 계산 : " + length);
 	}
