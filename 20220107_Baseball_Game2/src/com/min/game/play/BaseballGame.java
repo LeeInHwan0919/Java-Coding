@@ -2,8 +2,8 @@ package com.min.game.play;
 
 import java.util.Scanner;
 
-import com.min.game.comm.BaseballConst;
 import com.min.game.user.Hitter;
+import com.min.game.user.IGamer;
 import com.min.game.user.Picher;
 
 public class BaseballGame {
@@ -13,7 +13,16 @@ public class BaseballGame {
 	private Hitter hBox; // Hitter 클래스를 통해 계속해서 입력 받을 객체
 	private Umpire ump; // 멤버필드의 pBox와 hBox를 판단하는 객체
 
-	public BaseballGame() {
+	private static BaseballGame instance;
+
+	public static BaseballGame getInstance(int n) {
+		if (instance == null) {
+			instance = new BaseballGame(n);
+		}
+		return instance;
+	}
+
+	private BaseballGame() {
 		this(3);
 	}
 
@@ -53,10 +62,10 @@ public class BaseballGame {
 		ump.setpBox(pBox.getBox());
 
 		// 게임을 시작해줌
-		while (num != BaseballConst.ITERATOR) { // 첫번째 종료조건 : 게임의 횟수가 10까지 만
+		while (num != IGamer.ITERATOR) { // 첫번째 종료조건 : 게임의 횟수가 10까지 만
 			num++;
 			hBox.make(); // 사용자 입력해줄 수 있도록 함.
-			System.out.println("현재 남은 게임 횟수 : " + (BaseballConst.ITERATOR - num));
+			System.out.println("현재 남은 게임 횟수 : " + (IGamer.ITERATOR - num));
 
 			// 비교판단에 객체를 넣어 줌
 			ump.sethBox(hBox.getBox());
@@ -68,12 +77,12 @@ public class BaseballGame {
 
 			// 두번 째 종료 조건
 			// 게임이 진행 되는 중간에 모든 배열의 숫자값을 맞췄을 경우 종료
-			if (strike == BaseballConst.STRIKE) {
+			if (strike == IGamer.STRIKE) {
 				break;
 			} // if
 		} // while
 
-		if (strike == BaseballConst.STRIKE) {
+		if (strike == IGamer.STRIKE) {
 			System.out.println("당신은 승리하셨습니다.");
 		} else {// 10번 을 넘겼을 경우
 			System.out.println("당신은 패배하셨습니다.");

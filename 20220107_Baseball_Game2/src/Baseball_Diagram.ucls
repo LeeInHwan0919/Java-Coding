@@ -19,25 +19,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="3" language="java" name="com.min.game.user.IGamer" project="20220107_Baseball_Game" 
-    file="/20220107_Baseball_Game/src/com/min/game/user/IGamer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="931" y="56"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </interface>  
-  <class id="4" language="java" name="com.min.game.user.GamerImpl" project="20220107_Baseball_Game" 
-    file="/20220107_Baseball_Game/src/com/min/game/user/GamerImpl.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="945" y="245"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="5" language="java" name="com.min.game.play.BaseballGame" project="20220107_Baseball_Game" 
+  <class id="3" language="java" name="com.min.game.play.BaseballGame" project="20220107_Baseball_Game" 
     file="/20220107_Baseball_Game/src/com/min/game/play/BaseballGame.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="600" y="259"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -46,68 +28,69 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="com.min.game.play.Umpire" project="20220107_Baseball_Game" 
-    file="/20220107_Baseball_Game/src/com/min/game/play/Umpire.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="612" y="492"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="7" language="java" name="com.min.game.comm.BaseballConst" project="20220107_Baseball_Game" 
+  <class id="4" language="java" name="com.min.game.comm.BaseballConst" project="20220107_Baseball_Game" 
     file="/20220107_Baseball_Game/src/com/min/game/comm/BaseballConst.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="106" x="270" y="322"/>    
+    <position height="-1" width="-1" x="282" y="381"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="com.min.game.BaseballMain" project="20220107_Baseball_Game" 
+  <class id="5" language="java" name="com.min.game.BaseballMain" project="20220107_Baseball_Game" 
     file="/20220107_Baseball_Game/src/com/min/game/BaseballMain.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="113" x="90" y="329"/>    
+    <position height="-1" width="-1" x="213" y="174"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <generalization id="9">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <association id="10">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="11" name="ump"/>      
-      <multiplicity id="12" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="13">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="14" name="pBox"/>      
-      <multiplicity id="15" minimum="0" maximum="1"/>    
+  <interface id="6" language="java" name="com.min.game.user.IGamer" project="20220107_Baseball_Game2" 
+    file="/20220107_Baseball_Game2/src/com/min/game/user/IGamer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="968" y="106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="com.min.game.user.GamerImpl" project="20220107_Baseball_Game2" 
+    file="/20220107_Baseball_Game2/src/com/min/game/user/GamerImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="975" y="254"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="8">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="9" name="pBox">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="10" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="16">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <association id="17">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="18" name="hBox"/>      
-      <multiplicity id="19" minimum="0" maximum="1"/>    
+  <association id="11">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="12" name="hBox">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="20">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="3"/>  
+  <realization id="14">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
   </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
