@@ -43,7 +43,7 @@ public class BaseballMain {
 //		System.out.println("볼의 개수는 : " + u.getBall());
 
 		// 최종 실행
-		BaseballGame game = new BaseballGame();
+		BaseballGame game = BaseballGame.getInstance(3);
 		game.newGame();
 	}
 }

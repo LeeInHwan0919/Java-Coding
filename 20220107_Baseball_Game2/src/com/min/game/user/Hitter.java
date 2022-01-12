@@ -19,7 +19,7 @@ public class Hitter extends GamerImpl {
 		System.out.println("입력하신 숫자는! " + str);
 		// 정규화 표현식 문자열 검증 java.util.regex.Pattern matches()
 		// 숫자만 입력 받을거다.
-		String pattern = "^[1-9]*$";// 검증 문자열
+		String pattern = "^[1-9]*$";// 검증 문자열, 숫자 유효성 검사
 //		String inVal = "012";// 대상 문자열
 		boolean regex = Pattern.matches(pattern, str);
 //		System.out.println("입력 받은 값이 1~9까지의 숫자입니까? " + regex);
