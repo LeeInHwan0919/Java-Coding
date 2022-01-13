@@ -9,24 +9,7 @@ public class Umpire {
 
 	private int[] pBox;	//	참조타입의 초기화는 null
 	private int[] hBox;
-//	private int boxLength;
 
-//	public Umpire() {
-//		this(3);
-//	}
-//
-//	public Umpire(int n) {
-//		this.boxLength = n;
-//		pBox = new int[n];
-//		hBox = new int[n];
-//	}
-//
-//	public Umpire(int[] pBox, int[] hBox) {
-//		super();
-//		this.pBox = pBox;
-//		this.hBox = hBox;
-//		this.boxLength = pBox.length;
-//	}
 
 	public void setpBox(int[] pBox) {
 		this.pBox = pBox;
