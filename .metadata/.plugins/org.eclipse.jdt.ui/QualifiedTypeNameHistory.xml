@@ -1,68 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.min.edu.Yaksu"/>
-    <fullyQualifiedTypeName name="com.min.edu.Friendly"/>
-    <fullyQualifiedTypeName name="com.min.edu.ArrayMain"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="com.min.edu.Something"/>
-    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="com.min.edu.Shallow_Deep"/>
-    <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
-    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
-    <fullyQualifiedTypeName name="com.min.edu.CoffeeSelect"/>
-    <fullyQualifiedTypeName name="com.min.edu.Coffee_Print"/>
-    <fullyQualifiedTypeName name="com.min.edu.Coffee"/>
-    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
-    <fullyQualifiedTypeName name="com.goo.dee.GoodeeUtil"/>
-    <fullyQualifiedTypeName name="java.lang.Character"/>
-    <fullyQualifiedTypeName name="com.min.game.user.Picher"/>
-    <fullyQualifiedTypeName name="com.min.game.user.Hitter"/>
-    <fullyQualifiedTypeName name="com.min.game.play.Umpire"/>
-    <fullyQualifiedTypeName name="com.min.game.comm.BaseballConst"/>
-    <fullyQualifiedTypeName name="com.min.game.BaseballGame"/>
-    <fullyQualifiedTypeName name="com.min.game.BaseballMain"/>
-    <fullyQualifiedTypeName name="com.min.edu.main.O_Main"/>
-    <fullyQualifiedTypeName name="com.min.edu.GameImpl"/>
-    <fullyQualifiedTypeName name="com.min.edu2.IParents"/>
-    <fullyQualifiedTypeName name="com.min.edu2.APParents"/>
-<<<<<<< HEAD
-=======
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
->>>>>>> 782d88a3b9e11dd3a644355233424ddaea487e22
-    <fullyQualifiedTypeName name="com.min.edu.Triangle"/>
-    <fullyQualifiedTypeName name="com.min.edu.Circle"/>
-    <fullyQualifiedTypeName name="com.min.edu.Square"/>
-    <fullyQualifiedTypeName name="com.min.edu.AreaImpl"/>
-    <fullyQualifiedTypeName name="com.min.edu.ChoiceArea"/>
-    <fullyQualifiedTypeName name="com.min.game.user.GamerImpl"/>
-<<<<<<< HEAD
-    <fullyQualifiedTypeName name="com.min.edu.H2OImpl"/>
-    <fullyQualifiedTypeName name="com.min.edu.main.H2OMain"/>
-    <fullyQualifiedTypeName name="com.min.edu.H2O"/>
-    <fullyQualifiedTypeName name="com.min.edu.sub.Ice"/>
-    <fullyQualifiedTypeName name="com.min.edu.sub.Water"/>
-    <fullyQualifiedTypeName name="com.min.edu.sub.Steam"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="com.min.edu.patturn.ChoiceFactory"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="com.min.edu.FinalClass"/>
-=======
-    <fullyQualifiedTypeName name="com.min.edu.Child"/>
-    <fullyQualifiedTypeName name="com.min.edu.Parent"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="com.min.game.user.IGamer"/>
-    <fullyQualifiedTypeName name="com.min.game.play.BaseballGame"/>
-    <fullyQualifiedTypeName name="sun.jvm.hotspot.debugger.windbg.AddressDataSource"/>
-    <fullyQualifiedTypeName name="com.min.edu.dto.InfoDto"/>
+    <fullyQualifiedTypeName name="com.min.edu.StringMethod"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.min.edu.ExceptionMethod"/>
+    <fullyQualifiedTypeName name="java.lang.Throwable"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="com.goo.dee.ProcessTest"/>
+    <fullyQualifiedTypeName name="com.goo.dee.NonAcceptException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="com.min.edu.StringCut"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
-    <fullyQualifiedTypeName name="com.lih.edu.Int_LengthMain"/>
-    <fullyQualifiedTypeName name="com.lih.edu.Length_Test"/>
->>>>>>> 782d88a3b9e11dd3a644355233424ddaea487e22
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.min.edu.AntQuiz"/>
+    <fullyQualifiedTypeName name="com.goo.dee.ScannerInputValue"/>
 </qualifiedTypeNameHistroy>
