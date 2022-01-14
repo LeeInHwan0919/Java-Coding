@@ -16,4 +16,5 @@
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.min.edu.AntQuiz"/>
     <fullyQualifiedTypeName name="com.goo.dee.ScannerInputValue"/>
+    <fullyQualifiedTypeName name="com.goo.dee.GoodeUtil"/>
 </qualifiedTypeNameHistroy>

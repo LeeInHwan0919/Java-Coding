@@ -1,10 +1,8 @@
 package com.min.game.user;
 
-import java.util.Arrays;
-import java.util.Scanner;
 import java.util.regex.Pattern;
 
-import com.goo.dee.GoodeeUtil;
+import com.goo.dee.GoodeUtil;
 
 public class Hitter extends GamerImpl {
 
@@ -15,7 +13,7 @@ public class Hitter extends GamerImpl {
 	public int[] makeNum() {
 		int[] tmp = new int[box.length];
 		System.out.println("정수 3개를 붙여서 입력해 주세요");
-		String str = GoodeeUtil.inputString();// 대상 문자열
+		String str = GoodeUtil.inputString();// 대상 문자열
 		System.out.println("입력하신 숫자는! " + str);
 		// 정규화 표현식 문자열 검증 java.util.regex.Pattern matches()
 		// 숫자만 입력 받을거다.
@@ -29,7 +27,7 @@ public class Hitter extends GamerImpl {
 		// 다시 입력 받아야 한다.
 		while (str.trim().equals("") || str.trim().length() != box.length || !Pattern.matches(pattern, str)) {
 			System.out.println("다시 입력해 주세요");
-			str = GoodeeUtil.inputString();
+			str = GoodeUtil.inputString();
 		}
 
 		for (int i = 0; i < tmp.length; i++) {

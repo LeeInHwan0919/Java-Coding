@@ -22,9 +22,9 @@ public class BaseballGame {
 		return instance;
 	}
 
-	private BaseballGame() {
-		this(3);
-	}
+//	private BaseballGame() {
+//		this(3);
+//	}
 
 	public void newGame() {
 		Scanner sc = new Scanner(System.in);
@@ -43,7 +43,7 @@ public class BaseballGame {
 
 	public BaseballGame(int n) {
 		this.len = n;
-		pBox = new Picher(n);
+		pBox = new Picher(n); // -1-1-1
 		hBox = new Hitter(n);
 		ump = new Umpire();
 
@@ -68,13 +68,13 @@ public class BaseballGame {
 			System.out.println("현재 남은 게임 횟수 : " + (IGamer.ITERATOR - num));
 
 			// 비교판단에 객체를 넣어 줌
-			ump.sethBox(hBox.getBox());
+			ump.sethBox(hBox.getBox());// BaseballGame에서 선언 pbox, hbox 연결을 ump에있는 pbox, hbox에
 
 			strike = ump.getStrike();
 			ball = ump.getBall();
 
-			System.out.printf("당신의 결과는? Strike : %d / Ball : %d \n", strike, ball);
-
+			System.out.printf("당신의 결과는? Strike : %d /Ball : %d \n", strike, ball);
+ 
 			// 두번 째 종료 조건
 			// 게임이 진행 되는 중간에 모든 배열의 숫자값을 맞췄을 경우 종료
 			if (strike == IGamer.STRIKE) {
