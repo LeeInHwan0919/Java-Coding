@@ -1,33 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.min.edu.StringMethod"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="com.min.edu.ExceptionMethod"/>
-    <fullyQualifiedTypeName name="java.lang.Throwable"/>
-    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
-    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
-    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
-    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
-    <fullyQualifiedTypeName name="com.goo.dee.ProcessTest"/>
-    <fullyQualifiedTypeName name="com.goo.dee.NonAcceptException"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="com.min.edu.AntQuiz"/>
-    <fullyQualifiedTypeName name="com.goo.dee.ScannerInputValue"/>
-<<<<<<< HEAD
-    <fullyQualifiedTypeName name="com.min.game.comm.BaseballConst"/>
-    <fullyQualifiedTypeName name="com.min.game.play.Umpire"/>
-    <fullyQualifiedTypeName name="lee.iin.han.lih_Util"/>
-    <fullyQualifiedTypeName name="com.min.game.play.BaseballGame"/>
-    <fullyQualifiedTypeName name="com.min.game.user.Hitter"/>
-=======
-    <fullyQualifiedTypeName name="com.goo.dee.GoodeUtil"/>
-    <fullyQualifiedTypeName name="com.min.edu.impl.GamerImpl"/>
-    <fullyQualifiedTypeName name="com.min.edu.card.CardDeck"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="Card"/>
->>>>>>> bf2d9e4bf42ae28eedb8c4938a45b7c2076a0c3a
+    <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
 </qualifiedTypeNameHistroy>
