@@ -2,7 +2,11 @@ package com.min.game.user;
 
 import java.util.regex.Pattern;
 
+<<<<<<< HEAD
 import lee.iin.han.*;
+=======
+import com.goo.dee.GoodeUtil;
+>>>>>>> bf2d9e4bf42ae28eedb8c4938a45b7c2076a0c3a
 
 public class Hitter extends GamerImpl {
 
@@ -13,7 +17,11 @@ public class Hitter extends GamerImpl {
 	private int[] makeNum() {
 		int[] tmp = new int[box.length];
 		System.out.println("정수 3개를 붙여서 입력해 주세요");
+<<<<<<< HEAD
 		String str = lih_Util.inputString();
+=======
+		String str = GoodeUtil.inputString();// 대상 문자열
+>>>>>>> bf2d9e4bf42ae28eedb8c4938a45b7c2076a0c3a
 		System.out.println("입력하신 숫자는! " + str);
 		String pattern = "^[1-9]*$";
 		boolean regex = Pattern.matches(pattern, str);
@@ -24,7 +32,11 @@ public class Hitter extends GamerImpl {
 		 */
 		while (str.trim().equals("") || str.trim().length() != box.length || !Pattern.matches(pattern, str)) {
 			System.out.println("다시 입력해 주세요");
+<<<<<<< HEAD
 			str = lih_Util.inputString();
+=======
+			str = GoodeUtil.inputString();
+>>>>>>> bf2d9e4bf42ae28eedb8c4938a45b7c2076a0c3a
 		}
 
 		for (int i = 0; i < tmp.length; i++) {

@@ -8,7 +8,7 @@ public abstract class GamerImpl implements IGamer {// abstract(추상화)메소�
 
 	public GamerImpl(int n) {
 		box = new int[n];
-		Arrays.fill(box, -1);
+		Arrays.fill(box, -1); //box [ -1, -1, -1 ]
 	}
 
 	@Override

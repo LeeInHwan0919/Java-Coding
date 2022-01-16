@@ -21,9 +21,15 @@
 		</list>
 	</section>
 	<section name="ImportExportAction">
+<<<<<<< HEAD
 		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.jdt.internal.ui.javadocexport.JavadocWizard"/>
 		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="org.eclipse.jdt.ui.Java"/>
+=======
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+>>>>>>> bf2d9e4bf42ae28eedb8c4938a45b7c2076a0c3a
 		</list>
 	</section>
 	<section name="ZipFileImportWizard">
@@ -32,7 +38,11 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+<<<<<<< HEAD
 			<item value="E:\java\이인환.zip"/>
+=======
+			<item value="C:\Users\User\Desktop\야~구.zip"/>
+>>>>>>> bf2d9e4bf42ae28eedb8c4938a45b7c2076a0c3a
 		</list>
 	</section>
 </section>
