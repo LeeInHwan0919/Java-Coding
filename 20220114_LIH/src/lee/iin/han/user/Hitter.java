@@ -1,9 +1,14 @@
-package com.min.game.user;
+package lee.iin.han.user;
 
 import java.util.regex.Pattern;
 
 import lee.iin.han.*;
 
+/**
+ * 사용자가 입력 Stream을 통해서 키보드로 입력받는 클래스
+ * @author LeeInHwan
+ * @since 2022.01.14
+ */
 public class Hitter extends GamerImpl {
 
 	public Hitter(int n) {

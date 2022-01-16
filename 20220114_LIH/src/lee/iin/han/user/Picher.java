@@ -1,10 +1,9 @@
-package com.min.game.user;
+package lee.iin.han.user;
 
 /**
  * <b>숫자를 자동으로 생성해 주는 클래스</b>
- * 
  * @author LeeInHwan
- *
+ *@since 2022.01.14
  */
 public class Picher extends GamerImpl {
 

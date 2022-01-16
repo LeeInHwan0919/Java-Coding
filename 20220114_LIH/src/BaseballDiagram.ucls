@@ -1,116 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
   realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="com.min.game.play.Umpire" project="20220107_Baseball_Game2" 
-    file="/20220107_Baseball_Game2/src/com/min/game/play/Umpire.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="291" y="410"/>    
+  <class id="1" language="java" name="lee.iin.han.BaseballMain" project="20220114_LIH" 
+    file="/20220114_LIH/src/lee/iin/han/BaseballMain.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="189" y="89"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="com.min.game.user.Hitter" project="20220107_Baseball_Game2" 
-    file="/20220107_Baseball_Game2/src/com/min/game/user/Hitter.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="908" y="495"/>    
+  <class id="2" language="java" name="lee.iin.han.comm.BaseballConst" project="20220114_LIH" 
+    file="/20220114_LIH/src/lee/iin/han/comm/BaseballConst.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="116" x="212" y="230"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="com.min.game.user.Picher" project="20220107_Baseball_Game2" 
-    file="/20220107_Baseball_Game2/src/com/min/game/user/Picher.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1072" y="495"/>    
+  <class id="3" language="java" name="lee.iin.han.play.BaseballGame" project="20220114_LIH" 
+    file="/20220114_LIH/src/lee/iin/han/play/BaseballGame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="114" x="593" y="91"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="com.min.game.user.GamerImpl" project="20220107_Baseball_Game2" 
-    file="/20220107_Baseball_Game2/src/com/min/game/user/GamerImpl.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="969" y="278"/>    
+  <class id="4" language="java" name="lee.iin.han.play.Umpire" project="20220114_LIH" 
+    file="/20220114_LIH/src/lee/iin/han/play/Umpire.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="114" x="397" y="318"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="com.min.game.BaseballMain" project="20220107_Baseball_Game2" 
-    file="/20220107_Baseball_Game2/src/com/min/game/BaseballMain.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="234" y="100"/>    
+  <class id="5" language="java" name="lee.iin.han.user.GamerImpl" project="20220114_LIH" 
+    file="/20220114_LIH/src/lee/iin/han/user/GamerImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="986" y="253"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="com.min.game.comm.BaseballConst" project="20220107_Baseball_Game2" 
-    file="/20220107_Baseball_Game2/src/com/min/game/comm/BaseballConst.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="147" y="260"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <interface id="7" language="java" name="com.min.game.user.IGamer" project="20220107_Baseball_Game2" 
-    file="/20220107_Baseball_Game2/src/com/min/game/user/IGamer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="959" y="84"/>    
+  <interface id="6" language="java" name="lee.iin.han.user.IGamer" project="20220114_LIH" 
+    file="/20220114_LIH/src/lee/iin/han/user/IGamer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="984" y="57"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="8" language="java" name="com.min.game.play.BaseballGame" project="20220107_Baseball_Game2" 
-    file="/20220107_Baseball_Game2/src/com/min/game/play/BaseballGame.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="549" y="243"/>    
+  <class id="7" language="java" name="lee.iin.han.user.Hitter" project="20220114_LIH" 
+    file="/20220114_LIH/src/lee/iin/han/user/Hitter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="863" y="440"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <generalization id="9">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <generalization id="10">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <association id="11">    
-    <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="12" name="pBox"/>      
-      <multiplicity id="13" minimum="0" maximum="1"/>    
+  <class id="8" language="java" name="lee.iin.han.user.Picher" project="20220114_LIH" 
+    file="/20220114_LIH/src/lee/iin/han/user/Picher.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1112" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="9">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="10" name="ump"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
+    <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <dependency id="14">    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="6"/>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
   </dependency>  
+  <realization id="13">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
   <association id="15">    
-    <end type="SOURCE" refId="8" navigable="false">      
+    <end type="SOURCE" refId="3" navigable="false">      
       <attribute id="16" name="hBox"/>      
       <multiplicity id="17" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
+    <end type="TARGET" refId="7" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="18">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="7"/>  
-  </realization>  
-  <association id="19">    
-    <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="20" name="ump"/>      
-      <multiplicity id="21" minimum="0" maximum="1"/>    
+  <generalization id="18">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="20">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="21" name="pBox"/>      
+      <multiplicity id="22" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
+    <end type="TARGET" refId="8" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 

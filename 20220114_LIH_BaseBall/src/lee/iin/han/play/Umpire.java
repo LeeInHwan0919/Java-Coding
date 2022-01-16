@@ -1,4 +1,4 @@
-package com.min.game.play;
+package lee.iin.han.play;
 
 /**
  *	두개의 box(pitcher, Hitter)를 받아서 get 메소드를 통해서 결과를 반환함

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-import com.goo.dee.GoodeeUtil;
+import lee.iin.han.*;
 
 public class Hitter {
 
@@ -31,7 +31,7 @@ public class Hitter {
 	public int[] makeNum() {
 		int[] tmp = new int[box.length];
 		System.out.println("정수 3개를 붙여서 입력해 주세요");
-		String str = GoodeeUtil.inputString();// 대상 문자열
+		String str = lih_Util.inputString();// 대상 문자열
 		System.out.println("입력하신 숫자는! " + str);
 		// 정규화 표현식 문자열 검증 java.util.regex.Pattern matches()
 		// 숫자만 입력 받을거다.
@@ -45,7 +45,7 @@ public class Hitter {
 		// 다시 입력 받아야 한다.
 		while (str.trim().equals("") || str.trim().length() != box.length || !Pattern.matches(pattern, str)) {
 			System.out.println("다시 입력해 주세요");
-			str = GoodeeUtil.inputString();
+			str = lih_Util.inputString();
 		}
 
 		for (int i = 0; i < tmp.length; i++) {
@@ -77,15 +77,15 @@ public class Hitter {
 	public void make() {
 		int n = box.length;
 		System.arraycopy(makeNum(), 0, box, 0, n);
-		while(true) {
-			if(isSame()) {
+		while (true) {
+			if (isSame()) {
 				System.out.println("중복이 되었습니다. 중복 없이 입력해 주세요");
 				System.arraycopy(makeNum(), 0, box, 0, n);
-			}else {
+			} else {
 				break;
 			}
 		}
-		
+
 	}
 
 	@Override // just 표기
@@ -101,7 +101,7 @@ public class Hitter {
 		s += String.format("%s]", box[n - 1]);
 		return s;
 	}
-	
+
 	public void print() {
 		System.out.printf("[");
 		for (int i = 0; i < box.length - 1; i++) {

@@ -16,4 +16,9 @@
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.min.edu.AntQuiz"/>
     <fullyQualifiedTypeName name="com.goo.dee.ScannerInputValue"/>
+    <fullyQualifiedTypeName name="com.min.game.comm.BaseballConst"/>
+    <fullyQualifiedTypeName name="com.min.game.play.Umpire"/>
+    <fullyQualifiedTypeName name="lee.iin.han.lih_Util"/>
+    <fullyQualifiedTypeName name="com.min.game.play.BaseballGame"/>
+    <fullyQualifiedTypeName name="com.min.game.user.Hitter"/>
 </qualifiedTypeNameHistroy>

@@ -1,13 +1,13 @@
-package com.goo.dee;
+package lee.iin.han;
 
 import java.util.Scanner;
 
 /**
- * Goodee Academy Util
+ * lih_Util
  * @author Lee In Hwan
  * @since 2022.01.05.
  */
-public class GoodeeUtil {
+public class lih_Util {
 	
 	/**
 	 * <b>java.util.Scanner</b> 객체를 사용하여 키보드로 입력받은 int를 반환하는 메소드

@@ -1,24 +1,19 @@
-package com.min.game.play;
+package lee.iin.han.play;
 
 import java.util.Scanner;
 
-import com.min.game.comm.BaseballConst;
-import com.min.game.user.Hitter;
-import com.min.game.user.IGamer;
-import com.min.game.user.Picher;
+import lee.iin.han.comm.BaseballConst;
+import lee.iin.han.user.Hitter;
+import lee.iin.han.user.IGamer;
+import lee.iin.han.user.Picher;
 
 /**
  * 게임의 로직의 진행 및 게임 전체적인 진행을 할 수 있는 클래스
- * 
  * @author LeeInHwan
  *@since 2022.01.14
  */
 public class BaseballGame {
 
-	public BaseballGame() {
-		
-	}
-	
 	private int len;
 	private Picher pBox;
 	private Hitter hBox;
