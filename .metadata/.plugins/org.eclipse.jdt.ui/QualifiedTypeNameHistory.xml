@@ -17,4 +17,9 @@
     <fullyQualifiedTypeName name="com.min.edu.AntQuiz"/>
     <fullyQualifiedTypeName name="com.goo.dee.ScannerInputValue"/>
     <fullyQualifiedTypeName name="com.goo.dee.GoodeUtil"/>
+    <fullyQualifiedTypeName name="com.min.edu.impl.GamerImpl"/>
+    <fullyQualifiedTypeName name="com.min.edu.card.CardDeck"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="Card"/>
 </qualifiedTypeNameHistroy>
