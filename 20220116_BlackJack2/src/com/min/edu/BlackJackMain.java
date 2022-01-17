@@ -8,7 +8,7 @@ public class BlackJackMain {
 		CardDeck cd = new CardDeck();
 //		cd.test();
 //		cd.Shuffle();
-		cd.test1();
+		cd.cut();
 
 	}
 
