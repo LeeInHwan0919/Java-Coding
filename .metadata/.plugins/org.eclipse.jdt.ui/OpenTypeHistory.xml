@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=20220116_BlackJack2/src&lt;com.min.edu.card{ICardDeck.java[ICardDeck" modifiers="513" timestamp="1642381604897"/>
-    <typeInfo handle="=20220116_BlackJack2/src&lt;com.min.edu.play{IRule.java[IRule" modifiers="513" timestamp="1642381422683"/>
-    <typeInfo handle="=20220116_BlackJack2/C:\/java\/jdk11.0.13_8\/lib\/jrt-fs.jar`jdk.jdi=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/&lt;com.sun.tools.jdi(InvokableTypeImpl$InvocationResult.class[InvocationResult" modifiers="1544" timestamp="1640843125301"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>

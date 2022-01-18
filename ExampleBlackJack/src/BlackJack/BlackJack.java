@@ -5,7 +5,7 @@ import java.util.*;
 public class BlackJack {
 	public static int dealer_or_user = 0; // 딜러(0)의 computeScore와 유저(1)의 computeScore를 구분하기 위함
 	
-    public static int computeScore(ScoreTable table, Vector<Card> cards) {
+    public static int computeScore(ScoreTable table, ArrayList<Card> cards) {
     //(H) table 이용해 card 들의 점수 총합을 리턴
     	int count=0; // 카드의 총합
     	int aCard=0; // A카드를 필요에 따라 1또는 11의 값으로 변경하기 위한 변수
@@ -63,7 +63,7 @@ public class BlackJack {
     	return count;
     }
     
-    public static boolean is_bust(ScoreTable table, Vector<Card> cards) {
+    public static boolean is_bust(ScoreTable table, ArrayList<Card> cards) {
     //(I) table 이용해 card 들의 점수 총합이 21을 초과하는지 아닌지 리턴
     	int count=0; // 카드의 총합
     	int aCard=0; // A카드를 필요에 따라 1또는 11의 값으로 변경하기 위한 변수
@@ -122,7 +122,7 @@ public class BlackJack {
     	else {return false;}
     }
     
-    public static boolean checkBlackjack(Vector<Card> cards) {
+    public static boolean checkBlackjack(ArrayList<Card> cards) {
     //(J) 카드들을 받아 블랙잭인지 아닌지 리턴
         
     	String str1 = cards.get(0).getRank();    	
