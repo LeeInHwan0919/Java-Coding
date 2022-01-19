@@ -23,6 +23,7 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\ldkko\Desktop\BlackJack비버팀.zip"/>
 			<item value="C:\Users\GDJ44\Desktop\dbdb.zip"/>
 			<item value="C:\Users\ldkko\Desktop\1시까지.zip"/>
 			<item value="C:\Users\ldkko\Desktop\12시까지.zip"/>
