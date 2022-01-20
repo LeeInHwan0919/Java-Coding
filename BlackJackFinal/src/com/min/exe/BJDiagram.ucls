@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
   realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="com.min.edu.BlackJackMain" project="BlackJack0119" 
-    file="/BlackJack0119/src/com/min/edu/BlackJackMain.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="1" language="java" name="com.min.exe.BlackJackMain" project="BlackJackFinal" 
+    file="/BlackJackFinal/src/com/min/exe/BlackJackMain.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="899" y="1"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -10,8 +10,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="com.min.game.BlackJackGame" project="BlackJack0119" 
-    file="/BlackJack0119/src/com/min/game/BlackJackGame.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="2" language="java" name="com.min.game.BlackJackGame" project="BlackJackFinal" 
+    file="/BlackJackFinal/src/com/min/game/BlackJackGame.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="902" y="124"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -19,8 +19,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="com.min.game.CardConvert" project="BlackJack0119" 
-    file="/BlackJack0119/src/com/min/game/CardConvert.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="com.min.game.CardConvert" project="BlackJackFinal" 
+    file="/BlackJackFinal/src/com/min/game/CardConvert.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="901" y="575"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -28,8 +28,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="com.min.game.Card" project="BlackJack0119" 
-    file="/BlackJack0119/src/com/min/game/Card.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="4" language="java" name="com.min.game.Card" project="BlackJackFinal" 
+    file="/BlackJackFinal/src/com/min/game/Card.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="435" y="665"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -37,8 +37,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="com.min.game.Rule" project="BlackJack0119" 
-    file="/BlackJack0119/src/com/min/game/Rule.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="5" language="java" name="com.min.game.Rule" project="BlackJackFinal" 
+    file="/BlackJackFinal/src/com/min/game/Rule.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="435" y="296"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -46,8 +46,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="BlackJack.CardReturn" project="BlackJack0119" 
-    file="/BlackJack0119/src/BlackJack/CardReturn.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="6" language="java" name="com.min.game.CardReturn" project="BlackJackFinal" 
+    file="/BlackJackFinal/src/com/min/game/CardReturn.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="165" y="122"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -55,8 +55,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="com.min.game.CardCreate" project="BlackJack0119" 
-    file="/BlackJack0119/src/com/min/game/CardCreate.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="7" language="java" name="com.min.game.CardCreate" project="BlackJackFinal" 
+    file="/BlackJackFinal/src/com/min/game/CardCreate.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1274" y="122"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -64,39 +64,39 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="8">    
-    <bendpoint x="1274" y="664"/>    
+  <dependency id="8">    
+    <bendpoint x="746" y="300"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="11">    
     <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="9" name="cards">        
+      <attribute id="12" name="cardDeck">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
-      <multiplicity id="10" minimum="0" maximum="2147483647">        
+      <multiplicity id="13" minimum="0" maximum="2147483647">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <dependency id="11">    
-    <bendpoint x="746" y="300"/>    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="4"/>  
-  </dependency>  
-  <dependency id="12">    
+  <dependency id="14">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="7"/>  
   </dependency>  
-  <dependency id="13">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
-  <dependency id="14">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="2"/>  
-  </dependency>  
   <association id="15">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="16" name="cardDeck">        
+    <bendpoint x="165" y="667"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="16" name="cardHand">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
       <multiplicity id="17" minimum="0" maximum="2147483647">        
@@ -107,21 +107,21 @@
     <display labels="true" multiplicity="true"/>  
   </association>  
   <dependency id="18">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
   </dependency>  
   <dependency id="19">    
     <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
-  <dependency id="20">    
-    <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="4"/>  
   </dependency>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
   <association id="21">    
-    <bendpoint x="165" y="667"/>    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="22" name="cardHand">        
+    <bendpoint x="1274" y="664"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="22" name="cards">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
       <multiplicity id="23" minimum="0" maximum="2147483647">        
@@ -132,12 +132,12 @@
     <display labels="true" multiplicity="true"/>  
   </association>  
   <dependency id="24">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="5"/>  
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
   </dependency>  
   <dependency id="25">    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="6"/>  
+    <end type="TARGET" refId="5"/>  
   </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
