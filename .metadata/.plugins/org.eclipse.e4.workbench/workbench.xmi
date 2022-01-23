@@ -2,7 +2,7 @@
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_GlZsgHnREeyhcYvIwifkkg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_GlZsgXnREeyhcYvIwifkkg" bindingContexts="_GlbjI3nREeyhcYvIwifkkg">
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jkiss.dbeaver.ui.editors.sql.SQLEditor&quot; name=&quot;Script-2.sql&quot; tooltip=&quot;20220117_DB_Connection/Scripts/Script-2.sql&quot;>&#xD;&#xA;&lt;persistable path=&quot;/20220117_DB_Connection/Scripts/Script-2.sql&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;User.java&quot; tooltip=&quot;20220121_Iterater_Design/src/com/min/edu/User.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/20220121_Iterater_Design/src/com/min/edu/User.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;UserIterator.java&quot; tooltip=&quot;20220121_Iterater_Design/src/com/min/edu/UserIterator.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/20220121_Iterater_Design/src/com/min/edu/UserIterator.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;UserList.java&quot; tooltip=&quot;20220121_Iterater_Design/src/com/min/edu/UserList.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/20220121_Iterater_Design/src/com/min/edu/UserList.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;Iterator.class&quot; tooltip=&quot;java.util.Iterator&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=20220121_Iterater_Design/C:\/java\/jdk11.0.13_8\/lib\/jrt-fs.jar`java.base=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/&amp;lt;java.util(Iterator.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Iterator_main.java&quot; tooltip=&quot;20220121_Iterater_Design/src/com/min/edu/Iterator_main.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/20220121_Iterater_Design/src/com/min/edu/Iterator_main.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;UserItorator.java&quot; tooltip=&quot;20220121_Disign_Pattern/src/com/min/edu/UserItorator.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/20220121_Disign_Pattern/src/com/min/edu/UserItorator.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;UserList.java&quot; tooltip=&quot;20220121_Disign_Pattern/src/com/min/edu/UserList.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/20220121_Disign_Pattern/src/com/min/edu/UserList.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;UxdfLixg.java&quot; tooltip=&quot;20220121_Disign_Pattern/src/com/min/edu/UxdfLixg.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/20220121_Disign_Pattern/src/com/min/edu/UxdfLixg.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;User.java&quot; tooltip=&quot;20220121_Disign_Pattern/src/com/min/edu/User.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/20220121_Disign_Pattern/src/com/min/edu/User.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Agregate.java&quot; tooltip=&quot;20220121_Disign_Pattern/src/com/min/edu/Agregate.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/20220121_Disign_Pattern/src/com/min/edu/Agregate.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CardConvert.java&quot; tooltip=&quot;BlackJackFinal/src/com/min/card/CardConvert.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BlackJackFinal/src/com/min/card/CardConvert.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Card.java&quot; tooltip=&quot;BlackJackFinal/src/com/min/card/Card.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BlackJackFinal/src/com/min/card/Card.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CardReturn.java&quot; tooltip=&quot;BlackJackFinal/src/com/min/card/CardReturn.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BlackJackFinal/src/com/min/card/CardReturn.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CardCreate.java&quot; tooltip=&quot;BlackJackFinal/src/com/min/card/CardCreate.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BlackJackFinal/src/com/min/card/CardCreate.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BlackJackGame.java&quot; tooltip=&quot;BlackJackFinal/src/com/min/game/BlackJackGame.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BlackJackFinal/src/com/min/game/BlackJackGame.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BlackJackMain.java&quot; tooltip=&quot;BlackJackFinal/src/com/min/exe/BlackJackMain.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BlackJackFinal/src/com/min/exe/BlackJackMain.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Rule.java&quot; tooltip=&quot;BlackJackFinal/src/com/min/game/Rule.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BlackJackFinal/src/com/min/game/Rule.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CardCreate.java&quot; tooltip=&quot;BlackJackFinal/src/com/min/game/CardCreate.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BlackJackFinal/src/com/min/game/CardCreate.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CardConvert.java&quot; tooltip=&quot;BlackJackFinal/src/com/min/game/CardConvert.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BlackJackFinal/src/com/min/game/CardConvert.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_GlZsgXnREeyhcYvIwifkkg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_GlZsgnnREeyhcYvIwifkkg" label="%trimmedwindow.label.eclipseSDK" x="2" y="6" width="1008" height="819">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_GlZsgXnREeyhcYvIwifkkg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_GlZsgnnREeyhcYvIwifkkg" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1008" height="819">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -75,7 +75,7 @@
           <tags>persp.newWizSC:org.eclipse.jpt.jpa.ui.wizard.newJpaProject</tags>
           <tags>persp.perspSC:org.eclipse.jpt.ui.jpaPerspective</tags>
           <tags>persp.actionSet:org.jkiss.dbeaver.search.searchActionSet</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_GlZshXnREeyhcYvIwifkkg" selectedElement="_GlZshnnREeyhcYvIwifkkg" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_GlZshXnREeyhcYvIwifkkg" selectedElement="_GlZsi3nREeyhcYvIwifkkg" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_GlZshnnREeyhcYvIwifkkg" elementId="topLeft" containerData="2500" selectedElement="_GlZsh3nREeyhcYvIwifkkg">
               <children xsi:type="advanced:Placeholder" xmi:id="_GlZsh3nREeyhcYvIwifkkg" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_GlaVrnnREeyhcYvIwifkkg" closeable="true">
                 <tags>View</tags>
@@ -317,7 +317,7 @@
             </children>
           </children>
         </children>
-        <children xsi:type="advanced:Perspective" xmi:id="_GlZsunnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.core.perspective" selectedElement="_GlZsu3nREeyhcYvIwifkkg" label="DBeaver" iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/dbeaver_perspective.png">
+        <children xsi:type="advanced:Perspective" xmi:id="_GlZsunnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.core.perspective.&lt;DBeaver>" selectedElement="_GlZsu3nREeyhcYvIwifkkg" label="&lt;DBeaver>" iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/dbeaver_perspective.png">
           <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.undo,persp.hideToolbarSC:org.eclipse.ui.edit.redo,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,persp.hideToolbarSC:org.eclipse.debug.ui.commands.RunToLine,persp.hideToolbarSC:org.eclipse.ui.edit.text.gotoNextEditPosition,persp.hideToolbarSC:org.eclipse.ui.edit.text.gotoLastEditPosition,persp.hideToolbarSC:org.eclipse.jdt.ui.actions.OpenProjectWizard,"/>
           <tags>persp.actionSet:org.eclipse.mylyn.doc.actionSet</tags>
           <tags>persp.actionSet:org.eclipse.mylyn.tasks.ui.navigation</tags>
@@ -484,7 +484,7 @@
       <children xsi:type="basic:PartStack" xmi:id="_GlaVUnnREeyhcYvIwifkkg" elementId="PartStack@101289d6" selectedElement="_j55gEHp7Eey1S-19gDsCMw">
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_j55gEHp7Eey1S-19gDsCMw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="&lt;XE> Script-2" iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_script.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jkiss.dbeaver.ui.editors.sql.SQLEditor&quot; name=&quot;Script-2.sql&quot; partName=&quot;&amp;lt;XE&amp;gt; Script-2&quot; title=&quot;&amp;lt;XE&amp;gt; Script-2&quot; tooltip=&quot;&amp;lt;XE&amp;gt; Script-2&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/20220117_DB_Connection/Scripts/Script-2.sql&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1747&quot; selectionTopPixel=&quot;1486&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jkiss.dbeaver.ui.editors.sql.SQLEditor&quot; name=&quot;Script-2.sql&quot; partName=&quot;&amp;lt;XE&amp;gt; Script-2&quot; title=&quot;&amp;lt;XE&amp;gt; Script-2&quot; tooltip=&quot;&amp;lt;XE&amp;gt; Script-2&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/20220117_DB_Connection/Scripts/Script-2.sql&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.jkiss.dbeaver.ui.editors.sql.SQLEditor</tags>
@@ -789,7 +789,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Gla7XHnREeyhcYvIwifkkg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_cC7goHp3Eey1S-19gDsCMw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_GleoFHnREeyhcYvIwifkkg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_C_O44HwHEeywhc6veTkL9A" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_GleoFHnREeyhcYvIwifkkg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Gla7aXnREeyhcYvIwifkkg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -808,7 +808,7 @@
       <children xsi:type="menu:ToolBar" xmi:id="_Gla713nREeyhcYvIwifkkg" elementId="org.eclipse.debug.ui.launchActionSet">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_Gla73XnREeyhcYvIwifkkg" elementId="org.eclipse.jst.j2ee.J2eeMainActionSet" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_Gla73XnREeyhcYvIwifkkg" elementId="org.eclipse.jst.j2ee.J2eeMainActionSet">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Gla73nnREeyhcYvIwifkkg" elementId="org.eclipse.search.searchActionSet">
@@ -817,10 +817,10 @@
       <children xsi:type="menu:ToolBar" xmi:id="_Gla743nREeyhcYvIwifkkg" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_Gla77nnREeyhcYvIwifkkg" elementId="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_Gla77nnREeyhcYvIwifkkg" elementId="org.eclipse.wst.server.ui.internal.webbrowser.actionSet">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_Gla773nREeyhcYvIwifkkg" elementId="org.eclipse.wst.ws.explorer.explorer" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_Gla773nREeyhcYvIwifkkg" elementId="org.eclipse.wst.ws.explorer.explorer">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Gla78HnREeyhcYvIwifkkg" elementId="group.nav" toBeRendered="false">
@@ -829,7 +829,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Gla78nnREeyhcYvIwifkkg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_cC9V0np3Eey1S-19gDsCMw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Glenu3nREeyhcYvIwifkkg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_C_YC2HwHEeywhc6veTkL9A" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Glenu3nREeyhcYvIwifkkg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Gla7_nnREeyhcYvIwifkkg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1142,28 +1142,6 @@
     <bindings xmi:id="_GlbhuXnREeyhcYvIwifkkg" keySequence="ALT+SHIFT+D O" command="_Glem8HnREeyhcYvIwifkkg"/>
     <bindings xmi:id="_GlbhunnREeyhcYvIwifkkg" keySequence="ALT+SHIFT+D P" command="_GleoD3nREeyhcYvIwifkkg"/>
     <bindings xmi:id="_Glbhu3nREeyhcYvIwifkkg" keySequence="ALT+SHIFT+D Q" command="_Glemm3nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbhvHnREeyhcYvIwifkkg" keySequence="ALT+CTRL+SHIFT+R" command="_GlfM9XnREeyhcYvIwifkkg">
-      <tags>platform:win32</tags>
-    </bindings>
-    <bindings xmi:id="_GlbhvXnREeyhcYvIwifkkg" keySequence="ALT+CTRL+SHIFT+U" command="_GlfNA3nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbhvnnREeyhcYvIwifkkg" keySequence="ALT+CTRL+SHIFT+K" command="_GlfM5HnREeyhcYvIwifkkg">
-      <tags>platform:win32</tags>
-    </bindings>
-    <bindings xmi:id="_Glbhv3nREeyhcYvIwifkkg" keySequence="CTRL+0" command="_GlfMXHnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbhwHnREeyhcYvIwifkkg" keySequence="CTRL+SHIFT+V" command="_GlfM_XnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbhwXnREeyhcYvIwifkkg" keySequence="CTRL+-" command="_GlfM7nnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbhwnnREeyhcYvIwifkkg" keySequence="CTRL+SHIFT+A" command="_GlfMq3nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbhw3nREeyhcYvIwifkkg" keySequence="CTRL+SHIFT+C" command="_GlfM_nnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbhxHnREeyhcYvIwifkkg" keySequence="CTRL+SHIFT+D" command="_GlfMvHnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbhxXnREeyhcYvIwifkkg" keySequence="CTRL+SHIFT+F" command="_GlfMTXnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbhxnnREeyhcYvIwifkkg" keySequence="CTRL+SHIFT+," command="_GlfMy3nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbhx3nREeyhcYvIwifkkg" keySequence="CTRL+9" command="_GlfMnnnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbhyHnREeyhcYvIwifkkg" keySequence="CTRL+=" command="_GlfM4nnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbhyXnREeyhcYvIwifkkg" keySequence="ALT+`" command="_GlfMsnnREeyhcYvIwifkkg">
-      <tags>platform:win32</tags>
-    </bindings>
-    <bindings xmi:id="_GlbhynnREeyhcYvIwifkkg" keySequence="TAB" command="_GlfMbnnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbhy3nREeyhcYvIwifkkg" keySequence="CR" command="_GlfM93nREeyhcYvIwifkkg"/>
   </bindingTables>
   <bindingTables xmi:id="_GlbhzHnREeyhcYvIwifkkg" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" bindingContext="_GlbjXXnREeyhcYvIwifkkg">
     <bindings xmi:id="_GlbhzXnREeyhcYvIwifkkg" keySequence="CTRL+CR" command="_Glel_nnREeyhcYvIwifkkg"/>
@@ -1472,86 +1450,15 @@
   <bindingTables xmi:id="_Glbi2HnREeyhcYvIwifkkg" bindingContext="_GlbjmnnREeyhcYvIwifkkg"/>
   <bindingTables xmi:id="_Glbi2XnREeyhcYvIwifkkg" bindingContext="_Glbjm3nREeyhcYvIwifkkg"/>
   <bindingTables xmi:id="_Glbi2nnREeyhcYvIwifkkg" bindingContext="_GlbjnHnREeyhcYvIwifkkg"/>
-  <bindingTables xmi:id="_Glbi23nREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.context.navigator" bindingContext="_GlbjYXnREeyhcYvIwifkkg">
-    <bindings xmi:id="_Glbi3HnREeyhcYvIwifkkg" keySequence="ALT+CTRL+CR" command="_GlfMmnnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi3XnREeyhcYvIwifkkg" keySequence="CTRL+CR" command="_GlfMxnnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi3nnREeyhcYvIwifkkg" keySequence="CTRL+SHIFT+." command="_GlfMvnnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi33nREeyhcYvIwifkkg" keySequence="F4" command="_GlfMpHnREeyhcYvIwifkkg"/>
-  </bindingTables>
-  <bindingTables xmi:id="_Glbi4HnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.editors.sql.script.focused" bindingContext="_GlbjT3nREeyhcYvIwifkkg">
-    <bindings xmi:id="_Glbi4XnREeyhcYvIwifkkg" keySequence="ALT+CTRL+SHIFT+A" command="_GlfMU3nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi4nnREeyhcYvIwifkkg" keySequence="ALT+CTRL+SHIFT+C" command="_GlfM6HnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi43nREeyhcYvIwifkkg" keySequence="CTRL+CR" command="_GlfMTnnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi5HnREeyhcYvIwifkkg" keySequence="CTRL+SHIFT+E" command="_GlfMt3nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi5XnREeyhcYvIwifkkg" keySequence="ALT+CTRL+'" command="_GlfMannREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi5nnREeyhcYvIwifkkg" keySequence="CTRL+\" command="_GlfMqXnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi53nREeyhcYvIwifkkg" keySequence="ALT+ARROW_UP" command="_GlfMhnnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi6HnREeyhcYvIwifkkg" keySequence="ALT+ARROW_DOWN" command="_GlfMlXnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi6XnREeyhcYvIwifkkg" keySequence="ALT+CTRL+SHIFT+X" command="_GlfNAnnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi6nnREeyhcYvIwifkkg" keySequence="F4" command="_GlfMqHnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi63nREeyhcYvIwifkkg" keySequence="ALT+X" command="_GlfMi3nREeyhcYvIwifkkg"/>
-  </bindingTables>
-  <bindingTables xmi:id="_Glbi7HnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.perspective" bindingContext="_GlbjZXnREeyhcYvIwifkkg">
-    <bindings xmi:id="_Glbi7XnREeyhcYvIwifkkg" keySequence="ALT+CTRL+SHIFT+B" command="_GlfMe3nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi7nnREeyhcYvIwifkkg" keySequence="CTRL+[" command="_GlfMvXnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi73nREeyhcYvIwifkkg" keySequence="CTRL+]" command="_GlfM_HnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi8HnREeyhcYvIwifkkg" keySequence="F3" command="_GlfMvXnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi8XnREeyhcYvIwifkkg" keySequence="CTRL+F3" command="_GlfM_HnREeyhcYvIwifkkg"/>
-  </bindingTables>
-  <bindingTables xmi:id="_Glbi8nnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.context.navigator.view" bindingContext="_GlbjYnnREeyhcYvIwifkkg">
-    <bindings xmi:id="_Glbi83nREeyhcYvIwifkkg" keySequence="ALT+CTRL+SHIFT+D" command="_GlfNCHnREeyhcYvIwifkkg"/>
-  </bindingTables>
-  <bindingTables xmi:id="_Glbi9HnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.context.resultset.focused" bindingContext="_GlbjTnnREeyhcYvIwifkkg">
-    <bindings xmi:id="_Glbi9XnREeyhcYvIwifkkg" keySequence="CTRL+BS" command="_GlfMSHnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi9nnREeyhcYvIwifkkg" keySequence="ALT+CTRL+D" command="_GlfMWXnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi93nREeyhcYvIwifkkg" keySequence="CTRL+R" command="_GlfMv3nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi-HnREeyhcYvIwifkkg" keySequence="CTRL+S" command="_GlfMeXnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi-XnREeyhcYvIwifkkg" keySequence="CTRL+D" command="_GlfMl3nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi-nnREeyhcYvIwifkkg" keySequence="ALT+INSERT" command="_GlfMtnnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi-3nREeyhcYvIwifkkg" keySequence="ALT+CTRL+INSERT" command="_GlfNBXnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi_HnREeyhcYvIwifkkg" keySequence="ALT+DEL" command="_GlfNBnnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi_XnREeyhcYvIwifkkg" keySequence="ESC" command="_GlfMo3nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi_nnREeyhcYvIwifkkg" keySequence="SHIFT+CR" command="_GlfMWnnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_Glbi_3nREeyhcYvIwifkkg" keySequence="CR" command="_GlfMbXnREeyhcYvIwifkkg"/>
-  </bindingTables>
-  <bindingTables xmi:id="_GlbjAHnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.context.resultset" bindingContext="_GlbjY3nREeyhcYvIwifkkg">
-    <bindings xmi:id="_GlbjAXnREeyhcYvIwifkkg" keySequence="ALT+CTRL+SHIFT+T" command="_GlfMwXnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjAnnREeyhcYvIwifkkg" keySequence="CTRL+1" command="_GlfMWHnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjA3nREeyhcYvIwifkkg" keySequence="CTRL+2" command="_GlfM1nnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjBHnREeyhcYvIwifkkg" keySequence="CTRL+7" command="_GlfMSXnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjBXnREeyhcYvIwifkkg" keySequence="ALT+CTRL+;" command="_GlfMgHnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjBnnREeyhcYvIwifkkg" keySequence="CTRL+SHIFT+=" command="_GlfMtHnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjB3nREeyhcYvIwifkkg" keySequence="CTRL+SHIFT+1" command="_GlfMWHnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjCHnREeyhcYvIwifkkg" keySequence="CTRL+SHIFT+7" command="_GlfM2XnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjCXnREeyhcYvIwifkkg" keySequence="CTRL+`" command="_GlfMVnnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjCnnREeyhcYvIwifkkg" keySequence="F7" command="_GlfMSXnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjC3nREeyhcYvIwifkkg" keySequence="F11" command="_GlfM43nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjDHnREeyhcYvIwifkkg" keySequence="ALT+CTRL+ARROW_LEFT" command="_GlfM0nnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjDXnREeyhcYvIwifkkg" keySequence="ALT+CTRL+ARROW_RIGHT" command="_GlfMmHnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjDnnREeyhcYvIwifkkg" keySequence="CTRL+F11" command="_GlfM13nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjD3nREeyhcYvIwifkkg" keySequence="ALT+CTRL+SHIFT+ARROW_LEFT" command="_GlfMW3nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjEHnREeyhcYvIwifkkg" keySequence="ALT+CTRL+SHIFT+ARROW_RIGHT" command="_GlfMlnnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjEXnREeyhcYvIwifkkg" keySequence="ALT+SPACE" command="_GlfM73nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjEnnREeyhcYvIwifkkg" keySequence="TAB" command="_GlfM2nnREeyhcYvIwifkkg"/>
-  </bindingTables>
-  <bindingTables xmi:id="_GlbjE3nREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.editors.sql" bindingContext="_GlbjTHnREeyhcYvIwifkkg">
-    <bindings xmi:id="_GlbjFHnREeyhcYvIwifkkg" keySequence="ALT+CTRL+SHIFT+W" command="_GlfMUHnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjFXnREeyhcYvIwifkkg" keySequence="ALT+CTRL+SHIFT+O" command="_GlfMm3nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjFnnREeyhcYvIwifkkg" keySequence="CTRL+SHIFT+P" command="_GlfMdXnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjF3nREeyhcYvIwifkkg" keySequence="CTRL+/" command="_GlfMV3nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjGHnREeyhcYvIwifkkg" keySequence="CTRL+SHIFT+/" command="_GlfMxXnREeyhcYvIwifkkg"/>
-  </bindingTables>
-  <bindingTables xmi:id="_GlbjGXnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.editors.sql.script" bindingContext="_GlbjTXnREeyhcYvIwifkkg">
-    <bindings xmi:id="_GlbjGnnREeyhcYvIwifkkg" keySequence="CTRL+6" command="_GlfMyHnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjG3nREeyhcYvIwifkkg" keySequence="CTRL+SHIFT+O" command="_GlfMennREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjHHnREeyhcYvIwifkkg" keySequence="CTRL+SHIFT+6" command="_GlfMf3nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjHXnREeyhcYvIwifkkg" keySequence="CTRL+SHIFT+\" command="_GlfM6XnREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjHnnREeyhcYvIwifkkg" keySequence="CTRL+F2" command="_GlfMa3nREeyhcYvIwifkkg"/>
-    <bindings xmi:id="_GlbjH3nREeyhcYvIwifkkg" keySequence="ALT+6" command="_GlfMYXnREeyhcYvIwifkkg"/>
-  </bindingTables>
-  <bindingTables xmi:id="_GlbjIHnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.context.resultset.edit" bindingContext="_GlbjZHnREeyhcYvIwifkkg">
-    <bindings xmi:id="_GlbjIXnREeyhcYvIwifkkg" keySequence="ALT+CTRL+SHIFT+CR" command="_GlfMfHnREeyhcYvIwifkkg"/>
-  </bindingTables>
+  <bindingTables xmi:id="_Glbi23nREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.context.navigator" bindingContext="_GlbjYXnREeyhcYvIwifkkg"/>
+  <bindingTables xmi:id="_Glbi4HnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.editors.sql.script.focused" bindingContext="_GlbjT3nREeyhcYvIwifkkg"/>
+  <bindingTables xmi:id="_Glbi7HnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.perspective" bindingContext="_GlbjZXnREeyhcYvIwifkkg"/>
+  <bindingTables xmi:id="_Glbi8nnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.context.navigator.view" bindingContext="_GlbjYnnREeyhcYvIwifkkg"/>
+  <bindingTables xmi:id="_Glbi9HnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.context.resultset.focused" bindingContext="_GlbjTnnREeyhcYvIwifkkg"/>
+  <bindingTables xmi:id="_GlbjAHnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.context.resultset" bindingContext="_GlbjY3nREeyhcYvIwifkkg"/>
+  <bindingTables xmi:id="_GlbjE3nREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.editors.sql" bindingContext="_GlbjTHnREeyhcYvIwifkkg"/>
+  <bindingTables xmi:id="_GlbjGXnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.editors.sql.script" bindingContext="_GlbjTXnREeyhcYvIwifkkg"/>
+  <bindingTables xmi:id="_GlbjIHnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.context.resultset.edit" bindingContext="_GlbjZHnREeyhcYvIwifkkg"/>
   <bindingTables xmi:id="_GlbjInnREeyhcYvIwifkkg" bindingContext="_GlbjnXnREeyhcYvIwifkkg"/>
   <rootContext xmi:id="_GlbjI3nREeyhcYvIwifkkg" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs and Windows" description="Either a dialog or a window is open">
     <children xmi:id="_GlbjJHnREeyhcYvIwifkkg" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.platform" name="In Windows" description="A window is open">
@@ -2194,61 +2101,6 @@
     <tags>View</tags>
     <tags>categoryTag:XML</tags>
   </descriptors>
-  <descriptors xmi:id="_Glbj83nREeyhcYvIwifkkg" elementId="org.eclipse.gef3.ui.palette_view" label="Palette" iconURI="platform:/plugin/org.eclipse.gef3/icons/palette_view.gif" tooltip="" category="General" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.gef3.ui.views.palette.PaletteView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.gef3"/>
-    <tags>View</tags>
-    <tags>categoryTag:General</tags>
-  </descriptors>
-  <descriptors xmi:id="_Glbj9HnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.core.queryManager" label="&#xcffc;&#xb9ac; &#xad00;&#xb9ac;&#xc790;" iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/qm.png" tooltip="Explore and search all queries executed by application. See query errors and hidden queries." category="Database" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.jkiss.dbeaver.ui.views.qm.QueryManagerView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.jkiss.dbeaver.core"/>
-    <tags>View</tags>
-    <tags>categoryTag:Database</tags>
-  </descriptors>
-  <descriptors xmi:id="_Glbj9XnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.core.shellProcess" label="&#xd504;&#xb85c;&#xc138;&#xc2a4;" iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/shell.png" tooltip="Monitor and control shell process execution." allowMultiple="true" category="Database" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.jkiss.dbeaver.ui.views.process.ShellProcessView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.jkiss.dbeaver.core"/>
-    <tags>View</tags>
-    <tags>categoryTag:Database</tags>
-    <tags>NoRestore</tags>
-  </descriptors>
-  <descriptors xmi:id="_Glbj9nnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.tasks" label="Database Tasks" iconURI="platform:/plugin/org.jkiss.dbeaver.tasks.ui.view/icons/task_list.png" tooltip="Database tasks management. Allows to search, edit, schedule and monitor task execution." category="Database" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.jkiss.dbeaver.tasks.ui.view.DatabaseTasksView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.jkiss.dbeaver.tasks.ui.view"/>
-    <tags>View</tags>
-    <tags>categoryTag:Database</tags>
-  </descriptors>
-  <descriptors xmi:id="_Glbj93nREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.ui.dashboardView" label="Database Dashboard" iconURI="platform:/plugin/org.jkiss.dbeaver.ui.dashboard/icons/dashboard.png" tooltip="" allowMultiple="true" category="Database" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.jkiss.dbeaver.ui.dashboard.view.DashboardView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.jkiss.dbeaver.ui.dashboard"/>
-    <tags>View</tags>
-    <tags>categoryTag:Database</tags>
-  </descriptors>
-  <descriptors xmi:id="_Glbj-HnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.core.databaseNavigator" label="Database Navigator" iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/databases.png" tooltip="Shows database connections of active project" category="Database" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.jkiss.dbeaver.ui.navigator.database.DatabaseNavigatorView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.jkiss.dbeaver.ui.navigator"/>
-    <tags>View</tags>
-    <tags>categoryTag:Database</tags>
-  </descriptors>
-  <descriptors xmi:id="_Glbj-XnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.core.databaseBrowser" label="Database Browser" iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/database_navigator.png" tooltip="Browse database connection elements" allowMultiple="true" category="Database" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.jkiss.dbeaver.ui.navigator.database.DatabaseBrowserView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.jkiss.dbeaver.ui.navigator"/>
-    <tags>View</tags>
-    <tags>categoryTag:Database</tags>
-  </descriptors>
-  <descriptors xmi:id="_Glbj-nnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.core.projectNavigator" label="&#xd504;&#xb85c;&#xc81d;&#xd2b8; " iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/projects.png" tooltip="Shows all projects and their contents. Supports project management." category="Database" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.jkiss.dbeaver.ui.navigator.project.ProjectNavigatorView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.jkiss.dbeaver.ui.navigator"/>
-    <tags>View</tags>
-    <tags>categoryTag:Database</tags>
-  </descriptors>
-  <descriptors xmi:id="_Glbj-3nREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.core.projectExplorer" label="&#xd504;&#xb85c;&#xc81d;&#xd2b8; &#xd0d0;&#xc0c9;&#xae30; " iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/project.png" tooltip="Manager project resources: folders, files and linked resources" category="Database" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.jkiss.dbeaver.ui.navigator.project.ProjectExplorerView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.jkiss.dbeaver.ui.navigator"/>
-    <tags>View</tags>
-    <tags>categoryTag:Database</tags>
-  </descriptors>
   <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
     <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
       <tags>glue</tags>
@@ -2266,7 +2118,7 @@
       <tags>SHOW_RESTORE_MENU</tags>
     </children>
   </trimContributions>
-  <snippets xsi:type="advanced:Perspective" xmi:id="_Gld__HnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.core.perspective.&lt;DBeaver>" selectedElement="_Gld__XnREeyhcYvIwifkkg" label="&lt;DBeaver>" iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/dbeaver_perspective.png">
+  <snippets xsi:type="advanced:Perspective" xmi:id="_EmX10HwHEeywhc6veTkL9A" elementId="org.jkiss.dbeaver.core.perspective.&lt;DBeaver>" selectedElement="_EmX10XwHEeywhc6veTkL9A" label="&lt;DBeaver>" iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/dbeaver_perspective.png">
     <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.undo,persp.hideToolbarSC:org.eclipse.ui.edit.redo,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,persp.hideToolbarSC:org.eclipse.debug.ui.commands.RunToLine,persp.hideToolbarSC:org.eclipse.ui.edit.text.gotoNextEditPosition,persp.hideToolbarSC:org.eclipse.ui.edit.text.gotoLastEditPosition,persp.hideToolbarSC:org.eclipse.jdt.ui.actions.OpenProjectWizard,"/>
     <tags>persp.actionSet:org.eclipse.mylyn.doc.actionSet</tags>
     <tags>persp.actionSet:org.eclipse.mylyn.tasks.ui.navigation</tags>
@@ -2291,56 +2143,55 @@
     <tags>persp.newWizSC:org.jkiss.dbeaver.core.wizard.new.project</tags>
     <tags>persp.actionSet:org.eclipse.debug.ui.launchActionSet</tags>
     <tags>persp.showIn:org.eclipse.tm.terminal.view.ui.TerminalsView</tags>
-    <children xsi:type="basic:PartSashContainer" xmi:id="_Gld__XnREeyhcYvIwifkkg" selectedElement="_Gld__nnREeyhcYvIwifkkg" horizontal="true">
-      <children xsi:type="basic:PartSashContainer" xmi:id="_Gld__nnREeyhcYvIwifkkg" containerData="3000" selectedElement="_Gld__3nREeyhcYvIwifkkg">
-        <children xsi:type="basic:PartStack" xmi:id="_Gld__3nREeyhcYvIwifkkg" elementId="navigation" containerData="7000" selectedElement="_GleAAHnREeyhcYvIwifkkg">
-          <tags>active</tags>
-          <children xsi:type="advanced:Placeholder" xmi:id="_GleAAHnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.core.databaseNavigator" closeable="true">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_EmX10XwHEeywhc6veTkL9A" selectedElement="_EmX12nwHEeywhc6veTkL9A" horizontal="true">
+      <children xsi:type="basic:PartSashContainer" xmi:id="_EmX10nwHEeywhc6veTkL9A" containerData="1885" selectedElement="_EmX103wHEeywhc6veTkL9A">
+        <children xsi:type="basic:PartStack" xmi:id="_EmX103wHEeywhc6veTkL9A" elementId="navigation" containerData="7000" selectedElement="_EmX11HwHEeywhc6veTkL9A">
+          <children xsi:type="advanced:Placeholder" xmi:id="_EmX11HwHEeywhc6veTkL9A" elementId="org.jkiss.dbeaver.core.databaseNavigator" closeable="true">
             <tags>View</tags>
             <tags>categoryTag:Database</tags>
           </children>
-          <children xsi:type="advanced:Placeholder" xmi:id="_GleAAXnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.core.projectNavigator" closeable="true">
+          <children xsi:type="advanced:Placeholder" xmi:id="_EmX11XwHEeywhc6veTkL9A" elementId="org.jkiss.dbeaver.core.projectNavigator" closeable="true">
             <tags>View</tags>
             <tags>categoryTag:Database</tags>
           </children>
-          <children xsi:type="advanced:Placeholder" xmi:id="_GleAAnnREeyhcYvIwifkkg" elementId="org.eclipse.ui.texteditor.TemplatesView" toBeRendered="false" closeable="true">
+          <children xsi:type="advanced:Placeholder" xmi:id="_EmX11nwHEeywhc6veTkL9A" elementId="org.eclipse.ui.texteditor.TemplatesView" toBeRendered="false" closeable="true">
             <tags>View</tags>
             <tags>categoryTag:General</tags>
           </children>
         </children>
-        <children xsi:type="basic:PartStack" xmi:id="_GleAA3nREeyhcYvIwifkkg" elementId="bottomLeft" containerData="3000" selectedElement="_GleABHnREeyhcYvIwifkkg">
-          <children xsi:type="advanced:Placeholder" xmi:id="_GleABHnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.core.projectExplorer" closeable="true">
+        <children xsi:type="basic:PartStack" xmi:id="_EmX113wHEeywhc6veTkL9A" elementId="bottomLeft" containerData="3000" selectedElement="_EmX12HwHEeywhc6veTkL9A">
+          <children xsi:type="advanced:Placeholder" xmi:id="_EmX12HwHEeywhc6veTkL9A" elementId="org.jkiss.dbeaver.core.projectExplorer" closeable="true">
             <tags>View</tags>
             <tags>categoryTag:Database</tags>
           </children>
-          <children xsi:type="advanced:Placeholder" xmi:id="_GleABXnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.core.databaseBrowser" toBeRendered="false" closeable="true">
+          <children xsi:type="advanced:Placeholder" xmi:id="_EmX12XwHEeywhc6veTkL9A" elementId="org.jkiss.dbeaver.core.databaseBrowser" toBeRendered="false" closeable="true">
             <tags>View</tags>
             <tags>categoryTag:Database</tags>
           </children>
         </children>
       </children>
-      <children xsi:type="basic:PartSashContainer" xmi:id="_GleABnnREeyhcYvIwifkkg" containerData="7000" selectedElement="_GleAB3nREeyhcYvIwifkkg">
-        <children xsi:type="basic:PartSashContainer" xmi:id="_GleAB3nREeyhcYvIwifkkg" containerData="7000" selectedElement="_GleACHnREeyhcYvIwifkkg" horizontal="true">
-          <children xsi:type="advanced:Placeholder" xmi:id="_GleACHnREeyhcYvIwifkkg" elementId="org.eclipse.ui.editorss" containerData="8000"/>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_GleACXnREeyhcYvIwifkkg" toBeRendered="false" containerData="2000">
-            <children xsi:type="basic:PartStack" xmi:id="_GleACnnREeyhcYvIwifkkg" elementId="rightTop" toBeRendered="false" containerData="5000">
-              <children xsi:type="advanced:Placeholder" xmi:id="_GleAC3nREeyhcYvIwifkkg" elementId="org.eclipse.ui.views.PropertySheet" toBeRendered="false" closeable="true">
+      <children xsi:type="basic:PartSashContainer" xmi:id="_EmX12nwHEeywhc6veTkL9A" containerData="8115" selectedElement="_EmX123wHEeywhc6veTkL9A">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_EmX123wHEeywhc6veTkL9A" containerData="7000" selectedElement="_EmX13HwHEeywhc6veTkL9A" horizontal="true">
+          <children xsi:type="advanced:Placeholder" xmi:id="_EmX13HwHEeywhc6veTkL9A" elementId="org.eclipse.ui.editorss" containerData="8000"/>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_EmX13XwHEeywhc6veTkL9A" toBeRendered="false" containerData="2000">
+            <children xsi:type="basic:PartStack" xmi:id="_EmX13nwHEeywhc6veTkL9A" elementId="rightTop" toBeRendered="false" containerData="5000">
+              <children xsi:type="advanced:Placeholder" xmi:id="_EmX133wHEeywhc6veTkL9A" elementId="org.eclipse.ui.views.PropertySheet" toBeRendered="false" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:General</tags>
               </children>
-              <children xsi:type="advanced:Placeholder" xmi:id="_GleADHnREeyhcYvIwifkkg" elementId="org.eclipse.help.ui.HelpView" toBeRendered="false" closeable="true">
+              <children xsi:type="advanced:Placeholder" xmi:id="_EmX14HwHEeywhc6veTkL9A" elementId="org.eclipse.help.ui.HelpView" toBeRendered="false" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:Help</tags>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_GleADXnREeyhcYvIwifkkg" toBeRendered="false" containerData="5000">
-              <children xsi:type="basic:PartStack" xmi:id="_GleADnnREeyhcYvIwifkkg" elementId="right" toBeRendered="false" containerData="5000"/>
-              <children xsi:type="basic:PartStack" xmi:id="_GleAD3nREeyhcYvIwifkkg" elementId="rightTop" toBeRendered="false" containerData="5000">
-                <children xsi:type="advanced:Placeholder" xmi:id="_GleAEHnREeyhcYvIwifkkg" elementId="org.eclipse.ui.views.ContentOutline" toBeRendered="false" closeable="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_EmX14XwHEeywhc6veTkL9A" toBeRendered="false" containerData="5000">
+              <children xsi:type="basic:PartStack" xmi:id="_EmX14nwHEeywhc6veTkL9A" elementId="right" toBeRendered="false" containerData="5000"/>
+              <children xsi:type="basic:PartStack" xmi:id="_EmX143wHEeywhc6veTkL9A" elementId="rightTop" toBeRendered="false" containerData="5000">
+                <children xsi:type="advanced:Placeholder" xmi:id="_EmX15HwHEeywhc6veTkL9A" elementId="org.eclipse.ui.views.ContentOutline" toBeRendered="false" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
                 </children>
-                <children xsi:type="advanced:Placeholder" xmi:id="_GleAEXnREeyhcYvIwifkkg" elementId="org.eclipse.ui.views.minimap.MinimapView" toBeRendered="false" closeable="true">
+                <children xsi:type="advanced:Placeholder" xmi:id="_EmX15XwHEeywhc6veTkL9A" elementId="org.eclipse.ui.views.minimap.MinimapView" toBeRendered="false" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
                 </children>
@@ -2348,47 +2199,47 @@
             </children>
           </children>
         </children>
-        <children xsi:type="basic:PartStack" xmi:id="_GleAEnnREeyhcYvIwifkkg" elementId="bottomRight" containerData="3000" selectedElement="_GleAG3nREeyhcYvIwifkkg">
+        <children xsi:type="basic:PartStack" xmi:id="_EmX15nwHEeywhc6veTkL9A" elementId="bottomRight" containerData="3000" selectedElement="_EmX18HwHEeywhc6veTkL9A">
           <tags>General</tags>
-          <children xsi:type="advanced:Placeholder" xmi:id="_GleAE3nREeyhcYvIwifkkg" elementId="org.eclipse.pde.runtime.LogView" toBeRendered="false" closeable="true">
+          <children xsi:type="advanced:Placeholder" xmi:id="_EmX153wHEeywhc6veTkL9A" elementId="org.eclipse.pde.runtime.LogView" toBeRendered="false" closeable="true">
             <tags>View</tags>
             <tags>categoryTag:General</tags>
           </children>
-          <children xsi:type="advanced:Placeholder" xmi:id="_GleAFHnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.core.queryManager" toBeRendered="false" closeable="true">
+          <children xsi:type="advanced:Placeholder" xmi:id="_EmX16HwHEeywhc6veTkL9A" elementId="org.jkiss.dbeaver.core.queryManager" toBeRendered="false" closeable="true">
             <tags>View</tags>
             <tags>categoryTag:Database</tags>
           </children>
-          <children xsi:type="advanced:Placeholder" xmi:id="_GleAFXnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.core.shellProcess" toBeRendered="false" closeable="true">
-            <tags>View</tags>
-            <tags>categoryTag:Database</tags>
-            <tags>NoRestore</tags>
-          </children>
-          <children xsi:type="advanced:Placeholder" xmi:id="_GleAFnnREeyhcYvIwifkkg" elementId="org.eclipse.ui.views.ProgressView" toBeRendered="false" closeable="true">
-            <tags>View</tags>
-            <tags>categoryTag:General</tags>
-          </children>
-          <children xsi:type="advanced:Placeholder" xmi:id="_GleAF3nREeyhcYvIwifkkg" elementId="org.eclipse.ui.views.TaskList" toBeRendered="false" closeable="true">
-            <tags>View</tags>
-            <tags>categoryTag:General</tags>
-          </children>
-          <children xsi:type="advanced:Placeholder" xmi:id="_GleAGHnREeyhcYvIwifkkg" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" closeable="true">
-            <tags>View</tags>
-            <tags>categoryTag:General</tags>
-          </children>
-          <children xsi:type="advanced:Placeholder" xmi:id="_GleAGXnREeyhcYvIwifkkg" elementId="org.eclipse.search.ui.views.SearchView" toBeRendered="false" closeable="true">
-            <tags>View</tags>
-            <tags>categoryTag:General</tags>
-          </children>
-          <children xsi:type="advanced:Placeholder" xmi:id="_GleAGnnREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.core.shellProcess" toBeRendered="false" closeable="true">
+          <children xsi:type="advanced:Placeholder" xmi:id="_EmX16XwHEeywhc6veTkL9A" elementId="org.jkiss.dbeaver.core.shellProcess" toBeRendered="false" closeable="true">
             <tags>View</tags>
             <tags>categoryTag:Database</tags>
             <tags>NoRestore</tags>
           </children>
-          <children xsi:type="advanced:Placeholder" xmi:id="_GleAG3nREeyhcYvIwifkkg" elementId="org.jkiss.dbeaver.tasks" closeable="true">
+          <children xsi:type="advanced:Placeholder" xmi:id="_EmX16nwHEeywhc6veTkL9A" elementId="org.eclipse.ui.views.ProgressView" toBeRendered="false" closeable="true">
+            <tags>View</tags>
+            <tags>categoryTag:General</tags>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_EmX163wHEeywhc6veTkL9A" elementId="org.eclipse.ui.views.TaskList" toBeRendered="false" closeable="true">
+            <tags>View</tags>
+            <tags>categoryTag:General</tags>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_EmX17HwHEeywhc6veTkL9A" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" closeable="true">
+            <tags>View</tags>
+            <tags>categoryTag:General</tags>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_EmX17XwHEeywhc6veTkL9A" elementId="org.eclipse.search.ui.views.SearchView" toBeRendered="false" closeable="true">
+            <tags>View</tags>
+            <tags>categoryTag:General</tags>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_EmX17nwHEeywhc6veTkL9A" elementId="org.jkiss.dbeaver.core.shellProcess" toBeRendered="false" closeable="true">
+            <tags>View</tags>
+            <tags>categoryTag:Database</tags>
+            <tags>NoRestore</tags>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_EmX173wHEeywhc6veTkL9A" elementId="org.jkiss.dbeaver.tasks" closeable="true">
             <tags>View</tags>
             <tags>categoryTag:Database</tags>
           </children>
-          <children xsi:type="advanced:Placeholder" xmi:id="_GleAHHnREeyhcYvIwifkkg" elementId="org.eclipse.ui.console.ConsoleView" closeable="true">
+          <children xsi:type="advanced:Placeholder" xmi:id="_EmX18HwHEeywhc6veTkL9A" elementId="org.eclipse.ui.console.ConsoleView" closeable="true">
             <tags>View</tags>
             <tags>categoryTag:General</tags>
           </children>
