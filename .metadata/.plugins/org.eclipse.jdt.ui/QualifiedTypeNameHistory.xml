@@ -40,4 +40,5 @@
     <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
     <fullyQualifiedTypeName name="com.min.edu.UserList"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="com.min.edu.OddMagicSquare"/>
 </qualifiedTypeNameHistroy>
