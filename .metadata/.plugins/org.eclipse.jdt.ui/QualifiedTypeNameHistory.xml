@@ -19,7 +19,6 @@
     <fullyQualifiedTypeName name="com.card.name.CardOne"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="BlackJack.BlackJackGame"/>
@@ -41,4 +40,12 @@
     <fullyQualifiedTypeName name="com.min.edu.UserList"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="com.min.edu.OddMagicSquare"/>
+    <fullyQualifiedTypeName name="com.min.edu.Exam06_1"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.min.edu.EvenMagicSquare"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.commons.SerialVersionUIDAdder"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+    <fullyQualifiedTypeName name="sun.security.action.GetLongAction"/>
+    <fullyQualifiedTypeName name="com.min.test.MyBatisTest"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
 </qualifiedTypeNameHistroy>
