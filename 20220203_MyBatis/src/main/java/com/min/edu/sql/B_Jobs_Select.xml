@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.min.edu.model.JobsSelectDaoImpl">
+
+    <!-- 반복되는 쿼리를 선언하여 중복을 제거함. sql 태그로 선언 include로 사용 -->
+    <sql id="allColumn">
+        SELECT JOB_ID , JOB_TITLE , MIN_SALARY , MAX_SALARY FROM JOBS 
+    </sql>
+
+    <!-- resultMap 선언된 컬럼의 갯수가 다르거나 혹은 이름이 다른 경우 MyBatisVo의 setter 1:1 매핑을 해주기 위해서 선언 -->
+    <resultMap type="jobsvo" id="jobsMap">
+    <!-- column 쿼리를 통해서 출력되는 컬럼명 / Property는 DTO/VO의 setter 메소드 이름 -->
+    <result column="ID" property="job_id"/>
+    <result column="TITLE" property="job_title"/>
+    <result column="MINSALARY" property="min_salary"/>
+    <result column="MAXSALARY" property="max_salary"/>
+    </resultMap>
+
+    <!-- 
+    전달되는 값 Parameter 타입에 따라서 사용 방법이 달라짐 
+     - Primitive Type의 경우는 객체 클래스에 getter/setter를 가지고 있지않기 때문에 판단문을 사용할 수 없다.
+     - Primitive Type의 경우는 객체가 담겨있지 않기 때문에 변수명을 정해지지 못하게 됨
+     - Primitive Type의 경우는 SQL문에서 값을 자동으로 변경하기 때문에 Object로 전송이 됨
+     - Mybatis에서는 선언을 안해도 됨, java.lang.Integer -> int/Integer
+    -->
+    <select id="select01" parameterType="java.lang.String" resultType="java.lang.Integer">
+        SELECT MIN_SALARY
+            FROM JOBS
+                WHERE JOB_ID = #{x}
+    </select>
+    
+    <!-- Primitive 타입을  Parameter로 작성하고  VO로 받음 -->
+    <select id="select02" resultType="jobsvo">
+    <include refid="allColumn"/>
+    	WHERE JOB_ID = #{job_id}	
+    	</select>
+    	
+    <!-- Parameter 전달값을 Object 받을 결과가 VO의 setter와 이름이 다른 resultMap -->
+    <select id="select03" resultMap="job"
+</mapper>
