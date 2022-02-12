@@ -1,4 +1,1 @@
-SELECT * FROM EMPLOYEES e ;
 SELECT * FROM JOBS j ;
-
-INSERT INTO JOBS	VALUES ('IT_GOD', 'it programmer', '1000', '10000');
