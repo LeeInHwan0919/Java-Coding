@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-    <fullyQualifiedTypeName name="com.min.edu.play.RuleImpl"/>
-    <fullyQualifiedTypeName name="com.min.edu.List_Feature"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="com.min.edu.Set_Feature"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
@@ -18,8 +14,6 @@
     <fullyQualifiedTypeName name="java.lang.Number"/>
     <fullyQualifiedTypeName name="com.card.name.CardOne"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="BlackJack.BlackJackGame"/>
@@ -41,4 +35,29 @@
     <fullyQualifiedTypeName name="com.min.edu.UserList"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="com.min.edu.OddMagicSquare"/>
+    <fullyQualifiedTypeName name="com.min.edu.Exam06_1"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.min.edu.EvenMagicSquare"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.commons.SerialVersionUIDAdder"/>
+    <fullyQualifiedTypeName name="sun.security.action.GetLongAction"/>
+    <fullyQualifiedTypeName name="com.min.test.MyBatisTest"/>
+    <fullyQualifiedTypeName name="javax.annotation.Resource"/>
+    <fullyQualifiedTypeName name="jdk.internal.loader.Resource"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.lf5.util.Resource"/>
+    <fullyQualifiedTypeName name="com.min.edu.mybatis.SqlSeesionFactoryManager"/>
+    <fullyQualifiedTypeName name="java.io.Reader"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactoryBuilder"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="org.junit.Before"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+    <fullyQualifiedTypeName name="com.min.edu.mybatis.SqlSessionFactoryManager"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactory"/>
+    <fullyQualifiedTypeName name="com.min.edu.model.IJobsSelectDao"/>
+    <fullyQualifiedTypeName name="com.min.edu.model.JobsSelectDaoImpl"/>
+    <fullyQualifiedTypeName name="com.min.edu.vo.MyBatisVo"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
 </qualifiedTypeNameHistroy>

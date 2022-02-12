@@ -9,7 +9,7 @@ public class Exam_Main {
 //		e1.exam_1(1234);
 //		e1.exam_2(123456);
 
-		Exam05 ex5 = new Exam05();
+//		Exam05 ex5 = new Exam05();
 //		int[][] arr = { { 2, 2 }, { 1, 1 }, { 5, 5 } };
 //		ex5.sortArray1(arr);
 //		ex5.sortArray3(arr);
@@ -24,9 +24,15 @@ public class Exam_Main {
 //		Exam07 e6 = new Exam07();
 //		e6.solution(5, -5, 3, new int[] {-1, -3, 3});
 		
-		Eaxm06 e6 = new Eaxm06();
+//		Eaxm06 e6 = new Eaxm06();
 //		e6.linked();
-		e6.queue();
+//		e6.queue();
+		
+		Exam06_1 e6_1 = new Exam06_1();
+		int N = 5;
+		int[][] relation = {{1,2},{4,2},{3,1},{4,5}};
+		int[] result = e6_1.solution(N, relation);
+		System.out.println(Arrays.toString(result));
 	}
 
 }
