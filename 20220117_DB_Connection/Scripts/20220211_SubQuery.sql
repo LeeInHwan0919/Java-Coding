@@ -1,0 +1,88 @@
+-- 20220211
+-- 서브쿼리
+-- 쿼리안에()통해서 먼저 실행되는 쿼리 : main쿼리(Subquery)
+
+-- Scala SubQuery
+-- SELECT, WHERE, HAVING, ORDER BY, INSERT, UPDATE 
+
+--Inline View
+	
+--문제> 
+
+SELECT PLAYER_NAME ,"POSITION" ,BACK_NO 
+	FROM PLAYER p 
+	WHERE TEAM_ID =(SELECT TEAM_ID 
+					FROM PLAYER p
+					WHERE PLAYER_NAME='정남일');
+	
+--문제> 모든 축구 선수들의 평균키 보다 작은 선수들을 출력
+SELECT PLAYER_NAME ,"POSITION" ,BACK_NO ,HEIGHT
+	FROM PLAYER p 
+	WHERE HEIGHT <(SELECT AVG(HEIGHT) 
+					FROM PLAYER p);
+
+--문제> 정남일 선수의 
+				
+SELECT *
+	FROM PLAYER p 
+	WHERE ("POSITION", TEAM_ID) IN(SELECT "POSITION", TEAM_ID
+									FROM PLAYER p
+									WHERE PLAYER_NAME='정남일');
+	
+--정현수가속한팀의정ㅈ보
+SELECT *
+	FROM TEAM t 
+	WHERE TEAM_ID IN (SELECT TEAM_ID
+						FROM PLAYER p
+						WHERE p.PLAYER_NAME='정현수');
+					
+	-- 서브쿼리의 결과가 여러ㅏ개 나오는 다중행 서브쿼리를 사용 + IN절의 컬럼을 2개 적으면 2개의 컬럼 AND가 된다.
+SELECT TEAM_ID ,PLAYER_NAME ,"POSITION" ,BACK_NO ,HEIGHT 
+	FROM PLAYER p 
+		WHERE (TEAM_ID ,HEIGHT) IN (SELECT TEAM_ID ,MIN(HEIGHT)
+									FROM PLAYER p2 
+										GROUP BY TEAM_ID)
+		ORDER BY TEAM_ID ;
+
+
+	-- 조건의 결과가 ~~별 이면 GROUP BY를 통해서 쿼리의 결과를 만들고 INLINE VIEW로 사용하여
+	-- PALYER TABLE과 조인! 조인조건은 (TAEM_ID, HEIGHT)
+SELECT PMAIN .TEAM_ID , PLAYER_NAME ,"POSITION" ,BACK_NO , pMAIN.HEIGHT 
+	FROM PLAYER pmain JOIN(
+							SELECT TEAM_ID, MIN(HEIGHT) HEIGHT 
+								FROM PLAYER p 
+								GROUP BY TEAM_ID) psub
+					ON pmain.TEAM_ID =psub.TEAM_ID
+					AND PMAIN .HEIGHT =PSUB.HEIGHT
+		ORDER BY 1;
+
+--연관 서브 쿼리
+SELECT TEAM_ID ,PLAYER_NAME 
+	FROM PLAYER p 
+	WHERE (TEAM_ID, HEIGHT) IN(SELECT TEAM_ID, MIN(HEIGHT)
+								FROM PLAYER p2 
+								WHERE p.PLAYER_ID = p2.PLAYER_ID
+								GROUP BY TEAM_ID)
+	ORDER BY 1;
+	
+--선수들의 소속된 팀의 평균키보다 작은 선수들을 출력
+SELECT TEAM_ID , PLAYER_NAME , BACK_NO , HEIGHT 
+	FROM PLAYER p 
+	WHERE HEIGHT < (SELECT AVG(HEIGHT)
+					FROM PLAYER p2
+					WHERE p.TEAM_ID = p2.TEAM_ID);
+
+SELECT p2.TEAM_ID ,PLAYER_NAME ,HEIGHT ,AVGH
+	FROM PLAYER p2 JOIN (SELECT TEAM_ID , AVG(HEIGHT) AVGH
+							FROM PLAYER p
+							GROUP BY TEAM_ID) p3
+	ON p2.TEAM_ID = p3.TEAM_ID
+	WHERE p2.HEIGHT < p3.AVGH;
+
+
+-- 선수들의 정보를 출력, 소속된 팀의 평균 키도 같이 출력 (팀명, 선수이름, 백넘버, 키, 팀평균)
+SELECT TEAM_ID , PLAYER_NAME ,HEIGHT , (SELECT ROUND(AVG(HEIGHT),1) 
+											FROM PLAYER p2 
+											WHERE p1.TEAM_ID = p2.TEAM_ID) 팀평균
+	FROM PLAYER p1 
+
