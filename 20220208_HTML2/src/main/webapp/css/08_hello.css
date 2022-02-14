@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*
+	폰트가 설정되어 있는 링크 연결하는 방식
+	@import
+	@font-face
+*/
+@import url("https://fonts.googleapis.com/css2?family=Dokdo&display=swap");
+
+h1, h2{
+	font-family: monospace, sans-serif;
+}
+
+@font-face{
+	font-family: 'Halasan';
+	src: url("fonts.gstatic.com/ea/jejuhallasan/v3/JejuHallasan-Regular.ttf");
+	
+}
+
+p{
+	font-family: 'Halasan';
+	}

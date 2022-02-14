@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 --20220211
 --MERGE 하나의 쿼리에 INSERT, UPDATE를 작업할 경우가 있다.
 --MERGE 통해서 복잡한 여러개의 쿼리를 하나로 수행할 수 있다.
@@ -30,3 +31,51 @@ MERGE
 		
 	SELECT *
 	FROM EMP;
+=======
+-- 20220211
+-- MERGE 하나의 쿼리에 INSERT와 업데이트를 동시에 작업할 경우가 있다.
+-- MERGE 를 통해서 복잡한 여러개의 쿼리를 하나로 수행할 수 있다.
+
+MERGE 
+	INTO EMP e
+	USING DUAL
+	ON(e.EMPNO=6688)
+	WHEN MATCHED THEN 
+	UPDATE 
+		SET e.COMM=9999
+	WHEN NOT MATCHED THEN 
+	INSERT (e.EMPNO, e.ENAME, e.DEPTNO)
+	VALUES ('6688', 'DONGDONG', 10);
+	
+SELECT *
+	FROM EMP e 
+		WHERE EMPNO ='6688';
+		
+MERGE
+	INTO EMP e
+	USING DUAL 
+		ON (e.EMPNO =7788) -- 조건절 이거나 조인조건
+	WHEN MATCHED THEN 
+		UPDATE 
+		 SET e.DEPTNO = 10
+		 WHERE e.JOB = 'ANALYST'
+		 DELETE 
+		 WHERE e.JOB != 'ANALYST';
+		 
+SELECT *
+	FROM EMP;
+	
+MERGE
+	INTO EMP e
+	USING DUAL 
+		ON (e.EMPNO =7788) -- 조건절 이거나 조인조건
+	WHEN MATCHED THEN 
+		UPDATE 
+		 SET e.DEPTNO = 20
+		 WHERE e.JOB ='ANALYST'
+		 DELETE 
+		 WHERE e.JOB != 'ANALYST';
+
+
+		 
+>>>>>>> 20899f9b6dfaa86e00c083368aae6950a8743899
