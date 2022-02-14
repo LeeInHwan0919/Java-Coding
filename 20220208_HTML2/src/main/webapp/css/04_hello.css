@@ -1,0 +1,28 @@
+@charset "UTF-8";
+table {
+	width : 600px;
+	border : 3px solid pink;
+	border-collapse : collapse;
+	text-align : center;
+	margin: 20px;
+	
+}
+
+tr, td, th{
+	border : 1px solid #000000;
+	padding : 10px;
+}
+
+
+#container01{
+	width : 800px;
+	text-align: center; /* 글자를 옮기는 것*/
+	margin: 20px auto;
+	
+}
+
+#container01>table{
+	width : 50%;
+	text-align : right;
+	margin: 20px auto;
+}

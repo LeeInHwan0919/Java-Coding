@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>메타데이터 속성</title>
+<link rel="icon" href="./image/favicon.ico" type="image/x-icon">
+<!-- 화면의 크기를 사용하고 있는 장치의 width를 1비율로 설정 하겠다. -->
+<meta name="viewport" content="width=devide-width, initial-scale=1">
+<!-- 페이지의 콘텐츠들의 문서 특징을 부여 한다. -->
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<!-- refresh -->
+<meta http-equiv="refresh" content="60;">
+<!-- 키워드 검색 -->
+<meta name="keywords" content="HTML Goodee">
+<style type="text/css">
+/*
+		id는 화면(document)의 값 : 단 한개만 존재해야 함.
+		name은 여러개 선언이 가능 > name으로 처리된 String의 값을 key로 받아서 WAS에 전달. 같은 name 여러개 라면 String[]
+		tag 여러개 선언이 가능 > WAS로 전달하지 못함> javascript처리	> nodelist / document.getElementsByTagName('div');
+	
+		셀렉터 : CSS 및 jQuery에서 사용하는 용어 => document에서 element를 탐색
+		우선 순위 : id(100), class(10), tag(1) > 우선순위 계산법 ex) div#name(tag#id) => 101
+		
+		검색(선택)
+		p, div : p 와 div를 선택하겠다.
+		div em : div 하위에 있는 em을 선택 ex) <div><b><em></em></b></div>, <div><em></em></div>
+		div>em : div 바로 아래 있는 em만을 선택 ex) <div><em></em></div>
+*/
+div {
+	background-color: black;
+}
+	/*
+		상위 태그는 하위 태그에 영향을 준다.
+	*/
+li {
+	background-color: white;
+}
+
+.b {
+	color: green;
+}
+
+/*
+	셀렉터 중 ID는 100의 점수를 가진다.
+*/
+#a{
+	color: blue;
+}
+
+div#a{
+	color: #ccc;
+}
+</style>
+</head>
+<body>
+	<h2>블럭요소</h2>
+	<div id="a" class="b">
+		<!-- 영역 요소 -->
+		<p>p 는 블럭요소</p>
+		<ul>
+			<li>블럭요소 1</li>
+			<li>블럭요소 2</li>
+		</ul>
+	</div>
+
+	<div>
+		<!-- 인라인요소 포함, 콘텐츠만큼 영역을 가짐 -->
+		<span>SpanA</span><span>SpanB</span>
+		<p>지금 비가 오고 있습니다. 내일은 추워질것 같습니다.</p>
+		내일은 조금 더 따뜻한 옷을 입고 오세요<br> 오늘은 내일의 준비입니다.
+	</div>
+</body>
+</html>

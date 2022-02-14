@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML에서 CSS적용방법</title>
+<style type="text/css">
+/* 무조건 CSS는 <style>에 작성을 하는데 반드시 <head></head>태그 안에 있어야함 */
+/*
+ 작성 방식은 inline, embaded, linked
+ 1) id 100 -> class 10 -> tag명 1
+ 2) 같은 구조라면 하위에서 선언한 코드가 상위 코드로 오버라이드 함
+ 3) 무조건 inline방식이 최우선 
+*/
+body{
+	/* 상위 CSS로 선언하면 하위는 그대로 영향을 받아서 변경된다*/
+	/* 셀렉터 중 tag명으로 선택 */
+	/* 크기를 선정하는 값 px단위, 비율 %, em, 폰트 pt, mm */
+	
+ 		border : 2px solid green; /* 위/아래/오른쪽/왼쪽 모두 2px 그리고 그린*/ 
+		background-color: #D3FFFF; /* 배경색 글자로 쓰는 방법 , #2652652565, rgb(256,256,256) */
+		margin: 0px 20%; /* 위 아래 0px , 오른쪽 왼쪽 20%*/
+		margin-right : 30%; /* 선행되어있는 margin을 오버라이드함 */
+		padding : 15px;
+		padding-left : 100px;
+		
+		
+		 font-family : monospace, sans-serif; /* 글꼴 */
+		 
+}
+	/*같은등급이라면 오버라드 된다*/
+	p{
+		background-color : white;
+	}
+</style>
+</head>
+<body>
+	<div style = "font-size : 20px;">
+		<p style = "background-color: yellow;">오늘도 HTML 즐겁다</p>
+		<font style = "color: tomato; font-size : 10px;">오늘 하루도 수고 하셨습니다</font>
+		
+	</div>
+
+
+</body>
+</html>
