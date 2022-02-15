@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.min.edu.model.InsertDaoImpl">
+
+
+<insert id="insertAdmin" parameterType="advo">
+<selectKey keyProperty="seq" resultType="int" order="BEFORE">
+    select SEQ.nextval FROM DUAL
+  </selectKey>
+INSERT INTO BD.ADMIN
+			(seq, ID, PW)
+			VALUES(#{seq} ,#{id}, #{pw})
+</insert>
+</mapper>
