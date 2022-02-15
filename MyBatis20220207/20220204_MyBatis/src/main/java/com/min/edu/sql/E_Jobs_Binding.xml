@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.min.edu.model.JobsBindingDaoImpl">
+
+<select id="binding01" parameterType="java.util.Map" resultType="jobsvo">
+
+	SELECT JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY
+		FROM JOBS
+		WHERE #{column} = #{value}
+
+</select>
+
+<select id="binding02" parameterType="java.util.Map"
+						resultType="jobsvo">
+
+SELECT JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY
+FROM JOBS j
+<!-- WHERE JOB_ID LIKE #{val} -->
+	WHERE JOB_ID LIKE #{val}||'%'
+	
+<!-- WHERE JOB_ID LIKE '%${val}%' -->
+</select>
+
+</mapper>
