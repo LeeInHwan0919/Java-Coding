@@ -28,8 +28,27 @@
 					"@dbeaver-connection-type@": "BASIC",
 					"@dbeaver-sid-service@": "SERVICE"
 				},
-				"auth-model": "oracle_native",
-				"handlers": {}
+				"auth-model": "oracle_native"
+			}
+		}
+	},
+	"virtual-models": {
+		"oracle_thin-17efb2beca4-198f879150c8410": {
+			"BD": {
+				":ORDE_LIST": {
+					"properties": {
+						"erd.diagram.state": {
+							"serialized": "<diagram version=\"1\" name=\"empty\" time=\"202202161027\"><entities><data-source id=\"oracle_thin-17efb2beca4-198f879150c8410\"><entity id=\"1\" name=\"ORDE_LIST\" fq-name=\"BD.ORDE_LIST\" order=\"0\" color-bg=\"255,128,64\" x=\"29\" y=\"35\"><path name=\"BD\"/></entity><entity id=\"2\" name=\"SALES_PER_DATE\" fq-name=\"BD.SALES_PER_DATE\" order=\"1\" x=\"30\" y=\"178\"><path name=\"BD\"/></entity></data-source></entities><relations/></diagram>"
+						}
+					}
+				},
+				":ORDER_LIST": {
+					"properties": {
+						"erd.diagram.state": {
+							"serialized": "<diagram version=\"1\" name=\"empty\" time=\"202202161039\"><entities><data-source id=\"oracle_thin-17efb2beca4-198f879150c8410\"><entity id=\"1\" name=\"ORDER_LIST\" fq-name=\"BD.ORDER_LIST\" order=\"0\" color-bg=\"255,128,64\" x=\"20\" y=\"20\"><path name=\"BD\"/></entity><entity id=\"2\" name=\"SALES_PER_DATE\" fq-name=\"BD.SALES_PER_DATE\" order=\"1\" x=\"17\" y=\"172\"><path name=\"BD\"/></entity></data-source></entities><relations/></diagram>"
+						}
+					}
+				}
 			}
 		}
 	},
