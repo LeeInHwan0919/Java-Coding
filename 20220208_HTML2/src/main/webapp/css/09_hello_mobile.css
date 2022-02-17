@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@media screen and (max-width:700px) {
+	body {
+		font-size: small;
+		font-family: Verdana, helvetica, sans-serif;
+		width: 500px;
+		margin: auto;
+		border: 4px double purple;
+		padding: 10px;
+	}
+	p>img {
+		width: 100%
+	}
+	h1, h2 {
+		color: #008000;
+	}
+
+	/* h1의 폰트크기를 변경*/
+	h1 {
+		font-size: 150%;
+	}
+	h2 {
+		font-size: 130%;
+	}
+	#footer {
+		text-align: center;
+		font-size: 50%;
+		line-height: normal;
+		margin-top: 50px;
+		color: #0000ff;
+	}
+	.cd {
+		font-family: cursive;
+	}
+	.edu {
+		font-weight: bold;
+	}
+	a {
+		text-decoration: none;
+	}
+
+	/*한번이라도 클릭을 한적이 있다면 기존에는 갈색 => 보라색으로 변환*/
+	a:visited {
+		color: #9000ff;
+	}
+
+	/*한번이라도 클릭을 한적이 없다면 기존에는 파란색 => 오랜지색*/
+	a:link {
+		color: orange;
+	}
+	a:hover {
+		text-shadow: 1px 1px 2px fuchsia;
+		font-weight: bold;
+	}
+	#item {
+		display: none;
+	}
+	#gurantee {
+		border: 2px dotted white;
+		background-color: #96ebf1;
+		padding: 25px;
+		padding-left: 30px;
+		margin: 30px;
+		/* margin-right:250px; */
+		background-image: url("../images/dm/stamp.png");
+		background-repeat: no-repeat;
+		background-position: top left;
+	}
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.min.edu.model.JobsSelectDaoImpl">
+
+	<!-- 반복되는 쿼리를 선언하여 중복을 제거함 sql 태그 선언 include로 사용-->
+	<sql id="allColumn">
+		SELECT JOB_ID , JOB_TITLE , MIN_SALARY , MAX_SALARY FROM JOBS j
+	</sql>
+	
+	<!-- resultMap 선언된 컬럼의 갯수가 다르거나 혹은 이름이 다른 경우 MyBatisVo의 setter 1:1 매핑을 해주기 위해서 선언-->
+	<resultMap type="jobsvo" id="jobsMap">
+		<!-- column : 쿼리를 통해서 출력되는 컬럼명 / property : DTO/VO의 setter 메소드 이름 -->
+		<result column="ID" property="job_id"/>
+		<result column="TITLE" property="job_title"/>
+		<result column="MINSALARY" property="min_salary"/>
+		<result column="MAXSALARY" property="max_salary"/>
+	</resultMap>
+	
+	<!-- 
+		전달되는 값 parameter 타입에 따라서 사용 방법이 달라짐
+		- Primitive Type의 경우는 객체 클래스에 getter/setter를 가지고 있기 때문에 판단문을 사용할 수 없다
+		- Primitive Type을 사용할 경우 객체가 담겨 있지 않기 때문에 변수명이 정해지지 못하게 됨
+		- Primitive Type의 경우 SQL문에서 값을 자동으로 변경하기 때문에 Object로 전송이 됨
+		- Mybatis에서는 선언을 안해도 됨, java.lang.Integer -> int / Integer
+	 -->
+	<select id="select01" parameterType="java.lang.String" resultType="java.lang.Integer">
+		SELECT MIN_SALARY
+			FROM JOBS
+				WHERE JOB_ID = #{x}
+	</select>
+	
+	<!-- Primitive 타입을 Parameter로 작성하고 결과를 vo로 받음 -->
+	<select id="select02" resultType="jobsvo">
+		<include refid="allColumn"/>
+			WHERE JOB_ID = #{job_id}
+	</select>
+	<!-- Parameter 전달값을 Object로 전달받음. 결과가 vo의 setter와 다른 경우 resultMap사용  -->
+	<select id="select03" resultMap="jobsMap">
+		SELECT JOB_ID ID, JOB_TITLE TITLE, MIN_SALARY MINSALARY, MAX_SALARY MAXSALARY
+			FROM JOBS j
+				WHERE JOB_ID = #{job_id}
+	</select>
+	
+	<!-- 
+		요청되는 SQL이 존재하는데, 값을 담는, 매핌되어 있는 DTO/VO 
+		타입이 같은 DTO가 있으니 사용해서 값을 처리 해달라
+		ex) player(player_name, player_id, height, weight)
+					String		String		int		int	
+		MyBatisVo랑 같은 타입의 구성이다			
+	 -->
+	 <select id="select03_1" resultType="jobsvo">
+	 	SELECT PLAYER_NAME job_id, PLAYER_ID job_title, HEIGHT min_salary, WEIGHT max_salary 
+	 		FROM PLAYER
+	 </select>
+	 
+	 <!-- result java.util.Map -->
+	 <select id="select04" resultType="java.util.Map">
+	 	<include refid="allColumn"/>
+	 </select>
+	 
+	 <!-- Parameter를 여러개 받는 방법 
+	 	DTO/VO getter를 통해서 작동
+	 	or Map key를 통해서 작동-->
+	 <select id="select05" parameterType="jobsvo" resultType="jobsvo">
+		<include refid="allColumn"/>
+		WHERE JOB_ID=#{job_id} and JOB_TITLE = #{job_title}
+	 </select>
+	 
+	 <!--
+	 	Map을 통해서 입력받고 필요한 컬럼 일부분만 매핑하여 사용
+	 	player에서 선수 이름(등번호), 팀번호
+	  -->
+	 <select id="select06" parameterType="java.util.Map" resultMap="jobsMap">
+	 	SELECT PLAYER_NAME || '(' || BACK_NO ||')' AS ID, TEAM_ID TITLE
+	 		FROM PLAYER
+	 		WHERE PLAYER_ID=#{pid}
+	 </select>
+	 
+	 <!-- 
+	 	CDATA처리 문자열이 컴파일되지 않도록 한다
+	 	MIN_SALARY가 1200이하인 사람들의 정보를 출력
+	 -->
+	 <select id="select07" parameterType="java.lang.Object" resultType="jobsvo">
+	 	<include refid="allColumn"/>
+	 	<![CDATA[WHERE MIN_SALARY < #{sal}]]>
+	 </select>
+	 
+</mapper>

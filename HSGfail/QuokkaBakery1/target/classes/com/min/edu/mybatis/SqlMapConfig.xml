@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+
+<!-- property의 value를 가지고 있는 properties 파일을 연결 -->
+<properties resource="properties/db.properties"/>
+<!-- 공통으로 사용되는 DTO/VO의 패키지명.클래스 별칭을 사용하도록 선언 -->
+<typeAliases>
+	<typeAlias type="com.min.edu.vo.AccountVo" alias="acvo"/>
+	<typeAlias type="com.min.edu.vo.AdminVo" alias="advo"/>
+	<typeAlias type="com.min.edu.vo.GoodsVo" alias="gvo"/>
+	<typeAlias type="com.min.edu.vo.InventoryVo" alias="ivo"/>
+</typeAliases>
+<!-- 사용되는 DataSource 객체를 생성 Environments -->
+<environments default="development">
+	<environment id="development">
+		<transactionManager type="JDBC"/>
+		<dataSource type="POOLED">	<!-- pooled 넣어놨다가 쿼리 자동으로 열고 닫음 -->
+			<property name="driver" value="${driver}"/>
+			<property name="url" value="${url}"/>
+			<property name="username" value="${username}"/>
+			<property name="password" value="${password}"/>
+		</dataSource>	
+	</environment>
+</environments>
+<mappers>
+	<mapper resource="com/min/edu/sql/Select.xml"/>
+	<mapper resource="com/min/edu/sql/Insert.xml"/>
+	<mapper resource="com/min/edu/sql/Update.xml"/>
+	<mapper resource="com/min/edu/sql/Delete.xml"/>
+</mappers>
+</configuration>

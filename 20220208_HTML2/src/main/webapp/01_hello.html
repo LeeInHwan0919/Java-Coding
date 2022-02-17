@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>처음시작하는 와우 HTML</title>
+<link rel="icon" type="image/png" sizes="16x16"
+   href="./image/favicon-16x16.png">
+</head>
+<body>
+   <script type="text/javascript">
+      function naver() {
+         //      alert("와우 자바스크립트다~!!");
+         var val = document.getElementById("searchWord").value;
+         alert("와우 돔탐색이다.~!!!~!~!~!");
+         console.log(val);
+         location.href = "https://search.naver.com/search.naver?query=%EB%82%A0%EC%94%A8"
+               + val;
+      }
+   </script>
+
+   <fieldset>
+      <legend>기본 form 요소 사용</legend>
+      <div>
+         <!-- form요소 : 값을 화면에서 입력 받아서 전송할 수 있는 영역  -->
+         <input type="text" id="searchWord">
+         <button onclick="naver()">검색</button>
+      </div>
+   </fieldset>
+
+   <!-- 화면에 그려질 tag와 내용을 작성하는 공간 <body> tag-->
+   <!-- 웹 페이지의 기본 구조는 mark up 구조 well-formed -->
+   <!-- mark up은 열림 tag와 닫힘 tag로 되어 있다. -->
+   <!-- 요소(Element), Node / NodeList/ NodeTree-->
+   <!-- <시작> 콘텐츠 </닫힘> => ex) document.getElementById('id') 
+      콘텐츠 종류 : HTML, TextNode
+      
+   -->
+
+<!-- Head라인 tag document에서 가지고 있는 기본 글자 폰트의 1.5em을 해서 -->
+<h1>web.xml 확인하세요(welcome-file tag)</h1>
+
+
+
+<!-- h1~h6 -->
+<h1>안녕하세요 HTML 입니다.</h1>   <h2>반갑습니다</h2>
+
+<!-- 공백 및 문법을 문자로 인식하는 방법을 사용함 ex)자바:Escape 문자
+   HTML Entity tag
+ -->
+ 
+ <div>
+    entity tag 표 : &lt; &gt; &amp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &copy; 값 
+ </div>
+ <hr>
+<br><br>
+<!-- 영역태그 -->
+<span>안녕하세요</span> <span>안녕하세요2</span> <!--콘텐츠의 크기만큼 공간을 차지 -->
+<div>HTML입니다1</div> <div>HTML입니다2</div><!-- 콘텐츠의 크기가 아닌 한 줄의 영역을 차지함 -->
+
+
+   <!-- 블럭요소는 div 영역을 구분할 때 사용 -->
+   
+   <div>
+      <h1>전 1.5em H!입니다.</h1>
+      <!-- 화면을 이동 제어하는 tag -->
+      <a href="#bottom">
+      바로가기
+      </a>
+      <br>
+      
+      <a target="_blank" title="네이버로 간다." href="https://www.naver.com/">
+         네이버로 새창 열기
+      </a>
+   </div>
+   
+   
+   <br><br><br><br><br><br><br>
+   <br><br><br><br><br><br><br>
+   <div id="bottom">
+      <marquee>휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융휘융</marquee>
+   </div>
+   
+   
+</body>
+</html>

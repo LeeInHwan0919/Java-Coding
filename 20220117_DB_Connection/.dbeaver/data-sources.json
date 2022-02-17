@@ -1,7 +1,7 @@
 {
 	"folders": {},
 	"connections": {
-		"oracle_thin-17e66fbafb7-7c9da13ec87faca8": {
+		"oracle_thin-17efb2beca4-198f879150c8410": {
 			"provider": "oracle",
 			"driver": "oracle_thin",
 			"name": "XE",
@@ -12,7 +12,7 @@
 				"port": "1521",
 				"database": "XE",
 				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
-				"home": "C:\\app\\GDJ44\\product\\21c\\dbhomeXE",
+				"home": "C:\\app\\ldkko\\product\\21c\\dbhomeXE",
 				"type": "dev",
 				"provider-properties": {
 					"show-only-one-schema@": "false",
@@ -33,22 +33,21 @@
 		}
 	},
 	"virtual-models": {
-		"oracle_thin-17e66fbafb7-7c9da13ec87faca8": {
+		"oracle_thin-17efb2beca4-198f879150c8410": {
 			"BD": {
-				":DEPT": {
+				":ORDE_LIST": {
 					"properties": {
 						"erd.diagram.state": {
-							"serialized": "<diagram version=\"1\" name=\"empty\" time=\"202201191259\"><entities><data-source id=\"oracle_thin-17e66fbafb7-7c9da13ec87faca8\"><entity id=\"1\" name=\"STADIUM\" fq-name=\"BD.STADIUM\" order=\"0\" x=\"534\" y=\"207\"><path name=\"BD\"/></entity><entity id=\"2\" name=\"SCHEDULE\" fq-name=\"BD.SCHEDULE\" order=\"1\" x=\"830\" y=\"237\"><path name=\"BD\"/></entity><entity id=\"3\" name=\"TEAM\" fq-name=\"BD.TEAM\" order=\"2\" x=\"293\" y=\"94\"><path name=\"BD\"/></entity><entity id=\"4\" name=\"PLAYER\" fq-name=\"BD.PLAYER\" order=\"3\" x=\"55\" y=\"92\"><path name=\"BD\"/></entity></data-source></entities><relations><relation name=\"SCHEDULE_FK\" fq-name=\"BD.SCHEDULE.SCHEDULE_FK\" type=\"fk\" pk-ref=\"1\" fk-ref=\"2\"/><relation name=\"TEAM_FK\" fq-name=\"BD.TEAM.TEAM_FK\" type=\"fk\" pk-ref=\"1\" fk-ref=\"3\"/><relation name=\"PLAYER_FK\" fq-name=\"BD.PLAYER.PLAYER_FK\" type=\"fk\" pk-ref=\"3\" fk-ref=\"4\"/></relations></diagram>"
+							"serialized": "<diagram version=\"1\" name=\"empty\" time=\"202202161027\"><entities><data-source id=\"oracle_thin-17efb2beca4-198f879150c8410\"><entity id=\"1\" name=\"ORDE_LIST\" fq-name=\"BD.ORDE_LIST\" order=\"0\" color-bg=\"255,128,64\" x=\"29\" y=\"35\"><path name=\"BD\"/></entity><entity id=\"2\" name=\"SALES_PER_DATE\" fq-name=\"BD.SALES_PER_DATE\" order=\"1\" x=\"30\" y=\"178\"><path name=\"BD\"/></entity></data-source></entities><relations/></diagram>"
 						}
 					}
 				},
-				":GOODS": {
+				":ORDER_LIST": {
 					"properties": {
 						"erd.diagram.state": {
-							"serialized": "<diagram version=\"1\" name=\"empty\" time=\"202202121402\"><entities><data-source id=\"oracle_thin-17e66fbafb7-7c9da13ec87faca8\"><entity id=\"1\" name=\"GOODS\" fq-name=\"BD.GOODS\" order=\"0\" x=\"479\" y=\"117\"><path name=\"BD\"/></entity><entity id=\"2\" name=\"INVENTORY\" fq-name=\"BD.INVENTORY\" order=\"1\" x=\"271\" y=\"120\"><path name=\"BD\"/></entity><entity id=\"3\" name=\"ACCOUNT\" fq-name=\"BD.ACCOUNT\" order=\"2\" x=\"283\" y=\"357\"><path name=\"BD\"/></entity><entity id=\"4\" name=\"ADMIN\" fq-name=\"BD.ADMIN\" order=\"3\" x=\"499\" y=\"397\"><path name=\"BD\"/></entity></data-source></entities><relations/></diagram>"
+							"serialized": "<diagram version=\"1\" name=\"empty\" time=\"202202161039\"><entities><data-source id=\"oracle_thin-17efb2beca4-198f879150c8410\"><entity id=\"1\" name=\"ORDER_LIST\" fq-name=\"BD.ORDER_LIST\" order=\"0\" color-bg=\"255,128,64\" x=\"20\" y=\"20\"><path name=\"BD\"/></entity><entity id=\"2\" name=\"SALES_PER_DATE\" fq-name=\"BD.SALES_PER_DATE\" order=\"1\" x=\"17\" y=\"172\"><path name=\"BD\"/></entity></data-source></entities><relations/></diagram>"
 						}
-					},
-					"constraints": {}
+					}
 				}
 			}
 		}

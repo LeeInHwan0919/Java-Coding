@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.min.edu.model.JobsDynamicDaoImpl">
+
+	<sql id="selAll">
+		SELECT JOB_ID , JOB_TITLE , MIN_SALARY , MAX_SALARY
+		FROM
+		JOBS
+	</sql>
+
+	<!-- IF문을 통해서 조건판단을 만든 후 에 where절을 추가할 수 있도록 작성 -->
+	<select id="getJobsIf" parameterType="java.util.Map"
+		resultType="jobsvo">
+		<include refid="selAll" />
+		<where>
+			<if test="job_id != 'IT_PROG'">
+				JOB_ID = #{job_id}
+			</if>
+		</where>
+
+	</select>
+
+	<!-- Iterator 를 통한 쿼리문 생성 IN절의 (값, 값, 값...) 문장 생성 -->
+	<select id="getJobsList" parameterType="java.util.List"
+		resultType="jobsvo">
+		<include refid="selAll" />
+		WHERE JOB_ID IN
+		<!-- 만약에 전달받은 Parameter 의 타입이 List라면 list를 작성한다 -->
+		<foreach collection="list" item="job_id" open="("
+			separator="," close=")">
+			#{job_id}
+		</foreach>
+	</select>
+
+	<select id="getJobsMap" parameterType="java.util.Map"
+		resultType="jobsvo">
+		<include refid="selAll" />
+		WHERE JOB_ID IN
+		<!-- 만약에 전달받은 Parameter 의 타입이 Map라면 key를 작성한다 -->
+		<foreach collection="ids" item="job_id" open="(" separator=","
+			close=")">
+			#{job_id}
+		</foreach>
+	</select>
+
+	<!-- Choose 선택문 여러개의 when(조건) 중 하나가 선택될 경우 작동 -->
+	<select id="getJobsChoose" parameterType="jobsvo"
+		resultType="jobsvo">
+		<include refid="selAll" />
+		<where>
+			<choose>
+				<when test="job_id !=null">
+					JOB_ID = #{job_id}
+				</when>
+				<when test="job_title !=null">
+					JOB_TITLE = #{job_title}
+				</when>
+				<otherwise></otherwise>
+			</choose>
+		</where>
+	</select>
+
+	<select id="getJobsTrim" parameterType="jobsvo"
+		resultType="jobsvo">
+
+		<include refid="selAll" />
+		<trim prefix="WHERE" prefixOverrides="AND"><!-- 변경할 값, 대상 -->
+			<if test="job_id != null">
+				JOB_ID = #{job_id}
+			</if>
+			<if test="job_title != null">
+				AND JOB_TITLE = #{job_title}
+			</if>
+		</trim>
+
+	</select>
+
+	<delete id="updateJobsSet" parameterType="jobsvo">
+		UPDATE JOBS
+		<set>
+			<if test="job_id != null">
+				JOB_ID = #{job_id},
+			</if>
+			<if test="job_title != null">
+				JOB_TITLE = #{job_title}
+			</if>
+		</set>
+		WHERE JOB_ID='IT+PROG'
+	</delete>
+	
+	<delete id="updateJobsTrim" parameterType="jobsvo">
+		UPDATE JOBS
+		<trim prefix="SET" suffixOverrides=",">
+			<if test="job_title != null">
+				JOB_TITLE = #{job_title},
+			</if>
+			<if test="min_salary > 0">
+				MIN_SALARY = #{min_salary},
+			</if>
+		</trim>
+		WHERE JOB_ID='IT_PROG'
+	</delete>
+
+
+</mapper>

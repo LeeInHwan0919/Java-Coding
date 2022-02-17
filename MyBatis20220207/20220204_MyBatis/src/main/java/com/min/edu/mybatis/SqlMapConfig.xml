@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+
+<!-- property의 value를 가지고 있는 properties 파일을 연결 -->
+<properties resource="properties/db.properties"/>
+
+<!-- 공통으로 사용되는 DTO/VO의 패키지명.클래스 별칭을 사용하도록 선언 -->
+<typeAliases>
+	<typeAlias type="com.min.edu.vo.MyBatisVo" alias="jobsvo"/>
+</typeAliases>
+<!-- 사용되는 DataSource 객체를 생성 Environments -->
+<environments default="development">
+	<environment id="development">
+		<transactionManager type="JDBC"/>
+		<dataSource type="POOLED">	
+			<property name="driver" value="${driver}"/>
+			<property name="url" value="${url}"/>
+			<property name="username" value="${username}"/>
+			<property name="password" value="${password}"/>
+		</dataSource>	
+	</environment>
+</environments>
+<mappers>
+	<mapper resource="com/min/edu/mybatis/A_Jobs_Mapper.xml"/>
+	<mapper resource="com/min/edu/sql/B_Jobs_Select.xml"/>
+	<mapper resource="com/min/edu/sql/C_Jobs_IDU.xml"/>
+	<mapper resource="com/min/edu/sql/D_Info_selectkey.xml"/>
+	<mapper resource="com/min/edu/sql/E_Jobs_Binding.xml"/>
+	<mapper resource="com/min/edu/sql/F_Jobs_Dynamic.xml"/>
+</mappers>
+</configuration>

@@ -1,0 +1,5 @@
+SELECT *
+FROM ACCOUNT a ;
+
+SELECT *
+FROM JOBS j ;

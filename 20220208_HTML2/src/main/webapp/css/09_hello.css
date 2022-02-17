@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+body{
+	font-size: small;
+	font-family: Verdana, helvetica, sans-serif;
+	width: 980px;
+	margin: auto;
+	border: 4px double purple;
+	padding: 10px;
+	
+}
+
+p>img{
+	width:100%
+}
+
+h1, h2{
+	color: #008000;
+}
+
+/* h1의 폰트크기를 변경*/
+
+h1{
+	font-size: 150%;
+}
+h2{
+	font-size: 130%;
+}
+
+#footer{
+	text-align: center;
+	font-size: 50%;
+	line-height: normal;
+	margin-top: 50px;
+	color: #0000ff;
+}
+
+.cd{
+	font-family:cursive;
+}
+
+.edu{
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*한번이라도 클릭을 한적이 있다면 기존에는 갈색 => 보라색으로 변환*/
+a:visited{
+	color: #9000ff;
+}
+
+/*한번이라도 클릭을 한적이 없다면 기존에는 파란색 => 오랜지색*/
+a:link{
+	color:orange;
+}
+
+a:hover{
+	text-shadow: 1px 1px 2px fuchsia; 
+	font-weight: bold;
+}
+
+/*item 영역을 오른쪽에 배치하여 띄움*/
+#item{
+	border:thin solid#c0c0c0;
+	padding: 0px 20px 20px 30px;
+	width: 150px;
+	text-align: center;
+	float:right;
+	line-height: 1.2;
+	
+	background-image: url("../images/dm/star.png");
+	background-repeat: repeat-x;
+	background-position: top, bottom;
+}
+
+#gurantee{
+	border:3px dotted white;
+	background-color: #96ebf1;
+	padding: 25px;
+	padding-left:30px;
+	margin:30px;
+	margin-right:250px;
+	
+	background-image: url("../images/dm/stamp.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+
+#item h2 {
+   border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+}
+
+#item h3 { text-shadow: 0 0 20px #fefcc9,
+         10px -10px 30px #feec85,
+         -20px -20px 40px #ffae34,
+         20px -40px 50px #ec760c,
+         -20px -60px 60px #cd4606,
+         0 -80px 70px #973716,
+         10px -90px 80px #451b0e;
+}
+
+
+
+
+

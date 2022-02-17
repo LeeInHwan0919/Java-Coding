@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--  작성하는 HTML 기본 인코딩 형식 -->
+<meta charset="UTF-8">
+<!-- 화면의 스케일 크기를 작동시키는 브라우저 기기의 크기에 맞춰 자동으로 1비율로 만든다  모바일에서 잘 보인다 -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HTML 정리</title>
+<link rel="stylesheet" href="./css/05_hello.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">WebSiteName</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">게시판</a></li>
+							<li><a href="#">새글쓰기</a></li>
+							<li><a href="#">결재</a></li>
+						</ul></li>
+					<li><a href="#">Page 2</a></li>
+					<li><a href="#">Page 3</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span>
+							Sign Up</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
+							Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="container">
+		<!-- h1 블럭요소 -->
+		<a target="_blank"
+			href="http://192.168.219.159:8099/Hello/external/exHello.html">
+			다른 사이드 이동 </a>
+
+		<h1>20220211 코로나 발생 2년차</h1>
+		<div>
+			<strong>내일 따뜻합니다</strong> 내일은 12일
+		</div>
+
+		<p>오늘 하루도 2/3가 지나가고 있습니다</p>
+
+		<!-- q tag는 inline 요소 -->
+		<!-- blockquoute는 블록요소 그렇기 때문에 고유한 영역을 가지고 있음 따라서 다른 블럭 요소인 h1등은 사용하지 못함 -->
+		<!-- <div><blockquote></blockquote></div> -->
+		<!-- <h1><blockquote></blockquote></h1> -->
+		<!-- <p><blockquote></blockquote></p> -->
+
+		<blockquote>
+			오늘은 즐거운 식사와 <em><q>만찬</q></em>이 준비되어있습니다. 내일을 위한 오늘을 만들어 봅시다.
+		</blockquote>
+
+		<h2>2022년 2월 11일</h2>
+		<img alt="푸틴" src="./images/footin.jpg" class="img-thumbnail">
+		<p>
+			이제 드디어 <q>자바를 마무리하고</q><br> 초중반을 달리고있다.<br> 누군가 끝이 아닌 시작의
+			연결고리가 되고자한다
+		</p>
+
+		<h2 id="point" onclick="javascript:alert('클릭했넹')">
+			<time>2022년 2월 10일</time>
+		</h2>
+		<img alt="시작" src="./images/poketmon.png">
+
+		<p>
+			오늘은 HTML을 배우고 서버 사이드 개발과 <br> 내가 개발하고자 하는 사이트의 디자인 작업을 했다<br>
+			이쁜 디자인과 편리한 기능이 많게 만들고싶다.
+		</p>
+
+		<!-- 
+			HTML 리스트요소
+			UL : 순서가 없는 리스트
+			OL : 순서가 있는 리스트
+		 -->
+
+		<ol>
+			<li>JAVA</li>
+			<li>DB</li>
+			<li>HTML</li>
+			<li><img alt="" src="./images/javascript.png"> JAVASCRIPT
+			</li>
+		</ol>
+
+
+		<button>버튼</button>
+	</div>
+
+</body>
+</html>

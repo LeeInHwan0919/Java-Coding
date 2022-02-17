@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"resources":{"Scripts/Quokka.sql":{"sql-editor-data-source-id":"oracle_thin-17e66fbafb7-7c9da13ec87faca8","default-datasource":"oracle_thin-17e66fbafb7-7c9da13ec87faca8","default-schema":"BD"},"Scripts/Script.sql":{"sql-editor-data-source-id":"oracle_thin-17e66fbafb7-7c9da13ec87faca8","default-datasource":"oracle_thin-17e66fbafb7-7c9da13ec87faca8","default-schema":"BD"}}}
+=======
+{"resources":{"Scripts/20220215_window_function.sql":{"default-schema":"BD","sql-editor-data-source-id":"oracle_thin-17efb2beca4-198f879150c8410","default-datasource":"oracle_thin-17efb2beca4-198f879150c8410"},"Scripts/20220216_PL.sql":{"sql-editor-data-source-id":"oracle_thin-17efb2beca4-198f879150c8410","default-datasource":"oracle_thin-17efb2beca4-198f879150c8410","default-schema":"BD"}}}
+>>>>>>> c6e00ffad12560fce86f3b6260ea247b0b94ee48

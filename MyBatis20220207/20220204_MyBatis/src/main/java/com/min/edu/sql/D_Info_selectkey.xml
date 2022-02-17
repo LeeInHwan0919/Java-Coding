@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.min.edu.model.InfoSelectkeyDaoImpl">
+
+<insert id="insertinfo" parameterType="com.min.edu.vo.InfoVo">
+<selectKey keyProperty="seq" resultType="java.lang.Integer" order="BEFORE"> 
+	SELECT INFO_SEQ.NEXTVAL AS SEQ FROM DUAL
+</selectKey>
+
+INSERT INTO INFO(SEQ, NAME, PHONE , REGDATE)
+	VALUES(#{seq}, #{name},#{phone}, SYSDATE)
+</insert>
+
+<select id="selectOneOInfo" parameterType="com.min.edu.vo.InfoVo" resultType="com.min.edu.vo.InfoVo">
+SELECT SEQ, NAME, PHONE , AUTH, REGDATE
+	FROM INFO i 
+		WHERE SEQ = #{seq}
+</select>
+</mapper>
