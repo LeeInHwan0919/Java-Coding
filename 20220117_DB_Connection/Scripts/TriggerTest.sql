@@ -129,11 +129,17 @@ CREATE TABLE 입고(
 	입고금액 NUMBER
 );
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> e145725c0575325a645bf503f24c00c8ee6bc981
 -- 입고시퀀스
 CREATE SEQUENCE 입고_SEQ
  START WITH 1 INCREMENT BY 1 NOCYCLE NOCACHE;
 
 -- DUMMY 값
+<<<<<<< HEAD
 INSERT INTO GD.상품
 (상품코드, 상품명, 제조자, 소비자가격)
 VALUES('a001', '마우스', '삼성', 1000);
@@ -141,12 +147,27 @@ INSERT INTO GD.상품
 (상품코드, 상품명, 제조자, 소비자가격)
 VALUES('a002', '키보드', 'LG', 2000);
 INSERT INTO GD.상품
+=======
+INSERT INTO 상품
+(상품코드, 상품명, 제조자, 소비자가격)
+VALUES('a001', '마우스', '삼성', 1000);
+INSERT INTO 상품
+(상품코드, 상품명, 제조자, 소비자가격)
+VALUES('a002', '키보드', 'LG', 2000);
+INSERT INTO 상품
+>>>>>>> e145725c0575325a645bf503f24c00c8ee6bc981
 (상품코드, 상품명, 제조자, 소비자가격)
 VALUES('a003', '모니터', '알파스캔', 5000);
 
 SELECT *
 	FROM 상품;
 
+<<<<<<< HEAD
+=======
+SELECT *
+	FROM 입고;
+
+>>>>>>> e145725c0575325a645bf503f24c00c8ee6bc981
 -- 입력 트리거(입고 테이블에 상품이 입력이 되었을 때 재고를 증가시킴)
 -- 입고테이블에 키보드가 10개가 입고 되었을 때, 상품 테이블의 a002의 상품 재고를 0에서 10으로 변경
 CREATE OR REPLACE TRIGGER PRODUCT_INSERT
@@ -158,7 +179,11 @@ CREATE OR REPLACE TRIGGER PRODUCT_INSERT
 	END;
 
 INSERT INTO 입고
+<<<<<<< HEAD
 (입고번호, 상품코드, 입고수량, 입고단가, 입고금액)
+=======
+(입고번호, 상품코드, 입고수량, 입고단가, 입고금액)	
+>>>>>>> e145725c0575325a645bf503f24c00c8ee6bc981
 VALUES(입고_SEQ.NEXTVAL, 'a002', 10, 1000, 10000);
 
 -- 수량 변경

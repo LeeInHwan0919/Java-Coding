@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form 연습</title>
+</head>
+<body>
+	<form action="https://starbuzzcoffee.com/processorder.php" method="POST">
+	<input type="submit" value="전송">
+	<input type="reset" value="초기화">
+	<fieldset>
+		<legend>input 요소별 작성 방법</legend>
+		<div>
+			<label for="beans">
+				커피를 선택해 주세요 :
+			</label>
+			<select id="beans" name="beans">
+				<option>케냐AA</option>
+				<option>아아</option>
+				<option selected>프라푸치노</option>
+				<option>아포카토</option>
+			</select>
+		</div>
+		<hr>
+		<div>
+			<label>radio button</label>
+			<!-- name이 같으면 같은 그룹으로 되어 선택된 하나의 값만 전송 -->
+			<p>
+				<input type="radio" name="beantype" value="medium">Medium
+				<input type="radio" name="beantype" value="large" checked>Large
+			</p>
+		</div>
+		<hr>
+		<div>
+			<label>number</label>
+			<input type="number" name="bags" min="0" max="3">
+		</div>
+		<hr>
+		<div>
+			<label>date</label>
+			<input type="date" name="date" value="1111-11-11">
+		</div>
+		<hr>
+		<div>
+			<label>text</label>
+			<input type="text" name="address" placeholder="주소" value="서울" maxlength="5" required="required" ><br>
+			<input type="text" name="name" placeholder="이름" value="이인환" required="required"><br>
+			<input type="text" name="city" placeholder="도시명" value="관악구" required="required"><br>
+		</div>
+		<hr>
+		<div>
+			<label>checkbox</label>
+			<input type="checkbox" name="extras[]" value="apple"> 사과<br>
+			<input type="checkbox" name="extras[]" value="banana"> 바나나<br>
+		</div>
+		<hr>
+		<div>
+			<label>textarea</label>
+			<textarea rows="5" cols="50" name="comments">안녕하세요</textarea>
+		</div>
+	</fieldset>
+	
+	</form>
+</body>
+<script type="text/javascript">
+	//java 정적변수, javascript 동적변수
+	let d = new Date('2022-02-17');
+	console.log(d.toLocaleString(), '2022-02-18');
+// alert(d);
+	console.log(d.getFullYear(), d.getMonth(),d.getDate());
+	var year = d.getFullYear();
+	var month = d.getMonth()+1;
+	var str = 'korea';
+	var date = d.getDate();
+	console.log(month.toString().length)
+	
+	function two(month){
+		return month.toString().length > 1?month.toString:'0'+month;
+	}
+	
+	console.log(two(month));
+	
+	var dateForm = year + '-' + two(month) + '-'+ date
+	console.log(dateForm);
+	
+	/* var dates = document.getElementsByName("date")[0];
+	console.log(dates); */
+	/* var dates = document.getElementsByName("date")[0].value;
+	console.log(dates) */
+	
+	var dates = document.getElementsByName("date")[0].value = date;
+</script>
+</html>
