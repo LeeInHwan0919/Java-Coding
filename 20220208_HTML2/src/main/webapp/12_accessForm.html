@@ -7,6 +7,7 @@
 <body>
 	<form action="https://starbuzzcoffee.com/processorder.php" method="POST">
 	<input type="submit" value="전송">
+	<input type="reset" value="초기화">
 	<fieldset>
 		<legend>input 요소별 작성 방법</legend>
 		<div>
@@ -37,11 +38,56 @@
 		<hr>
 		<div>
 			<label>date</label>
-			<input type="date" name="date" value="2022-12-18">
+			<input type="date" name="date" value="1111-11-11">
 		</div>
-		
+		<hr>
+		<div>
+			<label>text</label>
+			<input type="text" name="address" placeholder="주소" value="서울" maxlength="5" required="required" ><br>
+			<input type="text" name="name" placeholder="이름" value="이인환" required="required"><br>
+			<input type="text" name="city" placeholder="도시명" value="관악구" required="required"><br>
+		</div>
+		<hr>
+		<div>
+			<label>checkbox</label>
+			<input type="checkbox" name="extras[]" value="apple"> 사과<br>
+			<input type="checkbox" name="extras[]" value="banana"> 바나나<br>
+		</div>
+		<hr>
+		<div>
+			<label>textarea</label>
+			<textarea rows="5" cols="50" name="comments">안녕하세요</textarea>
+		</div>
 	</fieldset>
 	
 	</form>
 </body>
+<script type="text/javascript">
+	//java 정적변수, javascript 동적변수
+	let d = new Date('2022-02-17');
+	console.log(d.toLocaleString(), '2022-02-18');
+// alert(d);
+	console.log(d.getFullYear(), d.getMonth(),d.getDate());
+	var year = d.getFullYear();
+	var month = d.getMonth()+1;
+	var str = 'korea';
+	var date = d.getDate();
+	console.log(month.toString().length)
+	
+	function two(month){
+		return month.toString().length > 1?month.toString:'0'+month;
+	}
+	
+	console.log(two(month));
+	
+	var dateForm = year + '-' + two(month) + '-'+ date
+	console.log(dateForm);
+	
+	/* var dates = document.getElementsByName("date")[0];
+	console.log(dates); */
+	/* var dates = document.getElementsByName("date")[0].value;
+	console.log(dates) */
+	
+	var dates = document.getElementsByName("date")[0].value = date;
+</script>
 </html>
