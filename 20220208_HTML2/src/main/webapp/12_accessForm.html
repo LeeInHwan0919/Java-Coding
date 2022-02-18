@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form 연습</title>
+</head>
+<body>
+	<form action="https://starbuzzcoffee.com/processorder.php" method="POST">
+	<input type="submit" value="전송">
+	<fieldset>
+		<legend>input 요소별 작성 방법</legend>
+		<div>
+			<label for="beans">
+				커피를 선택해 주세요 :
+			</label>
+			<select id="beans" name="beans">
+				<option>케냐AA</option>
+				<option>아아</option>
+				<option selected>프라푸치노</option>
+				<option>아포카토</option>
+			</select>
+		</div>
+		<hr>
+		<div>
+			<label>radio button</label>
+			<!-- name이 같으면 같은 그룹으로 되어 선택된 하나의 값만 전송 -->
+			<p>
+				<input type="radio" name="beantype" value="medium">Medium
+				<input type="radio" name="beantype" value="large" checked>Large
+			</p>
+		</div>
+		<hr>
+		<div>
+			<label>number</label>
+			<input type="number" name="bags" min="0" max="3">
+		</div>
+		<hr>
+		<div>
+			<label>date</label>
+			<input type="date" name="date" value="2022-12-18">
+		</div>
+		
+	</fieldset>
+	
+	</form>
+</body>
+</html>
