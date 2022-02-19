@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.min.edu.model.SelectDaoImpl">
+
+<resultMap type="advo" id="adMap">
+	<result column="SEQ" property="seq"/>
+	<result column="ID" property="id"/>
+	<result column="PW" property="pw"/>
+</resultMap>
+<resultMap type="acvo" id="acMap">
+	<result column="AC_CODE" property="ac_code"/>
+	<result column="AC_NAME" property="ac_name"/>
+	<result column="AC_REGNUM" property="ac_regnum"/>
+	<result column="REGDATE" property="regdate"/>
+	<result column="AC_TEL" property="ac_tel"/>
+	<result column="CEO_NAME" property="ceo_name"/>
+</resultMap>
+<resultMap type="gvo" id="gMap">
+	<result column="G_CODE" property="g_code"/>
+	<result column="G_NAME" property="g_name"/>
+	<result column="PRICE" property="price"/>
+</resultMap>
+	
+<resultMap type="ivo" id="iMap">
+	<result column="G_CODE" property="g_code"/>
+	<result column="G_AMOUNT" property="g_amount"/>
+	<result column="M_REGDATE" property="m_regdate"/>
+</resultMap>
+
+
+	<!-- 비밀번호 찾기 이인환-->
+<select id="selectPW" parameterType="advo" resultType="advo">
+		SELECT ID, PW, NAME, BIRTHDATE, PHONENUM
+		FROM ADMIN
+		WHERE ID = #{id} and NAME = #{name}
+</select>
+
+	<!-- 아이디 찾기 이인환-->
+<select id="selectID" parameterType="advo" resultType="advo">
+		SELECT ID, PW, NAME, BIRTHDATE, PHONENUM
+		FROM ADMIN
+		WHERE NAME = #{name} and PHONENUM = #{phonenum}
+</select>
+
+	<!-- 로그인 ID, PW 이인환-->
+<select id="Login" parameterType="advo" resultType="advo">
+        SELECT ID, PW, NAME, BIRTHDATE, PHONENUM
+		FROM ADMIN
+         WHERE ID = #{id} and PW = #{pw}
+</select>
+
+<!-- 거래처 전체조회 -한슬기-->
+<select id="selectAll" resultType="acvo">
+	SELECT AC_CODE ac_code, AC_NAME ac_name, AC_REGNUM ac_regnum, REGDATE regdate, AC_TEL ac_tel, CEO_NAME ceo_name
+		FROM ACCOUNT 
+</select>
+		
+<!-- 거래처명으로 조회 -한슬기-->
+<select id="selectAcName" resultMap="acMap">
+	SELECT AC_CODE ac_code, AC_NAME ac_name, AC_REGNUM ac_regnum, REGDATE regdate, AC_TEL ac_tel, CEO_NAME ceo_name
+		FROM ACCOUNT
+		WHERE AC_NAME= #{ac_name} 
+</select>
+
+<!-- 전화번호로 조회 -한슬기-->
+<select id="selectAcTel" resultMap="acMap">
+	SELECT AC_CODE ac_code, AC_NAME ac_name, AC_REGNUM ac_regnum, REGDATE regdate, AC_TEL ac_tel, CEO_NAME ceo_name
+		FROM ACCOUNT
+		WHERE AC_TEL= #{ac_tel} 
+</select>
+
+<!-- 사업자 등록번호로 조회 -한슬기-->
+<select id="selectAcRegnum" resultMap="acMap">
+	SELECT AC_CODE ac_code, AC_NAME ac_name, AC_REGNUM ac_regnum, REGDATE regdate, AC_TEL ac_tel, CEO_NAME ceo_name
+		FROM ACCOUNT
+		WHERE AC_REGNUM= #{ac_regnum} 
+</select>
+
+<!-- 대표명으로 조회 -한슬기-->
+<select id="selectCEO" resultMap="acMap">
+	SELECT AC_CODE ac_code, AC_NAME ac_name, AC_REGNUM ac_regnum, REGDATE regdate, AC_TEL ac_tel, CEO_NAME ceo_name
+		FROM ACCOUNT
+		WHERE CEO_NAME= #{ceo_name} 
+</select>
+
+<!-- 거래처코드로 조회 -한슬기-->
+<select id="selectAcCode" resultMap="acMap">
+	SELECT AC_CODE ac_code, AC_NAME ac_name, AC_REGNUM ac_regnum, REGDATE regdate, AC_TEL ac_tel, CEO_NAME ceo_name
+		FROM ACCOUNT
+		WHERE AC_CODE= #{ac_code} 
+</select>
+
+<!-- 황인경 상품 코드로 조회 -->
+<select id="selectGoodsCode" resultMap="gMap">
+ 	SELECT G_CODE g_code, G_NAME g_name, PRICE price
+ 	FROM GOODS
+ 	WHERE G_CODE = #{g_code}
+	
+</select>
+<!-- 황인경 상품 이름으로 조회 -->
+<select id="selectGoodsName" resultMap="gMap">
+ 	SELECT G_CODE g_code, G_NAME g_name, PRICE price
+ 	FROM GOODS
+ 	WHERE G_NAME = #{g_name}
+	
+</select>
+<!-- 황인경 상품 목록 조회 -->
+<select id="selectGoodsAll" resultType="gvo">
+ 	SELECT G_CODE g_code, G_NAME g_name, PRICE price
+ 	FROM GOODS
+</select>
+
+<!-- 김휘웅 재고 전체조회 -->
+<select id="selectInventory" resultType="ivo">
+	SELECT G_CODE g_code, G_NAME g_name, G_AMOUNT g_amount, M_REGDATE m_regdate
+		FROM INVENTORY 
+</select>
+		
+<!--  김휘웅  재고 1줄 조회-->		
+<select id="selectInventory02" resultMap="iMap">
+	SELECT 	G_CODE g_code, G_NAME g_name, G_AMOUNT g_amount, M_REGDATE m_regdate 
+	 		FROM INVENTORY
+	 		WHERE G_NAME = #{g_name}
+</select>		
+
+</mapper>

@@ -47,8 +47,6 @@
     <fullyQualifiedTypeName name="com.min.edu.model.JobsSelectDaoImpl"/>
     <fullyQualifiedTypeName name="com.min.edu.vo.MyBatisVo"/>
     <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="org.hamcrest.core.SubstringMatcher"/>
     <fullyQualifiedTypeName name="jdk.vm.ci.meta.JavaKind.FormatWithToString"/>
     <fullyQualifiedTypeName name="java.util.List"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.min.edu.vo.AccountVo"/>
     <fullyQualifiedTypeName name="com.min.edu.vo.GoodsVo"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
