@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.min.edu.model.UpdateDaoImpl">
+
+
+<resultMap type="advo" id="adMap">
+	<result column="SEQ" property="seq"/>
+	<result column="ID" property="id"/>
+	<result column="PW" property="pw"/>
+
+</resultMap>
+
+<!-- 비밀번호 변경 update -->
+<update id="updatepw" parameterType="java.util.Map">
+UPDATE ADMIN SET PW = #{newpw}
+	WHERE PW = #{oldpw}
+</update>
+
+
+</mapper>
