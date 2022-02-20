@@ -86,13 +86,13 @@ public class MyBatis_JUnit4 {
 	}
 	//Admin계정 추가
 //    @Test
-    public void insertAdmin() {
-        IInsertDao dao = new InsertDaoImpl();
-        AdminVo vo = new AdminVo("Test", "test", "한슬기","1993-08-16","01012345679");
-        int row = dao.insertAdmin(vo);
-        assertEquals(row, 1);
-        
-    }
+//    public void insertAdmin() {
+//        IInsertDao dao = new InsertDaoImpl();
+//        AdminVo vo = new AdminVo("Test", "test", "한슬기","1993-08-16","01012345679");
+//        int row = dao.insertAdmin(vo);
+//        assertEquals(row, 1);
+//        
+//    }
 
 //	@Test
 	public void selectAll() { //거래처 전체조회 -한슬기

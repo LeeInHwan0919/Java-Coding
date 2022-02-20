@@ -1,7 +1,7 @@
 {
 	"folders": {},
 	"connections": {
-		"oracle_thin-17efb2beca4-198f879150c8410": {
+		"oracle_thin-17f155df6b7-5217632b79f2f0b8": {
 			"provider": "oracle",
 			"driver": "oracle_thin",
 			"name": "XE",
@@ -15,6 +15,8 @@
 				"home": "C:\\app\\ldkko\\product\\21c\\dbhomeXE",
 				"type": "dev",
 				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE",
 					"show-only-one-schema@": "false",
 					"@dbeaver-check-schema-content@": "false",
 					"@dbeaver-always-show-dba@": "false",
@@ -24,38 +26,10 @@
 					"@dbeaver-use-rule-hint@": "false",
 					"@dbeaver-use-meta-optimizer@": "false",
 					"@dbeaver-meta-use-alternative-table-query@": "false",
-					"oracle.meta-search-in-synonyms": "false",
-					"@dbeaver-connection-type@": "BASIC",
-					"@dbeaver-sid-service@": "SERVICE"
+					"oracle.meta-search-in-synonyms": "false"
 				},
-				"auth-model": "oracle_native"
-			}
-		}
-	},
-	"virtual-models": {
-		"oracle_thin-17efb2beca4-198f879150c8410": {
-			"BD": {
-<<<<<<< HEAD
-				":GOODS": {
-					"properties": {
-						"erd.diagram.state": {
-							"serialized": "<diagram version=\"1\" name=\"empty\" time=\"202202172009\"><entities><data-source id=\"oracle_thin-17efb2beca4-198f879150c8410\"><entity id=\"1\" name=\"GOODS\" fq-name=\"BD.GOODS\" order=\"0\" color-bg=\"255,128,64\" x=\"160\" y=\"30\"><path name=\"BD\"/></entity><entity id=\"2\" name=\"INVENTORY\" fq-name=\"BD.INVENTORY\" order=\"1\" x=\"20\" y=\"20\"><path name=\"BD\"/></entity><entity id=\"3\" name=\"ADMIN\" fq-name=\"BD.ADMIN\" order=\"2\" x=\"233\" y=\"202\"><path name=\"BD\"/></entity><entity id=\"4\" name=\"ACCOUNT\" fq-name=\"BD.ACCOUNT\" order=\"3\" x=\"64\" y=\"205\"><path name=\"BD\"/></entity></data-source></entities><relations><relation name=\"G_CODE\" fq-name=\"BD.INVENTORY.G_CODE\" type=\"fk\" pk-ref=\"1\" fk-ref=\"2\"/></relations></diagram>"
-=======
-				":ORDE_LIST": {
-					"properties": {
-						"erd.diagram.state": {
-							"serialized": "<diagram version=\"1\" name=\"empty\" time=\"202202161027\"><entities><data-source id=\"oracle_thin-17efb2beca4-198f879150c8410\"><entity id=\"1\" name=\"ORDE_LIST\" fq-name=\"BD.ORDE_LIST\" order=\"0\" color-bg=\"255,128,64\" x=\"29\" y=\"35\"><path name=\"BD\"/></entity><entity id=\"2\" name=\"SALES_PER_DATE\" fq-name=\"BD.SALES_PER_DATE\" order=\"1\" x=\"30\" y=\"178\"><path name=\"BD\"/></entity></data-source></entities><relations/></diagram>"
-						}
-					}
-				},
-				":ORDER_LIST": {
-					"properties": {
-						"erd.diagram.state": {
-							"serialized": "<diagram version=\"1\" name=\"empty\" time=\"202202161039\"><entities><data-source id=\"oracle_thin-17efb2beca4-198f879150c8410\"><entity id=\"1\" name=\"ORDER_LIST\" fq-name=\"BD.ORDER_LIST\" order=\"0\" color-bg=\"255,128,64\" x=\"20\" y=\"20\"><path name=\"BD\"/></entity><entity id=\"2\" name=\"SALES_PER_DATE\" fq-name=\"BD.SALES_PER_DATE\" order=\"1\" x=\"17\" y=\"172\"><path name=\"BD\"/></entity></data-source></entities><relations/></diagram>"
->>>>>>> e145725c0575325a645bf503f24c00c8ee6bc981
-						}
-					}
-				}
+				"auth-model": "oracle_native",
+				"handlers": {}
 			}
 		}
 	},

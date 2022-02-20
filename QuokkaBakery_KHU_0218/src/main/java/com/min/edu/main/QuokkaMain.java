@@ -24,23 +24,62 @@ public class QuokkaMain {
 		
 		System.out.println("쿼카제과 물류관리 시스템입니다. 로그인 또는 회원가입을 해주세요.\n"
 				+ "1. 로그인  2.회원가입  3.아이디 찾기  4.비밀번호 찾기");
-		System.out.println("값 입력 : ");
+		System.out.print("> ");
 		int first = scan.nextInt();
-		if(first == 1) {
-			System.out.println("아이디와 비밀번호를 입력하여 로그인을 해주세요.");
+		switch(first) {
+	    case 1: 
+	    	while(true) {
+	    	System.out.println("로그인을 해주세요.");
+			System.out.print("ID : ");
+			String id = scan.next();
+			System.out.print("PW : ");
+			String pw = scan.next();
 			
-			AdminVo list3 = ctrl.Login();
-			System.out.println(list3.getId().isEmpty());//값이 있다면 FALSE
-			System.out.println("회원정보가 일치합니다..");
-		}else if(first ==2) {
-			System.out.println("회원가입을 시작합니다.\n ");
-		}else if(first ==3) {
-			System.out.println("아이디를 찾습니다.");
-		}else if(first ==4) {
-			System.out.println("비밀번호를 찾습니다.");
-		}else {
-			System.out.println("다시 입력해주세요.");
-		}
+			
+			try {
+				AdminVo enterLogin = ctrl.Login(id, pw);
+//				System.out.println(enterLogin.getId().isEmpty());//값이 있다면 FALSE
+				if(enterLogin.getId().isEmpty()==false) {
+					System.out.println("로그인이 성공했습니다. 화면으로 넘어갑니다.");
+					break;
+				}
+			}catch(NullPointerException e){
+				System.out.println("로그인을 실패하였습니다. 다시 입력해주세요.");
+			}
+	    }
+	         break;
+	    case 2: 
+	    	while(true){
+	    	try {
+	    	System.out.println("회원가입을 시작합니다.");
+	    	System.out.println("아이디를 입력해주세요");
+	    	String iid = scan.next();
+	    	System.out.println("패스워드를 입력해주세요");
+	    	String ipw = scan.next();
+	    	System.out.println("이름을 입력해주세요");
+	    	String iname = scan.next();
+	    	System.out.println("생년월일을 입력해주세요 입력형식(권고) => yyyy-mm-dd");
+	    	String ibirthdate = scan.next();
+	    	System.out.println("전화번호를 입력해주세요");
+	    	String iphonenum = scan.next();
+	    	ctrl.insertAdmin(iid, ipw, iname, ibirthdate, iphonenum);
+			System.out.println("계정이 생성되었습니다.");
+			break;
+	    	}catch(Exception e) {
+	    		System.out.println("값의 길이가 너무 길거나 값이 비었습니다.\n\n\n\n");
+	    		System.out.println("다시 입력 해주세요.");
+	    	}
+	    }
+	    	break;
+	    case 3: 
+	    	
+        	break;
+	    case 4: 
+        	break;
+	    
+	    default: 
+	         break;
+	}
 		
 		// selectPW 아이디와 이름으로 비밀번호 찾기 이인환
 //		AdminVo list = ctrl.selectPW();
@@ -59,8 +98,8 @@ public class QuokkaMain {
 //		System.out.println("회원정보가 일치합니다..");	
 		
 
-		//계정추가(회원가입)--이인환
-//		ctrl.insertAdmin(vod);
+		//계정추가(회원가입)--이인환	
+//		ctrl.insertAdmin("rladndus3", "123456", "이인환" ,"1997-09-19" ,"01033097483");
 //		System.out.println("계정이 생성되었습니다.");
 
 		//계정삭제--이인환
@@ -68,7 +107,7 @@ public class QuokkaMain {
 //		System.out.println("계정이 삭제되었습니다.");
 		
 		//비밀번호 변경--이인환
-//		ctrl.updatePw();
+//		ctrl.updatePw("7777","123456");
 //		System.out.println("비밀번호가 변경되었습니다.");
 		
 				
@@ -79,7 +118,11 @@ public class QuokkaMain {
 //		System.out.println("재고 목록을 출력해드렸습니다");
 
 		// selectInventory02(재고 선택조회) 김휘웅
-//		ctrl.selectInventory02(obj);
+//		System.out.println("상품명을 입력해주세요");
+//		
+//		String result = scan.next();
+//		
+//		ctrl.selectInventory02(result);
 //		System.out.println("상품의 정보를 출력해드렸습니다");
 
 		// insertInventory01(재고 삽입 GOODS에 들어가있는 상품의 코드와 상품명에 맞춰서 입력) 김휘웅 *이미 들어가있거나

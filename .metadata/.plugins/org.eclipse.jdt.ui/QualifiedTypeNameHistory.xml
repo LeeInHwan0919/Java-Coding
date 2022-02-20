@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.lotto.primitive.LottoMake"/>
-    <fullyQualifiedTypeName name="com.lotto.reference.Lotto_Reference_Main"/>
-    <fullyQualifiedTypeName name="com.lotto.reference.LottoMake"/>
-    <fullyQualifiedTypeName name="com.lotto.reference.LottoNum"/>
     <fullyQualifiedTypeName name="java.lang.Number"/>
     <fullyQualifiedTypeName name="com.card.name.CardOne"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="com.min.edu.vo.GoodsVo"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.sun.java.util.jar.pack.Instruction.Switch"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
 </qualifiedTypeNameHistroy>
