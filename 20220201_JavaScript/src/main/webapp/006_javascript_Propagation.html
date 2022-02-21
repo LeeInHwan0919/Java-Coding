@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>프로파게이션(전파) 방지</title>
+<script type="text/javascript" src="./js/js_006.js" defer="defer"></script>
+<style type="text/css">
+	a{
+	
+		text-decoration: none;
+	}
+	img{
+		vertical-align: middle;
+	}
+	a>img{
+		width:50px;
+		height: 50px;
+	}
+	
+	div#gallaryWarp{
+		margin: auto;
+		width: 400px;
+	}
+
+</style>
+</head>
+<body>
+<a href="http://www.naver.com" id="anchor">화면흐름제어 &lt;a&gt;</a>
+<hr>
+<div id="gallaryWarp">
+	<p>
+		
+		<a href="http://www.naver.com" onclick="return preGallary()">
+			<img alt="왼쪽" src="./image/left.png">
+		</a>
+		
+		<a>
+			<img alt="포켓몬" id="gallary" src="./image/img01.png">
+		</a>
+		
+		<a href="http://www.naver.com" onclick="return nextGallary()">
+			<img alt="" src="./image/right.png">
+		</a>
+	</p>
+</div>
+</body>
+</html>

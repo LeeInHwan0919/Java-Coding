@@ -34,16 +34,16 @@ public class QuokkaServiceImpl implements IQuokkaService {
 	
 	// selectPW 아이디와 이름으로 비밀번호 찾기 - 이인환
 		@Override
-		public AdminVo selectPW() { //아이디와 이름으로 비번찾기
-			AdminVo vo = new AdminVo("Goobee", null , "이인환", null , null);
+		public AdminVo selectPW(String id, String name) { //아이디와 이름으로 비번찾기
+			AdminVo vo = new AdminVo(id, null , name, null , null);
 			AdminVo one = dao_select.selectPW(vo);
 			return one;
 		}
 		
 //		이름과 휴대폰번호로 아이디 찾기 - 이인환
 		@Override
-		public AdminVo selectID() {
-				AdminVo vo = new AdminVo(null, null , "이인환", null , "01012345678");
+		public AdminVo selectID(String name, String phonenum) {
+				AdminVo vo = new AdminVo(null, null , name, null , phonenum);
 				AdminVo one = dao_select.selectID(vo);
 				return one;
 		}
@@ -97,8 +97,11 @@ public class QuokkaServiceImpl implements IQuokkaService {
 	public List<InventoryVo> selectInventory() {
 		logger.info("재고 전체 조회");
 		List<InventoryVo> lists = dao_select.selectInventory();
-		System.out.println(lists);
 		assertNotNull(lists);
+		System.out.println("rowCount = "+lists.size());
+		for (int i = 0; i < lists.size(); i++) {
+			System.out.println(lists.get(i));
+		}
 		return lists;
 	}
 

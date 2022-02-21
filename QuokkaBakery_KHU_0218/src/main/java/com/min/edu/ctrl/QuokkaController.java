@@ -21,15 +21,15 @@ public class QuokkaController {
 	}
 //ADMIN============================================================
 	// selectPW 아이디와 이름으로 비밀번호 찾기 이인환
-	public AdminVo selectPW() {
+	public AdminVo selectPW(String id, String name) {
 		logger.info("selectPW 아이디와 이름으로 비밀번호 찾기 실행");
-		return service.selectPW();
+		return service.selectPW(id, name);
 	}
 
 //	이름과 휴대폰번호로 아이디 찾기 - 이인환
-	public AdminVo selectID() {
+	public AdminVo selectID(String name, String phonenum) {
 		logger.info("selectID 이름과 휴대폰번호로 아이디 찾기 실행");
-		return service.selectID();
+		return service.selectID(name, phonenum);
 	}
 
 //	아이디, 비밀번호 일치 여부 --이인환

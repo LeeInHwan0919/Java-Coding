@@ -1,8 +1,11 @@
 package com.min.edu.main;
 
+import java.awt.List;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 import com.min.edu.ctrl.QuokkaController;
 import com.min.edu.vo.AccountVo;
@@ -21,101 +24,152 @@ public class QuokkaMain {
 	public static void main(String[] args) {
 		QuokkaController ctrl = new QuokkaController();
 		Scanner scan = new Scanner(System.in);
-		
-		System.out.println("쿼카제과 물류관리 시스템입니다. 로그인 또는 회원가입을 해주세요.\n"
-				+ "1. 로그인  2.회원가입  3.아이디 찾기  4.비밀번호 찾기");
-		System.out.print("> ");
-		int first = scan.nextInt();
-		switch(first) {
-	    case 1: 
-	    	while(true) {
-	    	System.out.println("로그인을 해주세요.");
-			System.out.print("ID : ");
-			String id = scan.next();
-			System.out.print("PW : ");
-			String pw = scan.next();
-			
-			
-			try {
-				AdminVo enterLogin = ctrl.Login(id, pw);
-//				System.out.println(enterLogin.getId().isEmpty());//값이 있다면 FALSE
-				if(enterLogin.getId().isEmpty()==false) {
-					System.out.println("로그인이 성공했습니다. 화면으로 넘어갑니다.");
-					break;
-				}
-			}catch(NullPointerException e){
-				System.out.println("로그인을 실패하였습니다. 다시 입력해주세요.");
-			}
-	    }
-	         break;
-	    case 2: 
-	    	while(true){
-	    	try {
-	    	System.out.println("회원가입을 시작합니다.");
-	    	System.out.println("아이디를 입력해주세요");
-	    	String iid = scan.next();
-	    	System.out.println("패스워드를 입력해주세요");
-	    	String ipw = scan.next();
-	    	System.out.println("이름을 입력해주세요");
-	    	String iname = scan.next();
-	    	System.out.println("생년월일을 입력해주세요 입력형식(권고) => yyyy-mm-dd");
-	    	String ibirthdate = scan.next();
-	    	System.out.println("전화번호를 입력해주세요");
-	    	String iphonenum = scan.next();
-	    	ctrl.insertAdmin(iid, ipw, iname, ibirthdate, iphonenum);
-			System.out.println("계정이 생성되었습니다.");
-			break;
-	    	}catch(Exception e) {
-	    		System.out.println("값의 길이가 너무 길거나 값이 비었습니다.\n\n\n\n");
-	    		System.out.println("다시 입력 해주세요.");
-	    	}
-	    }
-	    	break;
-	    case 3: 
-	    	
-        	break;
-	    case 4: 
-        	break;
-	    
-	    default: 
-	         break;
-	}
-		
+
+		int numcnt = 0;
+
+		String strPattern = "^[a-zA-z가-힣]*$";
+		String numPattern = "^[0-9]*$";// 숫자만 입력하는 정규화 표현식 패턴
+
+//		while (numcnt == 0) {
+//			System.out.println("쿼카제과 물류관리 시스템입니다. 로그인 또는 회원가입을 해주세요.\n" + "1. 로그인  2.회원가입  3.아이디 찾기  4.비밀번호 찾기 5.종료");
+//			System.out.print("> ");
+//			int first = scan.nextInt();
+//			switch (first) {
+//			case 1:
+//				numcnt = 1;
+//				while (true) {
+//					System.out.println("로그인을 해주세요.");
+//					System.out.print("ID : ");
+//					String id = scan.next();
+//					System.out.print("PW : ");
+//					String pw = scan.next();
+//
+//					try {
+//						AdminVo enterLogin = ctrl.Login(id, pw);
+//						if (enterLogin.getId().isEmpty() == false) {// 값이 있다면 FALSE
+//							System.out.println("로그인이 성공했습니다. 화면으로 넘어갑니다.");
+//							break;
+//						}
+//					} catch (NullPointerException e) {
+//						System.out.println("로그인을 실패하였습니다. 다시 입력해주세요.");
+//					}
+//				}
+//				break;
+//			case 2:
+//				while (true) {
+//					try {
+//						System.out.println("회원가입을 시작합니다.");
+//						System.out.println("아이디를 입력해주세요");
+//						String iid = scan.next();
+//						System.out.println("패스워드를 입력해주세요");
+//						String ipw = scan.next();
+//						System.out.println("이름을 입력해주세요");
+//						String iname = scan.next();
+//						System.out.println("생년월일을 입력해주세요 입력형식(권고) => yyyy-mm-dd");
+//						String ibirthdate = scan.next();
+//						System.out.println("전화번호를 입력해주세요");
+//						String iphonenum = scan.next();
+//						ctrl.insertAdmin(iid, ipw, iname, ibirthdate, iphonenum);
+//						System.out.println("계정이 생성되었습니다.");
+//						break;
+//					} catch (Exception e) {
+//						System.out.println("값의 길이가 너무 길거나 값이 비었습니다.\n\n\n\n");
+//						System.out.println("다시 입력 해주세요.");
+//					}
+//				}
+//				break;
+//			case 3:
+//				while (true) {
+//					try {
+//						System.out.println("이름을 입력해주세요. ex)홍길동");
+//						String name = scan.next();
+//						if (!Pattern.matches(strPattern, name)) {
+//							System.out.println("이름형식이 맞지 않습니다. 다시 확인해주세요.");
+//						} else {
+//							while (true) {
+//								System.out.println("전화번호를 입력해 주세요. ex)01012345678");
+//								String phonenum = scan.next();
+//								if (!Pattern.matches(numPattern, phonenum)) {
+//									System.out.println("전화번호는 숫자만 입력해 주세요.");
+//								} else {
+//									AdminVo findID = ctrl.selectID(name, phonenum);
+//									System.out.println("당신의 아이디는 " + findID.getId() + "입니다. ");
+//									break;
+//								}
+//							}
+//							break;
+//						}
+//					} catch (NullPointerException e) {
+//						System.out.println("아이디가 존재하지 않습니다. 다시 입력해주세요.");
+//					}
+//				}
+//
+//				break;
+//			case 4:
+//				int cnt = 0;
+//				while (true) {
+//					try {
+//						System.out.println("아이디를 입력해주세요.");
+//						String id = scan.next();
+//
+//						System.out.println("이름을 입력해주세요. ex)홍길동");
+//						String name = scan.next();
+//						if (!Pattern.matches(strPattern, name)) {
+//							System.out.println("이름형식이 맞지 않습니다. 다시 확인해주세요.");
+//						} else {
+//							AdminVo findPW = ctrl.selectPW(id, name);
+//							System.out.println(findPW.getPw());
+//							System.out.println("비밀번호 찾아드렸습니다.");
+//							cnt++;
+//							break;
+//						}
+//
+//					} catch (NullPointerException e) {
+//						System.out.println("아이디 혹은 이름이 일치하지 않습니다.");
+//					}
+//				}
+//				break;
+//			case 5:
+//				numcnt = 1;
+//				System.out.println("종료합니다.");
+//				break;
+//			default:
+//				System.out.println("숫자를 잘못 입력했습니다. 다시 입력해주세요.");
+//				break;
+//			}
+//		}
+
 		// selectPW 아이디와 이름으로 비밀번호 찾기 이인환
 //		AdminVo list = ctrl.selectPW();
 //		System.out.println(list);
 //		System.out.println(list.getPw());
 //		System.out.println("비밀번호 찾아드렸습니다.");
-	
+
 //		 이름과 전화번호로 아이디 찾기
 //		AdminVo list2 = ctrl.selectID();
 //		System.out.println(list2.getId());
 //		System.out.println("아이디를 찾아드렸습니다.");
-		
+
 //		아이디, 비밀번호 일치 여부 --이인환
 //		AdminVo list3 = ctrl.Login();
 //		System.out.println(list3.getId().isEmpty());//값이 있다면 FALSE
 //		System.out.println("회원정보가 일치합니다..");	
-		
 
-		//계정추가(회원가입)--이인환	
+		// 계정추가(회원가입)--이인환
 //		ctrl.insertAdmin("rladndus3", "123456", "이인환" ,"1997-09-19" ,"01033097483");
 //		System.out.println("계정이 생성되었습니다.");
 
-		//계정삭제--이인환
+		// 계정삭제--이인환
 //		ctrl.deleteAdmin(vod);
 //		System.out.println("계정이 삭제되었습니다.");
-		
-		//비밀번호 변경--이인환
+
+		// 비밀번호 변경--이인환
 //		ctrl.updatePw("7777","123456");
 //		System.out.println("비밀번호가 변경되었습니다.");
-		
-				
-		
-		
-		// selectInventory(재고 전체출력) 김휘웅
-//		ctrl.commandSelectInventory();
-//		System.out.println("재고 목록을 출력해드렸습니다");
+
+//		 selectInventory(재고 전체출력) 김휘웅
+		ctrl.commandSelectInventory();
+		System.out.println("재고 목록을 출력해드렸습니다");
 
 		// selectInventory02(재고 선택조회) 김휘웅
 //		System.out.println("상품명을 입력해주세요");
@@ -137,10 +191,8 @@ public class QuokkaMain {
 //		//deleteInventory 김휘웅 재고 삭제
 //		ctrl.deleteInventory(map);
 //		System.out.println("재고를 삭제하였습니다.");
-		
-		
-		
-		//거래처 추가 -한슬기
+
+		// 거래처 추가 -한슬기
 //		ctrl.insertAccount(voc);
 //		System.out.println("거래처를 추가하였습니다.");
 //				
@@ -185,7 +237,7 @@ public class QuokkaMain {
 //		//황인경
 //		ctrl.updateGoodsPrice(map);
 //		System.out.println("상품가격을 변경 하였습니다");
-		//황인경 상품삭제 일단 보류
+		// 황인경 상품삭제 일단 보류
 //		ctrl.deleteGoods(map);
 //		System.out.println("상품을 삭제 하였습니다");
 	}

@@ -7,22 +7,23 @@
 <script type="text/javascript" src="./js/js_003.js"></script>
 <body>
 <h1>변수의 사용</h1>
-<button onclick="variable_scope();">변수의 사용 영역(scope)</button>
+<button onclick="variable_scope()">변수의 사용 영역(scope)</button>
 <br>
 <dl>
 	<dt>변수의 사용 규칙</dt>
 	<dd>1. 대소문자를 구분</dd>
-	<dd>2. 영문, $, _ 로 시작해야 함</dd>
-	<dd>3. 영문, $, _ 를 포함하고 특수문자는 포함 할 수 없다.</dd>
-	<dd>4. 키워드나 예약어는 사용 할 수 없음</dd>
+	<dd>2. 영문, $, _로 시작해야함</dd>
+	<dd>3. 영문, %, _를 포함하고 특수문자는 포함할 수 없다</dd>
+	<dd>4. 키워드나 예약어는 사용할 수 없다</dd>
 	
 	<dt>변수의 범위</dt>
 	<dd>
-		1.전역 변수 : window객체에 포함되는 변수. 다른 함수들에서 공통으로 사용 할 수 있다.
-		값이 유지됩니다.
+		1.전역변수 : window객체 포함되는 변수. 다른 함수들에서 공통으로 사용 할 수 있다
+		값이 유지된다
 		<button onclick="global_variable()">전역변수 확인</button>
 	</dd>
 	<dd id="v1"></dd>
+	
 	<dd>
 		2. 지역변수 : 함수나 객체 내부에서 선언되어 실행이 종료되면 사라짐(var let const)
 		<button onclick="local_scope()">지역 스코프</button>
@@ -31,53 +32,39 @@
 	<dd id="v2"></dd>
 	
 	<dd>변수의 선언과 저장</dd>
-	<dd>1.var/let 키워드를 사용해서 변수에 저장.</dd>
-	<dd>2.const 키워드는 변수를 상수로 만든다.</dd>
+	<dd>1. var/let 키워드를 사용하여 변수에 저장</dd>
+	<dd>2. const 키워드는 변수를 상수로 만든다</dd>
+	
 	<dd>
-		3.javascript의 변수의 타입을 저장되는 값에 의해서 결정된다.
+		3. javascript의 변수의 타입을 저장되는 값에 의해서 결정된다
 		<button onclick="variableType()">변수의 선언과 저장</button>
 	</dd>
 </dl>
 
 <fieldset>
-	<legend>타입의 종류</legend>
+	<legend>타입의 종류: 객체</legend>
 	<ul>
 		<li>문자(string)</li>
 		<li>숫자(number)</li>
-		<li>논리형(boolean)</li>
+		<li>논리(boolean)</li>
 		<li>널(Object/null)</li>
 		<li>객체(Object/array)</li>
 		<li>함수(function)</li>
 	</ul>
 </fieldset>
-
 <fieldset>
 	<legend>function의 호출</legend>
 	<ul>
-		<li>onload를 통한 익명함수의 자동</li>
+		<li>onload를 통한 익명함수의 자동호출</li>
 		<li>이벤트 속성을 통한 onclick=함수</li>
-		<li>이벤트 속성을 통한 호출 global함수 onclick = "javascript:alert('실행')"</li>
-		<li>
-			addEventListner을 통한 function의 실행
-			<button id="callFn">호출</button>
+		<li>이벤트 속성을 통한 global 함수 onclick="javascript:alert('실행')"</li>
+		<li>addEventListener을 통한 function의 실행
+			<button id = "callFn">호출</button>
 		</li>
 	</ul>
+
+
 </fieldset>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
