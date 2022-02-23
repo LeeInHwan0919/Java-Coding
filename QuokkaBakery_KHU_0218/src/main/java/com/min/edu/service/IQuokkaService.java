@@ -26,7 +26,7 @@ public interface IQuokkaService {
 	//selectInventory(재고 전체출력) 김휘웅
 	public List<InventoryVo> selectInventory();
 	//selectInventory02(재고 선택출력) 김휘웅
-	public InventoryVo selectInventory02(Object g_name);
+	public InventoryVo selectInventory02(String snak);
 	//insertInventory01(재고 삽입 GOODS에 들어가있는 상품의 코드와 상품명에 맞춰서 입력) 김휘웅 
 	public int insertInventory01(InventoryVo vo);
 	//updateInventory(재고의 수량을 수정)
@@ -37,17 +37,17 @@ public interface IQuokkaService {
 	
 	
 	// selectPW 아이디와 이름으로 비밀번호 찾기 - 이인환
-	public AdminVo selectPW();
+	public AdminVo selectPW(String id, String name);
 	//	이름과 휴대폰번호로 아이디 찾기 - 이인환
-	public AdminVo selectID();
+	public AdminVo selectID(String name, String phonenum);
     //	아이디, 비밀번호 일치 여부 --이인환
-	public AdminVo Login();
+	public AdminVo Login(String id, String pw);
 	// 계정 추가(회원가입) --이인환
-	public int insertAdmin(AdminVo vo);
+	public int insertAdmin(String id, String pw, String name, String birthdate, String phonenum);
 	//계정삭제 -- 이인환
 	public int deleteAdmin(AdminVo vo);	
 	//비밀번호 변경 -- 이인환
-	public int updatePw();
+	public int updatePw(String newp, String oldp);
 	
 	
 	

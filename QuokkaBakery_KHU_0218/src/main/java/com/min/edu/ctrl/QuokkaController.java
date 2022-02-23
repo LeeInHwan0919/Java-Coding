@@ -21,27 +21,27 @@ public class QuokkaController {
 	}
 //ADMIN============================================================
 	// selectPW 아이디와 이름으로 비밀번호 찾기 이인환
-	public AdminVo selectPW() {
+	public AdminVo selectPW(String id, String name) {
 		logger.info("selectPW 아이디와 이름으로 비밀번호 찾기 실행");
-		return service.selectPW();
+		return service.selectPW(id, name);
 	}
 
 //	이름과 휴대폰번호로 아이디 찾기 - 이인환
-	public AdminVo selectID() {
+	public AdminVo selectID(String name, String phonenum) {
 		logger.info("selectID 이름과 휴대폰번호로 아이디 찾기 실행");
-		return service.selectID();
+		return service.selectID(name, phonenum);
 	}
 
 //	아이디, 비밀번호 일치 여부 --이인환
-	public AdminVo Login() {
+	public AdminVo Login(String id, String pw) {
 		logger.info("아이디, 비밀번호 일치 여부 실행");
-		return service.Login();
+		return service.Login(id, pw);
 	}
 	
 	//계정생성 -이인환
-	public int insertAdmin(AdminVo vo) {
+	public int insertAdmin(String id, String pw, String name, String birthdate, String phonenum) {
 		logger.info("계정 생성 실행");
-		return service.insertAdmin(vo);
+		return service.insertAdmin(id, pw, name, birthdate, phonenum);
 	}
 	
 	//계정삭제 -이인환
@@ -51,9 +51,9 @@ public class QuokkaController {
 	}
 	
 	//비밀번호 변경 - 이인환
-	public int updatePw() {
+	public int updatePw(String newp, String oldp) {
 		logger.info("비밀번호 변경 실행");
-		return service.updatePw();
+		return service.updatePw(newp, oldp);
 	}
 	
 //INVENTORY============================================================	
@@ -65,10 +65,9 @@ public class QuokkaController {
 	}
 
 	// selectInventory02(재고 선택출력) 김휘웅
-	public InventoryVo selectInventory02(Object g_name) {
+	public InventoryVo selectInventory02(String snak) {
 		logger.info("Quokka Controller 재고 선택출력 실행 ");
-		return service.selectInventory02(g_name);
-
+		return service.selectInventory02(snak);
 	}
 
 	// insertInventory01(재고 삽입 GOODS에 들어가있는 상품의 코드와 상품명에 맞춰서 입력) 김휘웅

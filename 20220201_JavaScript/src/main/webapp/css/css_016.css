@@ -1,0 +1,20 @@
+@charset "UTF-8";
+#lottoBox{
+	width: 600px;
+	height: 600px;
+	border: 2px solid tomato;
+	overflow: hidden;
+}
+
+.ball{
+	border: 1px solid black;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	text-align: center;
+	line-height: 80px;
+	position: absolute;
+	
+	transition : 1s transform; 
+	transform : translate(50px);
+}

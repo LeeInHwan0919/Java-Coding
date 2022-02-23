@@ -34,34 +34,34 @@ public class QuokkaServiceImpl implements IQuokkaService {
 	
 	// selectPW 아이디와 이름으로 비밀번호 찾기 - 이인환
 		@Override
-		public AdminVo selectPW() { //아이디와 이름으로 비번찾기
-			AdminVo vo = new AdminVo("Goobee", null , "이인환", null , null);
+		public AdminVo selectPW(String id, String name) { //아이디와 이름으로 비번찾기
+			AdminVo vo = new AdminVo(id, null , name, null , null);
 			AdminVo one = dao_select.selectPW(vo);
 			return one;
 		}
 		
 //		이름과 휴대폰번호로 아이디 찾기 - 이인환
 		@Override
-		public AdminVo selectID() {
-				AdminVo vo = new AdminVo(null, null , "이인환", null , "01012345678");
+		public AdminVo selectID(String name, String phonenum) {
+				AdminVo vo = new AdminVo(null, null , name, null , phonenum);
 				AdminVo one = dao_select.selectID(vo);
 				return one;
 		}
 		
 //		아이디, 비밀번호 일치 여부 --이인환
 		@Override
-		public AdminVo Login() {
-			AdminVo vo = new AdminVo("Goobee", "456123", null, null, null);
+		public AdminVo Login(String id, String pw) {
+			AdminVo vo = new AdminVo(id, pw, null, null, null);
 			AdminVo one = dao_select.Login(vo);
 			return one;
 		}
 		
 		//계정만들기(회원가입)--이인환
 		@Override
-		public int insertAdmin(AdminVo vo) {
+		public int insertAdmin(String id, String pw, String name, String birthdate, String phonenum) {
 			IInsertDao dao = new InsertDaoImpl();
-	        AdminVo vo1= new AdminVo("koka","7894","김휘웅","1987-08-07","01078945612");
-	        int row = dao.insertAdmin(vo1);
+	        AdminVo vo= new AdminVo(id, pw, name, birthdate, phonenum);
+	        int row = dao.insertAdmin(vo);
 	        assertEquals(row, 1);
 	        return row;
 		}
@@ -79,11 +79,11 @@ public class QuokkaServiceImpl implements IQuokkaService {
 		
 		
 		//비밀번호 변경--이인환
-		public int updatePw() {
+		public int updatePw(String newp, String oldp) {
 			IUpdateDao dao = new UpdateDaoImpl();
 			Map<String, Object> map1 = new HashMap<String, Object>();
-			map1.put("newpw", "1022");
-			map1.put("oldpw", "7894");
+			map1.put("newpw", newp);
+			map1.put("oldpw", oldp);
 			int row = dao.updatePw(map1);
 			assertEquals(row, 1);
 			return row;
@@ -97,17 +97,18 @@ public class QuokkaServiceImpl implements IQuokkaService {
 	public List<InventoryVo> selectInventory() {
 		logger.info("재고 전체 조회");
 		List<InventoryVo> lists = dao_select.selectInventory();
-		System.out.println(lists);
 		assertNotNull(lists);
+		System.out.println("rowCount = "+lists.size());
+		for (int i = 0; i < lists.size(); i++) {
+			System.out.println(lists.get(i));
+		}
 		return lists;
 	}
 
 	// selectInventory02(재고 선택출력) 김휘웅
 	@Override
-	public InventoryVo selectInventory02(Object g_name) {
-		String str = "감자깡";
-		Object obj = str;
-		InventoryVo vo = dao_select.selectInventory02(obj);
+	public InventoryVo selectInventory02(String snak) {
+		InventoryVo vo = dao_select.selectInventory02(snak);
 		System.out.println(vo);
 		assertNotNull(vo);
 		return vo;

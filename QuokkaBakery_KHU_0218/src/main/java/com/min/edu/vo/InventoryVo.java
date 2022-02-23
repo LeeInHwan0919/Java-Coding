@@ -53,8 +53,8 @@ public class InventoryVo implements Serializable {
 
 	@Override
 	public String toString() {
-		return "InventoryVo [상품코드=" + g_code + ", 상품명=" + g_name + ", 재고수량=" + g_amount + ", 최근입고일="
-				+ m_regdate + "]";
+		return "\n[상품코드=" + g_code + ", 상품명=" + g_name + ", 재고수량=" + g_amount + ", 최근입고일="
+				+ m_regdate + "]||\n=============================================================================";
 	}
 
 
