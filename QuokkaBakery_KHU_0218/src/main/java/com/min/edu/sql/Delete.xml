@@ -5,7 +5,7 @@
 <!-- ID에 해당하는 계정 삭제 -->
 <delete id="deleteAdmin" parameterType="java.util.Map">
 DELETE FROM ADMIN
-	WHERE ID = #{id}
+	WHERE ID = #{id} AND PW =#{pw}
 </delete>
 
 <!--거래처명으로 조회하여 DELETE -한슬기--> 
