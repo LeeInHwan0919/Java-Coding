@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DOM(Document Object Model) 탐색(속성)</title>
+</head>
+<script type="text/javascript" src="./js/js_021.js"></script>
+<body>
+	<div>
+		<p>child01</p>
+		<p>child02</p>
+		<p>child03</p>
+		<!-- 주석 -->
+	</div>
+	<button onclick="searchParents()">부모탐색</button>
+	<button onclick="searchChild()">자식탐색</button>
+	
+	<hr>
+	<h1>1. Child01 태그를 포함한 div tag의 배경색을 바꾸어 보자.</h1>
+	<h1>2. 마지막의 div에 포함된 child04태그의 폰트의 크기를 30pt로 변경해 보자</h1>
+	<div onclick="domExam()" id="btn">적용하기</div>
+		<div>
+			<p>Child01</p>
+			<p>Child02</p>
+		</div>
+		<div>
+			<p>Child03</p>
+			<p>Child04</p>
+		</div>
+</body>
+</html>
