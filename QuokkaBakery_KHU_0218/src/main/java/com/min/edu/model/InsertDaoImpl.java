@@ -22,25 +22,5 @@ public class InsertDaoImpl implements IInsertDao {
 		return row;
 	}
 	
-	// Account 추가 - 한슬기
-	@Override
-	public int insertAccount(AccountVo vo) {
-		SqlSession session = manager.openSession(true);
-		int row = session.insert(NS+"insertAccount", vo);
-		return row;
-	}
-	// 상품추가 - 황인경
-	@Override
-	public int insertGoods(GoodsVo vo) {
-		SqlSession session = manager.openSession(true);
-		int row = session.insert(NS+"insertGoods", vo);
-		return row;
-	}
-	// 재고추가 - 김휘웅
-	@Override
-	public int insertInventory01(InventoryVo vo) {
-		SqlSession session = manager.openSession(true);
-		int row = session.insert(NS+"insertInventory01", vo);
-		return row;
-	}
+	
 }

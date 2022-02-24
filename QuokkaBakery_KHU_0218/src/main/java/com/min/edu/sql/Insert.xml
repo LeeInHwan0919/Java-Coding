@@ -5,33 +5,11 @@
 
 <!-- ADMIN 계정 추가 -->
 <insert id="insertAdmin" parameterType="advo">
-<selectKey keyProperty="seq" resultType="int" order="BEFORE">
-    select SEQ.nextval FROM DUAL
-  </selectKey>
 INSERT INTO ADMIN
-			(seq, ID, PW, NAME, BIRTHDATE, PHONENUM)
-			VALUES(#{seq} ,#{id}, #{pw}, #{name}, #{birthdate}, #{phonenum})
+			(ID, PW, NAME, BIRTHDATE, PHONENUM)
+			VALUES(#{id}, #{pw}, #{name}, #{birthdate}, #{phonenum})
 </insert>
 
-<!-- Account 추가 -->
-<insert id="insertAccount" parameterType="acvo">
-INSERT INTO ACCOUNT
-			(AC_CODE, AC_NAME, AC_REGNUM, REGDATE, AC_TEL, CEO_NAME)
-			VALUES(#{ac_code}, #{ac_name}, #{ac_regnum}, SYSDATE, #{ac_tel}, #{ceo_name})
-</insert>
 
-<!-- 황인경 상품 추가 -->
-<insert id="insertGoods" parameterType="gvo">
-INSERT INTO GOODS
-			(G_CODE, G_NAME, PRICE)
-			VALUES(#{g_code}, #{g_name}, #{price})
-</insert>
-
-<!-- 김휘웅 재고 추가 -->
-<insert id="insertInventory01" parameterType="ivo">
-INSERT INTO INVENTORY
-	(G_CODE,G_NAME,G_AMOUNT,M_REGDATE)
-	VALUES(#{g_code}, #{g_name}, #{g_amount},SYSDATE)    
-</insert>
 
 </mapper>
