@@ -36,7 +36,7 @@
 
 <!-- root영역 : 로그 레벨을 설정하고 사용되는 객체(유형)를 선언 -->
 <root>
-	<level value="TRACE"/>
+	<level value="warn"/>
 	<appender-ref ref="cosole"/><!-- 콘솔 -->
 	<appender-ref ref="dailyFile"/><!-- 파일 -->
 </root>

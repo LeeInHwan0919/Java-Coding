@@ -19,11 +19,6 @@ public class SelectDaoImpl implements ISelectDao {
 
 
 	
-	@Override
-	public List<AdminVo> IDAll() {
-		SqlSession session = manager.openSession();
-		return session.selectList(NS + "IDAll");
-	}
 
 	
 	// Admin 이름과 생년 월일로 비밀번호 찾기

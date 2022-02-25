@@ -31,11 +31,8 @@ public class QuokkaServiceImpl implements IQuokkaService {
 		dao_select = new SelectDaoImpl();
 	}
 	
-	@Override //거래처 정보 전체조회 -한슬기
-	public List<AdminVo> IDAll() {
-		List<AdminVo> lists = dao_select.IDAll();
-		return lists;
-	}
+
+	
 	
 	// selectPW 아이디와 이름으로 비밀번호 찾기 - 이인환
 		@Override

@@ -1,40 +1,40 @@
-<<<<<<< HEAD
+
 function numCheck01(){
-=======
+
 function numCheck01() {
->>>>>>> cc4558443a521a6c52326b3ec87120623024e3ba
+
 	console.log("numCheck01");
 	// javascript에서 타입
 	// 화면에 뿌려져있는 (HTML이 아닌것들-콘텐츠-textNode) node를 가져오면
 	// DOM의 방법
-<<<<<<< HEAD
+
 	
 	//document. tlwkr - document 사용되고 있는 stateless의 페이지
 	//document.getElement(s)  : s를 붙인다면 nodeList의 형태로 s를 안붙이면 node형태로 탐색이 된다.
 	// ** DOM된 결과는 위치 탐색
 	
-=======
+
 
 	//document. tlwkr - document 사용되고 있는 stateless의 페이지
 	//document.getElement(s)  : s를 붙인다면 nodeList의 형태로 s를 안붙이면 node형태로 탐색이 된다.
 	// ** DOM된 결과는 위치 탐색
 
->>>>>>> cc4558443a521a6c52326b3ec87120623024e3ba
+
 	//탐색된 위치의 값을 처리하는 방식
 	//empty Element(닫힘 tab가 없고 단일) : value 속성(property)으로 가지고 있음
 	// markup tab(wel-formed) 한 tag : innerHTML - 자식 노드 전체를 HTML인 String가져옴 ex) <br>값</br>
 	//								   textContent - textNode을 가져옴 ex) 값
-<<<<<<< HEAD
-	
-=======
 
->>>>>>> cc4558443a521a6c52326b3ec87120623024e3ba
+	
+
+
+
 	//<input> : form 요소(tag)는 서버(WAS)에 데이터를 <form>태그를 통해서 속성이 action의 위치로 전송할 수 있다.
 	//<input>의 type중에 특이사항 : submit - action을 호출
 	//                          reset - 처음에 뿌려진 값을 다시 호출
 	//<textarea></textarea> : 콘텐츠를 값으로 가짐, pre속성이 적용되기 때문에 공백이 없는 상태 
 	//                          textarea -> textarea   ex)하늘\n\r구름 -> 하늘\n\r구름
-<<<<<<< HEAD
+
 	//							textarea -> text 달라짐 보이는 그대로 볼 수 있음 ex) 하늘\n\r구름 -> 하늘 구름
 	//	전송되는 form요소는 <form>로 작성하는게 좋음
 	// 서버로 전송되는 protocol(HTTP)의 규약 : GET, POST, PUT, DELETE ...
@@ -45,7 +45,7 @@ function numCheck01() {
 	
 	//정규화 표현식
 	
-=======
+
 	//							textarea -> text 달라짐  보이는 그대로 볼 수 있음 ex) 하늘\n\r구름 -> 하늘 구름
 	//	전송되는 form요소는 <form>로 작성하는게 좋음
 	// 서버로 전송되는 protocol(HTTP)의 규약 : GET, POST, PUT, DELETE ...
@@ -56,12 +56,12 @@ function numCheck01() {
 
 	//정규화 표현식
 
->>>>>>> cc4558443a521a6c52326b3ec87120623024e3ba
+
 	//숫자판단
 	var regexNum = /^[0-9]/g;
 	var numChk = num.search(regexNum); // 인덱스 반환
 	alert(numChk); // 정규식을 판단하면 맞다면 0, 아니면 -1
-<<<<<<< HEAD
+//<<<<<<< HEAD
 	
 	if(numChk == -1){
 		alert("숫자가 아닙니다.");
@@ -89,7 +89,7 @@ function numCheck01() {
 		}
 	}
 	
-=======
+//=======
 
 	if (numChk == -1) {
 		alert("숫자가 아닙니다.");
@@ -117,7 +117,7 @@ function numCheck01() {
 		}
 	}
 
->>>>>>> cc4558443a521a6c52326b3ec87120623024e3ba
+//>>>>>>> cc4558443a521a6c52326b3ec87120623024e3ba
 	/*if(isNaN(num1)){
 		alert("숫자가 아닙니다.");
 	}else {
@@ -125,7 +125,7 @@ function numCheck01() {
 	}*/
 }
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
 function searchStr02(){
 	var val = document.getElementById('val').value;
 	var num2 = document.getElementById('num2').textContent;
@@ -148,7 +148,7 @@ function searchStr02(){
 	var preVal2 = document.getElementsByTagName('pre')[0].innerHTML[20]
 	console.log(preVal2)
 }
-=======
+//=======
 
 function searchStr02() {
 	var val = document.getElementById('val').value;
@@ -333,4 +333,3 @@ function guguDanView(){
 } 
 
 }
->>>>>>> cc4558443a521a6c52326b3ec87120623024e3ba

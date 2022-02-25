@@ -27,8 +27,59 @@ function tableInput(){
     for(var i=0; i<vals.length; i++){
         if(vals[i]==''){ // node면 null, nodeList(undefined:name[0])
             alert("모든 값을 입력해주세요");
-            return;
+            return;//propagation
         }
     }
     console.log("for문 이후 작성");
+
+//생성된 row의 갯수를 10개 제한
+var tbody = document.getElementById('addr');
+var trLength = tbody.children.length; //tbody의 element의 갯수
+console.log(trLength);
+
+// javascript의 3항연산자는 반환되는 변수를 담지 않아도 문법 오류가 발생 하지 않음(동적 바인딩)
+//  참과 거짓의 기능이 달라도 됨
+trLength<10 ? tbody.appendChild(createRow(vals)):alert('10개 까지만 추가 가능합니다.');
+
 }
+
+// 상위 form에서 완성된 값을 createElement를 통해서 tr을 생성
+ function createRow(vals){
+	var tr = document.createElement('tr');
+	for(var i in vals){
+		var td = document.createElement('td');//$tr = $('<tr></tr>')
+		td.textContent = vals[i];
+		tr.appendChild(td);
+	}
+	
+	var delBtn = document.createElement('td');
+	delBtn.innerHTML="<input type='button' value='삭제' onclick='delRow(this)'>";
+	
+	tr.appendChild(delBtn);
+	return tr;
+}
+
+function delRow(elem){
+	console.log(elem);// this onclick을 포함하고 있는 input Element이다.
+	var delTr = elem.parentNode.parentNode; //input > td > tr
+	var tbody = document.getElementById('addr');
+	tbody.removeChild(delTr);
+}
+
+function deleteVal(){
+	var tbody = document.getElementById('addr');
+//	tbody.removeChild(tbody.lastChild);
+	tbody.innerHTML="";
+}
+
+
+
+
+
+
+
+
+
+
+
+

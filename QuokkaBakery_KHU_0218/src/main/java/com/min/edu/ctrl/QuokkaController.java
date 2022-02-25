@@ -22,11 +22,6 @@ public class QuokkaController {
 	}
 //ADMIN============================================================
 
-	// 거래처 전체 출력 -한슬기
-	public List<AdminVo> IDAll() {
-		logger.info("거래처 전체 출력실행");
-		return service.IDAll();
-	}
 
 	// selectPW 아이디와 이름으로 비밀번호 찾기 이인환
 	public AdminVo selectPW(String id, String name) {

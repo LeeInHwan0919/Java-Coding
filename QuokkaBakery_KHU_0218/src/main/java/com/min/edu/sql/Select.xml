@@ -4,15 +4,15 @@
 <mapper namespace="com.min.edu.model.SelectDaoImpl">
 
 <resultMap type="advo" id="adMap">
-	<result column="SEQ" property="seq"/>
 	<result column="ID" property="id"/>
 	<result column="PW" property="pw"/>
 </resultMap>
 
 <!-- 거래처 전체조회 -한슬기-->
-<select id="selectAllID" resultType="advo">
-	SELECT ID, PW, NAME, BIRTHDATE, PHONENUM
+<select id="selectAllID" parameterType="string" resultType="string">
+	SELECT ID
 		FROM ADMIN 
+		WHERE = #{id}
 </select>
 
 	<!-- 비밀번호 찾기 이인환-->
@@ -36,11 +36,7 @@
          WHERE ID = #{id} and PW = #{pw}
 </select>
 
-	<!-- ID전체조회 (아이디 중복체크) -->
-<select id="IDAll" parameterType="advo" resultType="advo">
-        SELECT ID, PW, NAME, BIRTHDATE, PHONENUM
-		FROM ADMIN
-</select>
+
 
 
 </mapper>

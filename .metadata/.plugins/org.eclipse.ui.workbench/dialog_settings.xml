@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<section name="InstallationDialogSettings">
 		<item key="DIALOG_X_ORIGIN" value="39"/>
-		<item key="DIALOG_Y_ORIGIN" value="-298"/>
+		<item key="DIALOG_Y_ORIGIN" value="-208"/>
 		<item key="DIALOG_WIDTH" value="702"/>
 		<item key="DIALOG_HEIGHT" value="740"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
@@ -23,6 +23,8 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\ldkko\Desktop\sorry.zip"/>
+			<item value="C:\Users\ldkko\Desktop\qukka.zip"/>
 			<item value="C:\Users\ldkko\Desktop\0217_QuokkaBakery.zip"/>
 			<item value="C:\Users\ldkko\Desktop\BlackJack비버팀.zip"/>
 			<item value="C:\Users\GDJ44\Desktop\dbdb.zip"/>

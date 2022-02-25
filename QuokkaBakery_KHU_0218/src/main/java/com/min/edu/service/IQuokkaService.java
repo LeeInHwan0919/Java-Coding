@@ -19,7 +19,6 @@ import com.min.edu.vo.InventoryVo;
 
 public interface IQuokkaService {
 	
-	public List<AdminVo> IDAll(); // 전체조회 -한슬기
 	// selectPW 아이디와 이름으로 비밀번호 찾기 - 이인환
 	public AdminVo selectPW(String id, String name);
 	//	이름과 휴대폰번호로 아이디 찾기 - 이인환
@@ -32,6 +31,7 @@ public interface IQuokkaService {
 	public int deleteAdmin(AdminVo vo);	
 	//비밀번호 변경 -- 이인환
 	public int updatePw(String newp, String oldp);
+
 	
 	
 	
